@@ -1,0 +1,32 @@
+.cards-feature > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  gap: 24px;
+}
+
+.cards-feature > ul > li {
+  background-color: var(--background-color);
+}
+
+.cards-feature .cards-feature-card-body {
+  margin: 16px 0;
+}
+
+.cards-feature .cards-feature-card-image {
+  line-height: 0;
+}
+
+.cards-feature > ul > li img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+@media (width >= 900px) {
+  .cards-feature > ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
