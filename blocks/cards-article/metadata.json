@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-01-21T14:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "originPage": "Fashion blog homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "article-grid",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + tag + heading + description + link",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "blog article listings",
+      "news card grids",
+      "featured content sections"
+    ],
+    "notSuitableFor": [
+      "feature lists with icons",
+      "simple text cards",
+      "product grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index", "/content/fashion-insights"],
+    "reuseCount": 2,
+    "lastUsed": "2026-01-26T14:30:00.000Z"
+  }
+}
