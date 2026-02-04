@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-gallery",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-02T10:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+    "originPage": "Fashion trends landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "image-gallery",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "images only, no text content",
+    "buttonCount": 0,
+    "imageCount": "multiple"
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "image gallery grids",
+      "photo collections",
+      "visual portfolios",
+      "lifestyle image showcases"
+    ],
+    "notSuitableFor": [
+      "cards with text descriptions",
+      "article listings",
+      "feature cards with icons"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/fashion-trends-of-the-season"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-02T10:35:00.000Z"
+  }
+}
