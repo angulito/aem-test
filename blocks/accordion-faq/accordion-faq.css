@@ -1,0 +1,44 @@
+.accordion-faq {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.accordion-faq .accordion-faq-item {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.accordion-faq .accordion-faq-item-label {
+  cursor: pointer;
+  padding: 16px 0;
+  font-size: 18px;
+  font-weight: 500;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-faq .accordion-faq-item-label::after {
+  content: '+';
+  font-size: 24px;
+  font-weight: 300;
+  transition: transform 0.2s;
+}
+
+.accordion-faq .accordion-faq-item[open] .accordion-faq-item-label::after {
+  content: '−';
+}
+
+.accordion-faq .accordion-faq-item-label::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-faq .accordion-faq-item-body {
+  padding: 0 0 16px 0;
+}
+
+.accordion-faq .accordion-faq-item-body p {
+  margin: 0;
+  color: #666;
+  line-height: 1.6;
+}
