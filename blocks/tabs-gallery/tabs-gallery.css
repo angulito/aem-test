@@ -1,0 +1,44 @@
+.tabs-gallery .tabs-gallery-list {
+  display: flex;
+  gap: 8px;
+  max-width: 100%;
+  overflow-x: auto;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.tabs-gallery .tabs-gallery-list button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-color);
+  cursor: pointer;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m);
+  padding: 8px 16px;
+  white-space: nowrap;
+  transition: border-color 0.2s;
+}
+
+.tabs-gallery .tabs-gallery-list button:hover {
+  border-bottom-color: var(--text-color);
+}
+
+.tabs-gallery .tabs-gallery-list button[aria-selected='true'] {
+  border-bottom-color: var(--link-color);
+  font-weight: 600;
+}
+
+.tabs-gallery .tabs-gallery-panel {
+  display: none;
+  text-align: center;
+}
+
+.tabs-gallery .tabs-gallery-panel[aria-hidden='false'] {
+  display: block;
+}
+
+.tabs-gallery .tabs-gallery-panel img {
+  max-width: 100%;
+  height: auto;
+}
