@@ -1,0 +1,83 @@
+/* blocks/cards-teaser/cards-teaser-tokens.css */
+/* ALL values extracted from cards-teaser-measurements.txt */
+/* Source: Figma node 2216:36542 - One-AZ-3.1 Market Master */
+
+.cards-teaser {
+  /* ===== LAYOUT & DIMENSIONS ===== */
+  --cards-teaser-max-width: 1180px;
+  --cards-teaser-container-padding-y: 40px;
+  --cards-teaser-container-padding-x: 0;
+  --cards-teaser-gap: 10px;
+  --cards-teaser-columns: 4;
+  --cards-teaser-item-min-width: 248px;
+
+  /* ===== CONTAINER COLORS ===== */
+  --cards-teaser-section-background: #ebefee;
+
+  /* ===== CARD/ITEM PROPERTIES ===== */
+  --cards-teaser-item-padding: 24px;
+  --cards-teaser-item-background: #ffffff;
+  --cards-teaser-item-border-width: 0;
+  --cards-teaser-item-border-style: none;
+  --cards-teaser-item-border-color: transparent;
+  --cards-teaser-item-border-radius: 8px;
+  --cards-teaser-item-shadow-x: 0;
+  --cards-teaser-item-shadow-y: 0;
+  --cards-teaser-item-shadow-blur: 0;
+  --cards-teaser-item-shadow-spread: 0;
+  --cards-teaser-item-shadow-color: transparent;
+
+  /* ===== TYPOGRAPHY - HEADINGS ===== */
+  --cards-teaser-heading-font-family: 'Lexia', sans-serif;
+  --cards-teaser-heading-font-size: 26px;
+  --cards-teaser-heading-font-weight: 400;
+  --cards-teaser-heading-font-style: normal;
+  --cards-teaser-heading-line-height: 34px;
+  --cards-teaser-heading-letter-spacing: normal;
+  --cards-teaser-heading-text-transform: none;
+  --cards-teaser-heading-text-align: center;
+  --cards-teaser-heading-color: #4f0031;
+
+  /* ===== TYPOGRAPHY - BODY ===== */
+  --cards-teaser-body-font-family: 'Inter', sans-serif;
+  --cards-teaser-body-font-size: 18px;
+  --cards-teaser-body-font-weight: 400;
+  --cards-teaser-body-font-style: normal;
+  --cards-teaser-body-line-height: 28px;
+  --cards-teaser-body-letter-spacing: normal;
+  --cards-teaser-body-text-align: center;
+  --cards-teaser-body-color: #363b3b;
+
+  /* ===== TYPOGRAPHY - BUTTON ===== */
+  --cards-teaser-button-font-family: 'Inter', sans-serif;
+  --cards-teaser-button-font-size: 16px;
+  --cards-teaser-button-font-weight: 600;
+  --cards-teaser-button-font-style: normal;
+  --cards-teaser-button-line-height: 24px;
+  --cards-teaser-button-letter-spacing: normal;
+  --cards-teaser-button-text-transform: none;
+  --cards-teaser-button-color: #ffffff;
+  --cards-teaser-button-background: #d0006f;
+  --cards-teaser-button-border-width: 1px;
+  --cards-teaser-button-border-style: solid;
+  --cards-teaser-button-border-color: #d0006f;
+  --cards-teaser-button-border-radius: 4px;
+  --cards-teaser-button-padding-x: 16px;
+  --cards-teaser-button-padding-y: 8px;
+  --cards-teaser-button-min-height: 42px;
+
+  /* ===== HOVER STATES ===== */
+  --cards-teaser-item-hover-shadow-y: 4px;
+  --cards-teaser-item-hover-shadow-blur: 12px;
+  --cards-teaser-item-hover-shadow-color: rgba(0, 0, 0, 0.1);
+  --cards-teaser-item-hover-transform: translateY(-2px);
+  --cards-teaser-button-hover-background: #a80059;
+
+  /* ===== TRANSITIONS ===== */
+  --cards-teaser-transition-duration: 200ms;
+  --cards-teaser-transition-timing: ease;
+
+  /* ===== SPACING BETWEEN ELEMENTS ===== */
+  --cards-teaser-content-gap: 16px;
+  --cards-teaser-title-gap: 8px;
+}

@@ -1,0 +1,81 @@
+VISUAL MEASUREMENT CHECKLIST FOR cards-teaser
+================================================
+Extracted from Figma node: 2216:36542
+Date: 2026-01-26
+
+LAYOUT & DIMENSIONS
+☑ Container width: 1440px (source: width="1440" in metadata)
+☑ Container max-width: 1180px (source: max-w-[1180px] in design_context)
+☑ Container height: 537.72px (source: height="537.7234497070312" in metadata)
+☑ Container padding: top 40px right 0px bottom 40px left 0px (source: py-[40px] in Container)
+☑ Grid/Flex gap: 10px (source: gap-[10px] in Container Content)
+☑ Column count: 4 (source: flex-wrap with 4 visible cards in screenshot)
+☑ Item min-width: 248px (source: min-w-[248px] in Grid Item)
+☑ Item height: auto (source: h-fit in Grid Item)
+
+SPACING (EXACT PIXELS)
+☑ Section padding vertical: 40px (source: py-[40px] in Container)
+☑ Item internal padding: 24px all sides (source: p-[24px] in cmp-teaser__content)
+☑ Gap between items: 10px (source: gap-[10px] in Container Content)
+☑ Content gap: 16px (source: gap-[16px] in cmp-teaser__content)
+☑ Title gap: 8px (source: gap-[8px] in cmp-teaser__title)
+☑ Image margin/padding: 0px (source: no margin/padding on image)
+
+COLORS (EXACT HEX + OPACITY)
+☑ Section background color: #ebefee (opacity: 100%) (source: bg-[var(--Background-Supporting-1,#ebefee)])
+☑ Card background color: #ffffff (opacity: 100%) (source: bg-[var(--Background-Supporting-2,#ffffff)])
+☑ Primary text/title color: #4f0031 (source: text-[color:var(--Text-Title-2,#4f0031)])
+☑ Body text color: #363b3b (source: text-[color:var(--Text-Body-1,#363b3b)])
+☑ Button background color: #d0006f (source: bg-[#d0006f] in Backing/Primary)
+☑ Button text color: #ffffff (source: text-[#ffffff] in button text)
+☑ Button border color: #d0006f (source: border-[#d0006f] in Backing/Primary)
+☑ Border color: none (source: no border property on cards)
+
+TYPOGRAPHY (ALL PROPERTIES)
+☑ Heading font-family: Lexia (source: font-['Lexia',sans-serif])
+☑ Heading font-size: 26px (source: text-[26px])
+☑ Heading font-weight: 400 (source: font-normal)
+☑ Heading line-height: 34px (source: leading-[34px])
+☑ Heading letter-spacing: normal (source: no letter-spacing class)
+☑ Heading text-transform: none (source: no text-transform class)
+☑ Heading font-style: normal (source: no italic class)
+☑ Heading text-align: center (source: text-center)
+☑ Body font-family: Inter (source: font-['Inter',sans-serif])
+☑ Body font-size: 18px (source: text-[18px])
+☑ Body font-weight: 400 (source: font-normal)
+☑ Body line-height: 28px (source: leading-[28px])
+☑ Body letter-spacing: normal (source: no letter-spacing class)
+☑ Body font-style: normal (source: no italic class)
+☑ Body text-align: center (source: text-center)
+☑ Button font-family: Inter (source: font-['Inter',sans-serif])
+☑ Button font-size: 16px (source: text-[16px])
+☑ Button font-weight: 600 (source: font-semibold)
+☑ Button line-height: 24px (source: leading-[24px])
+☑ Button text-transform: none (source: no text-transform class)
+
+BORDERS & RADIUS
+☑ Card border width: 0px (source: no border classes on card)
+☑ Card border style: none (source: no border styling)
+☑ Card border color: N/A (source: no border present)
+☑ Card border radius: 8px (source: rounded-[8px] on Teaser container)
+☑ Button border width: 1px (source: border-[1px] on Backing/Primary)
+☑ Button border style: solid (source: border-solid)
+☑ Button border radius: 4px (source: rounded-[4px] on Backing/Primary)
+
+SHADOWS (EXACT VALUES)
+☑ Box-shadow offset-x: 0px (source: no shadow classes)
+☑ Box-shadow offset-y: 0px (source: no shadow classes)
+☑ Box-shadow blur: 0px (source: no shadow classes)
+☑ Box-shadow spread: 0px (source: no shadow classes)
+☑ Box-shadow color: none (source: no shadow present)
+
+EFFECTS & TRANSITIONS
+☑ Hover transform: none (source: no hover state in extraction)
+☑ Transition duration: 0ms (source: no transition specified)
+☑ Transition timing: none (source: no transition specified)
+☑ Opacity changes: none (source: no opacity in extraction)
+
+BUTTON DIMENSIONS
+☑ Button min-height: 42px (source: min-h-[42px] in cmp-button)
+☑ Button padding horizontal: 16px (source: px-[16px])
+☑ Button padding vertical: 8px (source: py-[8px])
