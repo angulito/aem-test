@@ -1,0 +1,128 @@
+/* Import component-specific tokens */
+@import './cards-teaser-tokens.css';
+
+/* cards-teaser block styles */
+/* Source: Figma node 2216:36542 - One-AZ-3.1 Market Master */
+
+.cards-teaser {
+  background-color: var(--cards-teaser-section-background);
+  padding: var(--cards-teaser-container-padding-y) var(--cards-teaser-container-padding-x);
+}
+
+.cards-teaser > ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(var(--cards-teaser-columns), 1fr);
+  gap: var(--cards-teaser-gap);
+  max-width: var(--cards-teaser-max-width);
+}
+
+/* Responsive: 2 columns on tablet, 1 on mobile */
+@media (max-width: 1024px) {
+  .cards-teaser > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-teaser > ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cards-teaser > ul > li {
+  background-color: var(--cards-teaser-item-background);
+  border-radius: var(--cards-teaser-item-border-radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--cards-teaser-transition-duration) var(--cards-teaser-transition-timing),
+              box-shadow var(--cards-teaser-transition-duration) var(--cards-teaser-transition-timing);
+}
+
+.cards-teaser > ul > li:hover {
+  transform: var(--cards-teaser-item-hover-transform);
+  box-shadow: var(--cards-teaser-item-hover-shadow-x) var(--cards-teaser-item-hover-shadow-y)
+              var(--cards-teaser-item-hover-shadow-blur) var(--cards-teaser-item-hover-shadow-color);
+}
+
+/* Card Image */
+.cards-teaser .cards-teaser-card-image {
+  line-height: 0;
+}
+
+.cards-teaser .cards-teaser-card-image img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* Card Body */
+.cards-teaser .cards-teaser-card-body {
+  padding: var(--cards-teaser-item-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--cards-teaser-content-gap);
+  flex-grow: 1;
+}
+
+/* Card Title */
+.cards-teaser .cards-teaser-card-body h3,
+.cards-teaser .cards-teaser-card-body strong {
+  font-family: var(--cards-teaser-heading-font-family);
+  font-size: var(--cards-teaser-heading-font-size);
+  font-weight: var(--cards-teaser-heading-font-weight);
+  font-style: var(--cards-teaser-heading-font-style);
+  line-height: var(--cards-teaser-heading-line-height);
+  letter-spacing: var(--cards-teaser-heading-letter-spacing);
+  text-transform: var(--cards-teaser-heading-text-transform);
+  text-align: var(--cards-teaser-heading-text-align);
+  color: var(--cards-teaser-heading-color);
+  margin: 0;
+  width: 100%;
+}
+
+/* Card Description */
+.cards-teaser .cards-teaser-card-body p {
+  font-family: var(--cards-teaser-body-font-family);
+  font-size: var(--cards-teaser-body-font-size);
+  font-weight: var(--cards-teaser-body-font-weight);
+  font-style: var(--cards-teaser-body-font-style);
+  line-height: var(--cards-teaser-body-line-height);
+  letter-spacing: var(--cards-teaser-body-letter-spacing);
+  text-align: var(--cards-teaser-body-text-align);
+  color: var(--cards-teaser-body-color);
+  margin: 0;
+}
+
+/* Card Button */
+.cards-teaser .cards-teaser-card-body a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--cards-teaser-button-font-family);
+  font-size: var(--cards-teaser-button-font-size);
+  font-weight: var(--cards-teaser-button-font-weight);
+  font-style: var(--cards-teaser-button-font-style);
+  line-height: var(--cards-teaser-button-line-height);
+  letter-spacing: var(--cards-teaser-button-letter-spacing);
+  text-transform: var(--cards-teaser-button-text-transform);
+  color: var(--cards-teaser-button-color);
+  background-color: var(--cards-teaser-button-background);
+  border: var(--cards-teaser-button-border-width) var(--cards-teaser-button-border-style) var(--cards-teaser-button-border-color);
+  border-radius: var(--cards-teaser-button-border-radius);
+  padding: var(--cards-teaser-button-padding-y) var(--cards-teaser-button-padding-x);
+  min-height: var(--cards-teaser-button-min-height);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--cards-teaser-transition-duration) var(--cards-teaser-transition-timing);
+  margin-top: auto;
+}
+
+.cards-teaser .cards-teaser-card-body a:hover {
+  background-color: var(--cards-teaser-button-hover-background);
+  border-color: var(--cards-teaser-button-hover-background);
+}
