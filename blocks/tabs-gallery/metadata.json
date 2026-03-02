@@ -1,0 +1,39 @@
+{
+  "variantName": "tabs-gallery",
+  "baseBlock": "tabs",
+  "version": "1.0.0",
+  "created": "2026-01-21T14:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "originPage": "Fashion blog homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "image-gallery",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "tab labels + heading + large image per tab",
+    "buttonCount": 0,
+    "imageCount": "multiple"
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "image galleries with categories",
+      "portfolio showcases",
+      "content organized by theme"
+    ],
+    "notSuitableFor": [
+      "text-heavy tabbed content",
+      "form wizards",
+      "data tables"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 2,
+    "lastUsed": "2026-02-24T10:18:00.000Z"
+  }
+}

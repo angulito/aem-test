@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-product",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-02-09T10:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://frame.io",
+    "originPage": "Frame.io homepage - SaaS product landing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "product-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + paragraph + 2 CTAs + product-screenshot",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "SaaS product landing pages",
+      "Product showcase pages with UI screenshots",
+      "Dark-themed hero sections with CTAs"
+    ],
+    "notSuitableFor": [
+      "Blog post pages",
+      "Light-themed pages",
+      "Text-only hero sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/angulohe-frame"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-09T10:10:00.000Z"
+  }
+}

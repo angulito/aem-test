@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-09T10:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://frame.io",
+    "originPage": "Frame.io homepage - SaaS product landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "feature-cards",
+    "imagePattern": "mixed"
+  },
+  "contentPattern": {
+    "structure": "title + description per card, optional image",
+    "buttonCount": 0,
+    "imageCount": "variable"
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "Feature highlight sections",
+      "Pricing tier cards",
+      "Product capability showcases",
+      "Dark-themed card grids"
+    ],
+    "notSuitableFor": [
+      "Image-only galleries",
+      "Blog article listings",
+      "Light-themed card layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/angulohe-frame"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-09T10:10:00.000Z"
+  }
+}

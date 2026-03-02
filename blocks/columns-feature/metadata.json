@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-feature",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-02-09T10:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://frame.io",
+    "originPage": "Frame.io homepage - SaaS product landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "feature-comparison",
+    "imagePattern": "mixed"
+  },
+  "contentPattern": {
+    "structure": "side-by-side content with images and feature descriptions",
+    "columnCount": "2-3",
+    "imageCount": "variable"
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "Feature comparison layouts",
+      "Product capability showcases with images",
+      "Side-by-side content with thumbnails",
+      "Dark-themed column layouts"
+    ],
+    "notSuitableFor": [
+      "Simple text-only columns",
+      "Light-themed layouts",
+      "Single-column content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/angulohe-frame"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-09T10:10:00.000Z"
+  }
+}
