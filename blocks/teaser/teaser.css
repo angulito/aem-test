@@ -1,0 +1,78 @@
+.teaser > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  gap: 10px;
+}
+
+.teaser > ul > li {
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.teaser .teaser-card-image {
+  line-height: 0;
+}
+
+.teaser > ul > li img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.teaser .teaser-card-body {
+  padding: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.teaser .teaser-card-body h3 {
+  margin: 0;
+  font-family: Lexia, Georgia, serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+  color: #4f0031;
+}
+
+.teaser .teaser-card-body p {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #363b3b;
+}
+
+.teaser .teaser-card-body .button-container {
+  margin: 0;
+}
+
+.teaser .teaser-card-body a {
+  display: inline-block;
+  padding: 8px 16px;
+  min-height: 42px;
+  box-sizing: border-box;
+  background-color: #d0006f;
+  border: 1px solid #d0006f;
+  border-radius: 4px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.teaser .teaser-card-body a:hover {
+  background-color: #a80059;
+  border-color: #a80059;
+}

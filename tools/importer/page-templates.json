@@ -1,0 +1,253 @@
+{
+  "templates": [
+    {
+      "name": "wknd-trendsetters-homepage",
+      "urls": [
+        "https://www.wknd-trendsetters.site/"
+      ],
+      "description": "WKND Trendsetters homepage with hero columns, article teaser, image gallery, testimonial tabs, article cards, FAQ accordion, and CTA banner",
+      "blocks": [
+        {
+          "name": "columns-layout",
+          "instances": [
+            "header.secondary-section",
+            "section:has(.breadcrumbs)"
+          ]
+        },
+        {
+          "name": "cards-gallery",
+          "instances": [
+            ".grid-layout:has(.utility-aspect-1x1)"
+          ]
+        },
+        {
+          "name": "tabs-testimonial",
+          "instances": [
+            ".tabs-wrapper"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            ".grid-layout:has(.article-card)"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            ".faq-list"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            "section.inverse-section"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "wknd-trendsetters-faq",
+      "urls": [
+        "https://www.wknd-trendsetters.site/faq"
+      ],
+      "description": "FAQ page with FAQ accordion, contact columns section, and CTA hero banner",
+      "blocks": [
+        {
+          "name": "section-faq-hero",
+          "instances": [
+            "section.section.secondary-section"
+          ],
+          "section": "secondary-section"
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "section.secondary-section .flex-vertical.flex-gap-sm:has(.divider)"
+          ]
+        },
+        {
+          "name": "columns-layout",
+          "instances": [
+            "section.section:not(.secondary-section):not(.inverse-section) .grid-layout.grid-gap-lg"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            "section.section.inverse-section .utility-position-relative"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "wknd-trendsetters-fashion-trends",
+      "urls": [
+        "https://www.wknd-trendsetters.site/fashion-trends-of-the-season"
+      ],
+      "description": "Fashion trends landing page with hero banner, intro text, image gallery cards, and CTA section",
+      "blocks": [
+        {
+          "name": "section-hero",
+          "instances": [
+            "header.section.inverse-section"
+          ],
+          "section": "inverse-section"
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            "header.inverse-section .ix-hero-scale-3x-to-1x-content"
+          ]
+        },
+        {
+          "name": "section-cards-gallery",
+          "instances": [
+            "section.section.secondary-section:has(.utility-aspect-1x1)"
+          ],
+          "section": "secondary-section"
+        },
+        {
+          "name": "cards-gallery",
+          "instances": [
+            "section.section .grid-layout:has(.utility-aspect-1x1)"
+          ]
+        },
+        {
+          "name": "section-cta",
+          "instances": [
+            "section.section.secondary-section:has(.card)"
+          ],
+          "section": "secondary-section"
+        }
+      ]
+    },
+    {
+      "name": "frameio-homepage",
+      "urls": [
+        "https://frame.io"
+      ],
+      "description": "Frame.io homepage - SaaS product landing page with hero, feature touts, workflow management, file management bento cards, review & approval side-by-side layouts, sharing carousel, customer stories, and pricing cards",
+      "blocks": [
+        {
+          "name": "hero-product",
+          "instances": [
+            "article[class*=\"HeroSideBySide\"]"
+          ]
+        },
+        {
+          "name": "cards-feature",
+          "instances": [
+            "div[class*=\"Touts_with4Touts\"]",
+            "article[class*=\"Bentos_bentos\"]",
+            "article[class*=\"PricingOverview\"]"
+          ]
+        },
+        {
+          "name": "columns-feature",
+          "instances": [
+            "div[class*=\"Touts_with3Touts\"]",
+            "article[class*=\"SideBySides\"]",
+            "div[class*=\"CarouselWithToutsDesktop_desktopCarouselContainer\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "wknd-homepage",
+      "urls": [
+        "https://wknd.site/us/en.html"
+      ],
+      "description": "WKND homepage - main landing page for the WKND site",
+      "blocks": [
+        {
+          "name": "carousel-hero",
+          "instances": [
+            ".carousel.cmp-carousel--hero"
+          ]
+        },
+        {
+          "name": "teaser-featured",
+          "instances": [
+            ".teaser.cmp-teaser--featured"
+          ]
+        },
+        {
+          "name": "cards-teaser",
+          "instances": [
+            ".image-list.list"
+          ]
+        },
+        {
+          "name": "hero-adventure",
+          "instances": [
+            ".teaser.cmp-teaser--hero.cmp-teaser--imagebottom"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Carousel",
+          "selector": ".carousel.cmp-carousel--hero",
+          "style": null,
+          "blocks": [
+            "carousel-hero"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Featured Article",
+          "selector": ".teaser.cmp-teaser--featured",
+          "style": null,
+          "blocks": [
+            "teaser-featured"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Recent Articles",
+          "selector": "main.cmp-layout-container--fixed:nth-of-type(1)",
+          "style": null,
+          "blocks": [
+            "cards-teaser"
+          ],
+          "defaultContent": [
+            ".title.cmp-title--underline:has(.cmp-title__text)",
+            ".button.cmp-button--primary:has(.cmp-button__text)"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Next Adventures",
+          "selector": [
+            ".title.cmp-title--underline:nth-of-type(2)",
+            ".teaser.cmp-teaser--hero.cmp-teaser--imagebottom"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-adventure"
+          ],
+          "defaultContent": [
+            ".title.cmp-title--underline:nth-of-type(2)"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Adventure Listings",
+          "selector": "main.cmp-layout-container--fixed:nth-of-type(2)",
+          "style": null,
+          "blocks": [
+            "cards-teaser"
+          ],
+          "defaultContent": [
+            ".title:not(.cmp-title--underline)",
+            ".button.cmp-button--primary:nth-of-type(2)"
+          ]
+        }
+      ]
+    }
+  ]
+}

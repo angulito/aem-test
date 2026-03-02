@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-01-26T14:30:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/fashion-insights",
+    "originPage": "Fashion blog insights page",
+    "blockPosition": "top and bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark-overlay",
+    "density": "spacious",
+    "purpose": "banner-hero",
+    "imagePattern": "background-image"
+  },
+  "contentPattern": {
+    "structure": "background-image + heading + optional-subheading + optional-CTA",
+    "buttonCount": "0-1",
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "page hero banners with background images",
+      "CTA sections with image backgrounds",
+      "full-width promotional banners"
+    ],
+    "notSuitableFor": [
+      "text-only hero sections",
+      "hero sections without images",
+      "inline content blocks"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/fashion-insights", "/content/faq", "/content/fashion-trends-of-the-season", "/content/index"],
+    "reuseCount": 5,
+    "lastUsed": "2026-02-24T10:18:00.000Z"
+  }
+}

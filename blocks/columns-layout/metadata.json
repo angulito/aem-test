@@ -1,0 +1,38 @@
+{
+  "variantName": "columns-layout",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-01-21T14:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "originPage": "Fashion blog homepage",
+    "blockPosition": "multiple"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "general-layout",
+    "imagePattern": "mixed"
+  },
+  "contentPattern": {
+    "structure": "flexible columns for text, images, or buttons",
+    "columnCount": "2-4",
+    "imageCount": "variable"
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "hero image grids",
+      "text + button layouts",
+      "CTA sections with side-by-side content"
+    ],
+    "notSuitableFor": [
+      "card grids",
+      "repeating item lists"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index", "/content/fashion-insights", "/content/faq"],
+    "reuseCount": 5,
+    "lastUsed": "2026-02-24T10:18:00.000Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "teaser-featured",
+  "baseBlock": "teaser",
+  "version": "1.0.0",
+  "created": "2026-02-27T10:06:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://wknd.site/us/en.html",
+    "originPage": "WKND Adventures homepage - featured article section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "featured-article",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + pretitle + heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "featured article teasers",
+      "highlighted content with image",
+      "side-by-side teaser layouts"
+    ],
+    "notSuitableFor": [
+      "card grids with multiple items",
+      "hero sections with background images",
+      "text-only content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/us/en"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-27T10:06:00.000Z"
+  }
+}
