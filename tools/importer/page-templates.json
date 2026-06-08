@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.wknd-trendsetters.site/"
+      ],
+      "description": "Site homepage with hero, featured content sections, and promotional blocks",
+      "blocks": [
+        {
+          "name": "hero-intro",
+          "instances": [
+            "header.section.secondary-section"
+          ]
+        },
+        {
+          "name": "columns-article",
+          "instances": [
+            "section.section:has(.breadcrumbs)"
+          ]
+        },
+        {
+          "name": "cards-gallery",
+          "instances": [
+            "section.section.secondary-section:has(.utility-aspect-1x1)"
+          ]
+        },
+        {
+          "name": "tabs-testimonial",
+          "instances": [
+            ".tabs-wrapper"
+          ]
+        },
+        {
+          "name": "cards-articles",
+          "instances": [
+            "section.section.secondary-section:has(.article-card)"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            ".faq-list"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            "section.section.inverse-section"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero intro",
+          "selector": "header.section.secondary-section",
+          "style": "secondary",
+          "blocks": [
+            "hero-intro"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Featured article teaser",
+          "selector": "section.section:has(.breadcrumbs)",
+          "style": null,
+          "blocks": [
+            "columns-article"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Photo gallery",
+          "selector": "section.section.secondary-section:has(.utility-aspect-1x1)",
+          "style": "secondary",
+          "blocks": [
+            "cards-gallery"
+          ],
+          "defaultContent": [
+            "section.section.secondary-section:has(.utility-aspect-1x1) .utility-text-align-center h2",
+            "section.section.secondary-section:has(.utility-aspect-1x1) .utility-text-align-center p"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Testimonials",
+          "selector": "section.section:has(.tabs-wrapper)",
+          "style": null,
+          "blocks": [
+            "tabs-testimonial"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Latest articles",
+          "selector": "section.section.secondary-section:has(.article-card)",
+          "style": "secondary",
+          "blocks": [
+            "cards-articles"
+          ],
+          "defaultContent": [
+            "section.section.secondary-section:has(.article-card) .utility-text-align-center h2",
+            "section.section.secondary-section:has(.article-card) .utility-text-align-center p"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "FAQ",
+          "selector": "section.section:has(.faq-list)",
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            "section.section:has(.faq-list) h2",
+            "section.section:has(.faq-list) .subheading"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "Closing CTA banner",
+          "selector": "section.section.inverse-section",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

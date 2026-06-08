@@ -1,0 +1,107 @@
+/* columns-article — article header: image + breadcrumb/title/meta */
+
+.columns-article {
+  color: var(--text-color);
+  padding: 48px 0;
+}
+
+/* Row: stacked on mobile, image first */
+.columns-article > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Cells */
+.columns-article > div > div {
+  order: 1;
+}
+
+.columns-article > div > .columns-article-img-col {
+  order: 0;
+}
+
+/* Image */
+.columns-article img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  aspect-ratio: 3 / 2;
+}
+
+/* Breadcrumb (first p with links) */
+.columns-article > div > div > p:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 32px;
+  font-size: 16px;
+}
+
+.columns-article > div > div > p:first-child a:any-link {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.columns-article > div > div > p:first-child a:hover {
+  text-decoration: underline;
+}
+
+/* Separator between breadcrumb links */
+.columns-article > div > div > p:first-child a + a::before {
+  content: "\203A"; /* › */
+  display: inline-block;
+  margin-right: 8px;
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+/* Title */
+.columns-article h2 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-xxl); /* 36px mobile / 40px desktop */
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+/* Meta lines (author, date) */
+.columns-article h2 ~ p {
+  margin: 12px 0 0;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.columns-article h2 + p {
+  margin-top: 16px;
+}
+
+@media (width >= 900px) {
+  .columns-article {
+    padding: 128px 0;
+  }
+
+  .columns-article > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    align-items: center;
+  }
+
+  .columns-article > div > div {
+    order: unset;
+  }
+
+  .columns-article h2 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

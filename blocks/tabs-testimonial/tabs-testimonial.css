@@ -1,0 +1,196 @@
+/* tabs-testimonial -- testimonial panel above an avatar tab menu */
+/* Values extracted from source computed styles (wknd-trendsetters). */
+
+.tabs-testimonial {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+}
+
+/* ---------------------------------------------------------------- */
+/* PANEL (active testimonial)                                       */
+/* ---------------------------------------------------------------- */
+
+.tabs-testimonial .tabs-testimonial-panel[aria-hidden='true'] {
+  display: none;
+}
+
+.tabs-testimonial .tabs-testimonial-panel-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: stretch;
+}
+
+.tabs-testimonial .tabs-testimonial-panel-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 568 / 426;
+  object-fit: cover;
+}
+
+.tabs-testimonial .tabs-testimonial-panel-media p {
+  margin: 0;
+}
+
+.tabs-testimonial .tabs-testimonial-panel-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs-testimonial .tabs-testimonial-panel-name {
+  margin: 0;
+}
+
+.tabs-testimonial .tabs-testimonial-panel-name strong {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m); /* 20px desktop -> use m (18px) base, 20 desktop */
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--text-color);
+}
+
+.tabs-testimonial .tabs-testimonial-panel-role {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-s);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.tabs-testimonial .tabs-testimonial-panel-quote {
+  margin: 16px 0 0;
+  font-family: var(--body-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+/* ---------------------------------------------------------------- */
+/* TABLIST (avatar tab menu)                                        */
+/* ---------------------------------------------------------------- */
+
+.tabs-testimonial .tabs-testimonial-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.tabs-testimonial .tabs-testimonial-tab {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+  column-gap: 12px;
+  row-gap: 0;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid rgb(232 232 232);
+  border-radius: 16px;
+  background-color: var(--light-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  text-overflow: unset;
+  overflow: unset;
+  white-space: normal;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.tabs-testimonial .tabs-testimonial-tab:hover,
+.tabs-testimonial .tabs-testimonial-tab:focus {
+  background-color: var(--light-color);
+  color: var(--text-color);
+  border-color: rgb(0 0 0 / 40%);
+}
+
+.tabs-testimonial .tabs-testimonial-tab[aria-selected='true'] {
+  border-color: var(--text-color);
+  background-color: var(--light-color);
+  cursor: default;
+}
+
+.tabs-testimonial .tabs-testimonial-tab-media {
+  grid-row: 1 / span 2;
+  grid-column: 1;
+  margin: 0;
+  line-height: 0;
+}
+
+.tabs-testimonial .tabs-testimonial-tab-name {
+  grid-column: 2;
+}
+
+.tabs-testimonial .tabs-testimonial-tab-role {
+  grid-column: 2;
+}
+
+.tabs-testimonial .tabs-testimonial-tab-media img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tabs-testimonial .tabs-testimonial-tab-name {
+  margin: 0;
+}
+
+.tabs-testimonial .tabs-testimonial-tab-name strong {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.tabs-testimonial .tabs-testimonial-tab-role {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+/* ---------------------------------------------------------------- */
+/* Desktop                                                          */
+/* ---------------------------------------------------------------- */
+
+@media (width >= 900px) {
+  .tabs-testimonial .tabs-testimonial-panel-grid {
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .tabs-testimonial .tabs-testimonial-panel-media,
+  .tabs-testimonial .tabs-testimonial-panel-body {
+    flex: 1 1 50%;
+    min-width: 0;
+  }
+
+  .tabs-testimonial .tabs-testimonial-panel-name strong {
+    font-size: 20px;
+  }
+
+  .tabs-testimonial .tabs-testimonial-panel-role {
+    font-size: 18px;
+  }
+
+  .tabs-testimonial .tabs-testimonial-panel-quote {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 48px;
+  }
+
+  .tabs-testimonial .tabs-testimonial-list {
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 0;
+  }
+}
