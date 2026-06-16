@@ -1,4 +1,6 @@
 {
   "type": "da",
-  "contentHostUrl": "https://content.da.live/angulito/aem-test/"
+  "contentHostUrl": "https://content.da.live/angulito/aem-test/",
+  "previewOrg": "angulito",
+  "previewSite": "aem-test"
 }
