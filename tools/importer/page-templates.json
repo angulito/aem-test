@@ -134,6 +134,77 @@
           "defaultContent": []
         }
       ]
+    },
+    {
+      "name": "faq",
+      "urls": [
+        "https://www.wknd-trendsetters.site/faq"
+      ],
+      "description": "FAQ page with expandable question/answer accordion list",
+      "blocks": [
+        {
+          "name": "hero-intro",
+          "instances": [
+            "header.section.secondary-section"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            ".faq-list"
+          ]
+        },
+        {
+          "name": "columns-contact",
+          "instances": [
+            "section.section.secondary-section:has(.contact-items)"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero intro",
+          "selector": "header.section.secondary-section",
+          "style": "secondary",
+          "blocks": [
+            "hero-intro"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "FAQ accordion",
+          "selector": "section.section:has(.faq-list)",
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Let's connect",
+          "selector": "section.section.secondary-section:has(.contact-items)",
+          "style": "secondary",
+          "blocks": [
+            "columns-contact"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Closing CTA banner",
+          "selector": "section.section.accent-section",
+          "style": "accent",
+          "blocks": [],
+          "defaultContent": [
+            "section.section.accent-section h2",
+            "section.section.accent-section p",
+            "section.section.accent-section a"
+          ]
+        }
+      ]
     }
   ]
 }

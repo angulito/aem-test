@@ -2,57 +2,46 @@
 /* global WebImporter */
 /**
  * Parser for accordion-faq.
- * Base block: accordion.
- * Source: https://www.wknd-trendsetters.site/ (.faq-list)
- * Generated: 2026-06-03
+ * Base block: accordion
+ * Source URL: https://www.wknd-trendsetters.site/faq (selector: .faq-list)
+ * Generated: 2026-06-10
  *
- * Source structure (each item):
- *   <details class="faq-item">
- *     <summary class="faq-question"><span>Question</span><img .../></summary>
- *     <div class="faq-answer"><p>Answer</p></div>
- *   </details>
+ * Block structure (per blocks/accordion-faq/accordion-faq.js):
+ *   Each content row has two cells:
+ *     - cell[0]: the question (becomes the <summary> label)
+ *     - cell[1]: the answer body
  *
- * Output (accordion block): one row per item, two cells — question title | answer content.
- * Notes:
- *   - The decorative SVG toggle icon (img in summary) is removed by the cleanup transformer,
- *     and is explicitly excluded here as well.
- *   - The H2 heading + subheading above the list are default content (handled separately);
- *     this parser only handles the .faq-list items.
+ * Source HTML (validated against migration-work/block-context/accordion-faq/source.html):
+ *   <div class="faq-list">
+ *     <details class="faq-item">
+ *       <summary class="faq-question"><span>Question?</span><img class="faq-icon"></summary>
+ *       <div class="faq-answer"><p>Answer.</p></div>
+ *     </details>
+ *     ... (four items)
+ *   </div>
  */
 export default function parse(element, { document }) {
   const cells = [];
 
-  // Each FAQ item is a native <details> element.
-  const items = element.querySelectorAll(':scope > details.faq-item, :scope details.faq-item');
+  // One row per Q&A item. Validated selector: details.faq-item.
+  const items = element.querySelectorAll(':scope > details.faq-item, details.faq-item');
 
   items.forEach((item) => {
+    // Question lives in the summary. Prefer the inner <span> (text only) so the
+    // decorative SVG toggle icon (img.faq-icon) is excluded; fall back to summary text.
     const summary = item.querySelector('summary.faq-question, summary');
-    const answer = item.querySelector('.faq-answer, div[class*="answer"]');
-
-    // Question: prefer the inner <span> text; fall back to the summary itself.
-    // Never include the decorative SVG icon (removed by cleanup transformer).
-    let questionEl = summary ? summary.querySelector('span') : null;
-    if (!questionEl && summary) {
-      questionEl = document.createElement('span');
-      questionEl.textContent = summary.textContent.trim();
-    }
-    const questionText = questionEl ? questionEl.textContent.trim() : '';
-
-    // Answer content: keep semantic markup (paragraphs/links) from the answer wrapper.
-    const answerNodes = [];
-    if (answer) {
-      answer.childNodes.forEach((node) => {
-        if (node.nodeType === 1) {
-          if (node.tagName === 'IMG' && node.classList.contains('faq-icon')) return;
-          answerNodes.push(node);
-        } else if (node.nodeType === 3 && node.textContent.trim()) {
-          answerNodes.push(node.textContent.trim());
-        }
-      });
+    let question = '';
+    if (summary) {
+      const span = summary.querySelector('span');
+      question = (span ? span.textContent : summary.textContent).trim();
     }
 
-    if (questionText || answerNodes.length) {
-      cells.push([questionText, answerNodes.length ? answerNodes : '']);
+    // Answer body: the .faq-answer wrapper, preserving its paragraph markup.
+    const answer = item.querySelector('div.faq-answer, .faq-answer');
+    const answerCell = answer || '';
+
+    if (question || answer) {
+      cells.push([question, answerCell]);
     }
   });
 
