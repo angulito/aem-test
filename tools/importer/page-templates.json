@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "blog-listing",
+      "urls": [
+        "https://www.wknd-trendsetters.site/blog"
+      ],
+      "representativeUrl": "https://www.wknd-trendsetters.site/blog",
+      "coverageGaps": [],
+      "description": "Blog landing/listing page with hero, featured article, latest articles grid, and subscribe CTA",
+      "blocks": [
+        {
+          "name": "hero-blog",
+          "instances": [
+            "#main-content > header.section.secondary-section"
+          ]
+        },
+        {
+          "name": "columns-feature",
+          "instances": [
+            "#main-content > section.section:nth-of-type(1)"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            "#articles div.grid-layout.desktop-4-column"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-2",
+          "name": "hero header",
+          "selector": [
+            ".hero-blog",
+            "#main-content > header.section.secondary-section"
+          ],
+          "style": "secondary",
+          "blocks": [
+            "hero-blog"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "featured article",
+          "selector": [
+            ".columns-feature"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-feature"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Latest Articles grid",
+          "selector": [
+            "#articles"
+          ],
+          "style": "secondary",
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            "#articles > div.container > div.utility-text-align-center > h2.h2-heading",
+            "#articles > div.container > div.utility-text-align-center > p.paragraph-lg"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "subscribe CTA",
+          "selector": [
+            "#main-content > section.section.accent-section"
+          ],
+          "style": "accent",
+          "blocks": [],
+          "defaultContent": [
+            "#main-content > section.section.accent-section .utility-text-align-center > h2.h2-heading",
+            "#main-content > section.section.accent-section .utility-text-align-center > p.paragraph-lg",
+            "#main-content > section.section.accent-section .utility-text-align-center .button-group"
+          ]
+        }
+      ]
+    }
+  ]
+}
