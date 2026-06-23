@@ -31,9 +31,10 @@
   },
   "usage": {
     "pagesUsing": [
-      "/index"
+      "/index",
+      "/es-es"
     ],
-    "reuseCount": 2,
-    "lastUsed": "2026-06-04T14:40:20.378Z"
+    "reuseCount": 3,
+    "lastUsed": "2026-06-23T10:10:00.000Z"
   }
 }

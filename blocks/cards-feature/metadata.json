@@ -1,0 +1,41 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-23T09:08:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/fashion-trends-young-adults",
+    "originPage": "fashion-trends-article",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature highlight grids with image, title and description",
+      "3-column borderless editorial feature cards",
+      "category or topic teaser grids without meta/date"
+    ],
+    "notSuitableFor": [
+      "clickable article cards with category tag and date",
+      "image-only photo galleries",
+      "bordered product cards with CTAs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/fashion-trends-young-adults"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-23T09:08:00.000Z"
+  }
+}

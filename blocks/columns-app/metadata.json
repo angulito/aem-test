@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-app",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-23T10:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.realmadrid.com/es-ES",
+    "originPage": "homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "app-promo",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + intro text | app store badge links/images",
+    "buttonCount": 2,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "mobile app promotion bands with store badges",
+      "side-by-side text plus download/CTA badges",
+      "pre-footer promo with text and image links"
+    ],
+    "notSuitableFor": [
+      "article feature teasers (use columns-article)",
+      "contact info layouts (use columns-contact)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/es-es"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-23T10:12:00.000Z"
+  }
+}
