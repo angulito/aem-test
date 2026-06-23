@@ -1,3 +1,5 @@
+@import url('brand.css');
+
 /*
  * Copyright 2020 Adobe. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
@@ -11,30 +13,28 @@
  */
 
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* colors (brand) */
+  --background-color: var(--brand-background, #fff);
+  --light-color: var(--section-light-color, #f5f5f5);
+  --dark-color: var(--section-dark-color, #000);
+  --text-color: #000;
+  --link-color: #666;
+  --link-hover-color: #000;
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* fonts (brand) — families come from brand.css */
 
   /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  --body-font-size-m: 18px;
+  --body-font-size-s: 16px;
+  --body-font-size-xs: 14px;
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+  /* heading sizes (mobile) */
+  --heading-font-size-xxl: 36px;
+  --heading-font-size-xl: 28px;
+  --heading-font-size-l: 22px;
+  --heading-font-size-m: 20px;
+  --heading-font-size-s: 18px;
+  --heading-font-size-xs: 16px;
 
   /* nav height */
   --nav-height: 64px;
@@ -60,13 +60,13 @@
     --body-font-size-s: 16px;
     --body-font-size-xs: 14px;
 
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    /* heading sizes (desktop) */
+    --heading-font-size-xxl: 40px;
+    --heading-font-size-xl: 32px;
+    --heading-font-size-l: 24px;
+    --heading-font-size-m: 20px;
+    --heading-font-size-s: 18px;
+    --heading-font-size-xs: 16px;
   }
 }
 
@@ -107,8 +107,10 @@ h6 {
   margin-top: 0.8em;
   margin-bottom: 0.25em;
   font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
   scroll-margin: 40px;
 }
 
@@ -172,17 +174,18 @@ button {
   display: inline-block;
   max-width: 100%;
   margin: 12px 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
+  border: 2px solid #000;
+  border-radius: 9999px;
+  padding: 12px 24px;
   font-family: var(--body-font-family);
   font-style: normal;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
-  color: var(--background-color);
+  background-color: #000;
+  color: #fff;
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -193,7 +196,8 @@ a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
+  background-color: #fff;
+  color: #000;
   cursor: pointer;
 }
 
@@ -205,9 +209,17 @@ button:disabled:hover {
 
 a.button.secondary,
 button.secondary {
-  background-color: unset;
-  border: 2px solid currentcolor;
-  color: var(--text-color);
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+}
+
+a.button.secondary:hover,
+a.button.secondary:focus,
+button.secondary:hover,
+button.secondary:focus {
+  background-color: #000;
+  color: #fff;
 }
 
 main img {
@@ -250,8 +262,26 @@ main > .section:first-of-type {
 
 /* section metadata */
 main .section.light,
-main .section.highlight {
+main .section.highlight,
+main .section.secondary {
   background-color: var(--light-color);
   margin: 0;
-  padding: 40px 0;
+  padding: var(--section-padding) 0;
+}
+
+main .section.dark,
+main .section.inverse {
+  background-color: var(--section-dark-color);
+  color: #fff;
+  margin: 0;
+  padding: var(--section-padding) 0;
+}
+
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3,
+main .section.inverse h1,
+main .section.inverse h2,
+main .section.inverse h3 {
+  color: #fff;
 }

@@ -1,0 +1,41 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2026-06-03T14:08:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "originPage": "homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "faq",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "question (summary) + answer (body) per item",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "FAQ sections",
+      "expandable question / answer lists",
+      "collapsible help content"
+    ],
+    "notSuitableFor": [
+      "always-visible content",
+      "media-rich tabbed panels"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index",
+      "/faq"
+    ],
+    "reuseCount": 4,
+    "lastUsed": "2026-06-10T13:09:00.000Z"
+  }
+}
