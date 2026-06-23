@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "url": "https://www.realmadrid.com/es-ES",
+  "path": "realmadrid-home",
+  "timestamp": "2026-06-23T11:47:13.748Z",
+  "title": "Real Madrid CF | Web Oficial",
+  "template": "realmadrid-home",
+  "blocks": [
+    "cards-articles",
+    "cards-articles",
+    "cards-articles",
+    "cards-articles",
+    "cards-articles",
+    "cards-articles",
+    "cards-articles",
+    "cards-articles",
+    "hero-banner",
+    "carousel-news",
+    "carousel-news",
+    "columns-app"
+  ]
+}

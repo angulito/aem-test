@@ -4,6 +4,184 @@
   },
   "templates": [
     {
+      "name": "realmadrid-home",
+      "urls": [
+        "https://www.realmadrid.com/es-ES"
+      ],
+      "representativeUrl": "https://www.realmadrid.com/es-ES",
+      "coverageGaps": [],
+      "description": "Real Madrid homepage (Angular SPA). Modular content: news hero banners, merchandising carousel, trophies/palmares grid, stadium cameras, and footer with sponsors. Spanish locale (/es-ES). Ad-heavy.",
+      "blocks": [
+        {
+          "name": "cards-articles",
+          "instances": [
+            "app-news-herobanner:has(main.rm-web-module__main--notitle)",
+            "app-merchandising:has(.rm-web-module__subtitle)",
+            "app-palmares:nth-of-type(1)",
+            "app-stadium-camera:nth-of-type(1)"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            "app-merchandising:has(.card__bg)"
+          ]
+        },
+        {
+          "name": "carousel-news",
+          "instances": [
+            "app-news-herobanner:has(header .rm-web-module__title)"
+          ]
+        },
+        {
+          "name": "columns-app",
+          "instances": [
+            "app-footer-sponsors section.rm-stores",
+            "section.rm-stores"
+          ]
+        },
+        {
+          "name": "section-palmares",
+          "instances": [
+            "app-palmares:nth-of-type(1)"
+          ],
+          "section": "dark"
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Featured news hero",
+          "selector": "app-news-herobanner:nth-of-type(1)",
+          "style": null,
+          "blocks": [
+            "cards-articles"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "News grid 4-up",
+          "selector": "app-news-herobanner:nth-of-type(2)",
+          "style": null,
+          "blocks": [
+            "cards-articles"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "News grid 3-up (official)",
+          "selector": "app-news-herobanner:nth-of-type(3)",
+          "style": null,
+          "blocks": [
+            "cards-articles"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "News grid 3-up (sponsors)",
+          "selector": "app-news-herobanner:nth-of-type(4)",
+          "style": null,
+          "blocks": [
+            "cards-articles"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "News grid 4-up",
+          "selector": "app-news-herobanner:nth-of-type(5)",
+          "style": null,
+          "blocks": [
+            "cards-articles"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6",
+          "name": "Comunidad Madridista promo",
+          "selector": "app-merchandising:nth-of-type(1)",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7",
+          "name": "Noticias Madridistas carousel",
+          "selector": "app-news-herobanner:nth-of-type(6)",
+          "style": null,
+          "blocks": [
+            "carousel-news"
+          ],
+          "defaultContent": [
+            "app-news-herobanner:nth-of-type(6) header h2"
+          ]
+        },
+        {
+          "id": "section-8",
+          "name": "Tienda Oficial products",
+          "selector": "app-merchandising:nth-of-type(2)",
+          "style": null,
+          "blocks": [
+            "cards-articles"
+          ],
+          "defaultContent": [
+            "app-merchandising:nth-of-type(2) header h2",
+            "app-merchandising:nth-of-type(2) header h3"
+          ]
+        },
+        {
+          "id": "section-9",
+          "name": "Palmares trophies",
+          "selector": "app-palmares:nth-of-type(1)",
+          "style": "dark",
+          "blocks": [
+            "cards-articles"
+          ],
+          "defaultContent": [
+            "app-palmares:nth-of-type(1) header h2",
+            "app-palmares:nth-of-type(1) header a"
+          ]
+        },
+        {
+          "id": "section-10",
+          "name": "Stadium cameras",
+          "selector": "app-stadium-camera:nth-of-type(1)",
+          "style": null,
+          "blocks": [
+            "cards-articles"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-11",
+          "name": "Especiales carousel",
+          "selector": "app-news-herobanner:nth-of-type(7)",
+          "style": null,
+          "blocks": [
+            "carousel-news"
+          ],
+          "defaultContent": [
+            "app-news-herobanner:nth-of-type(7) header h2"
+          ]
+        },
+        {
+          "id": "section-12",
+          "name": "Real Madrid App promo",
+          "selector": "app-footer-sponsors:nth-of-type(1)",
+          "style": null,
+          "blocks": [
+            "columns-app"
+          ],
+          "defaultContent": []
+        }
+      ]
+    },
+    {
       "name": "homepage",
       "urls": [
         "https://www.wknd-trendsetters.site/"
@@ -205,6 +383,16 @@
           ]
         }
       ]
+    },
+    {
+      "name": "fashion-trends-article",
+      "urls": [
+        "https://www.wknd-trendsetters.site/fashion-trends-young-adults"
+      ],
+      "representativeUrl": "https://www.wknd-trendsetters.site/fashion-trends-young-adults",
+      "coverageGaps": [],
+      "description": "Fashion trends landing/article page with hero, featured trend columns, blog teaser, article cards, photo gallery, and closing CTA banner",
+      "blocks": []
     }
   ]
 }

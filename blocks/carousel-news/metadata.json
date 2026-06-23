@@ -1,0 +1,40 @@
+{
+  "variantName": "carousel-news",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-06-23T10:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.realmadrid.com/es-ES",
+    "originPage": "homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "news-carousel",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image | heading + link per slide",
+    "buttonCount": 1,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "horizontal news / story carousels with prev-next controls",
+      "swipable feature highlights with image, headline and link",
+      "editorial 'latest news' or 'specials' rotators"
+    ],
+    "notSuitableFor": [
+      "static grids that show all items at once (use cards)",
+      "single featured banner (use hero)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/es-es"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-23T10:12:00.000Z"
+  }
+}
