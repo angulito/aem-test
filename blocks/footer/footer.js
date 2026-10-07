@@ -1,20 +1,38 @@
-import { getMetadata } from '../../scripts/aem.js';
-import { loadFragment } from '../fragment/fragment.js';
+/**
+ * Fetches the footer fragment (metadata-independent dual fetch: local preview first, then DA/EDS root)
+ * @returns {Promise<string|null>}
+ */
+async function fetchFooter() {
+  let resp = await fetch('/content/footer.plain.html');
+  if (!resp.ok) resp = await fetch('/footer.plain.html');
+  return resp.ok ? resp.text() : null;
+}
 
 /**
  * loads and decorates the footer
  * @param {Element} block The footer block element
  */
 export default async function decorate(block) {
-  // load footer as fragment
-  const footerMeta = getMetadata('footer');
-  const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
-  const fragment = await loadFragment(footerPath);
-
-  // decorate footer DOM
+  const html = await fetchFooter();
   block.textContent = '';
-  const footer = document.createElement('div');
-  while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
+  if (!html) return;
 
-  block.append(footer);
+  const fragment = document.createElement('div');
+  fragment.innerHTML = html;
+
+  const nav = document.createElement('nav');
+  nav.className = 'footer-links';
+  nav.setAttribute('aria-label', 'Legal links');
+
+  fragment.querySelectorAll('a[href]').forEach((link) => {
+    link.className = 'footer-link';
+    // external links open in a new tab, like the source
+    if (/^https?:/.test(link.getAttribute('href')) && new URL(link.href).origin !== window.location.origin) {
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+    }
+    nav.append(link);
+  });
+
+  block.append(nav);
 }

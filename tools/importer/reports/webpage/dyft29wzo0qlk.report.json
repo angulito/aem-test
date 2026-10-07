@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://new.express.adobe.com/webpage/DYft29Wzo0QLK",
+  "path": "webpage/dyft29wzo0qlk",
+  "timestamp": "2026-10-06T15:28:26.210Z",
+  "title": "test-page",
+  "template": "webpage",
+  "blocks": [
+    "hero-cover",
+    "columns-split",
+    "columns-split",
+    "carousel-flipbook",
+    "cards-mosaic"
+  ]
+}

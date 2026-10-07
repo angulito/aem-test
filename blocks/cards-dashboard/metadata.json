@@ -1,0 +1,43 @@
+{
+  "variantName": "cards-dashboard",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-08T17:15:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage science/innovation section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "feature-stats",
+    "imagePattern": "mixed"
+  },
+  "contentPattern": {
+    "structure": "story card with image + stat cards with numbers in grid",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage dashboard sections mixing stories and statistics",
+      "corporate fact/stat display sections",
+      "mixed content grids with cards and data points"
+    ],
+    "notSuitableFor": [
+      "uniform article card grids",
+      "image-only galleries",
+      "simple text card layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index",
+      "/patients",
+      "/science"
+    ],
+    "reuseCount": 3,
+    "lastUsed": "2026-06-10T09:55:00.000Z"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "url": "https://www.wknd-trendsetters.site/",
+  "template": "home",
+  "targetPage": "angulohe-trebdwknd-v15",
+  "analyzedAt": "2026-09-03",
+  "notes": "Fresh single-page analysis. visual-trees.json not produced by scrape; selectors resolved directly from cleaned.html DOM (one <header> + six <section> elements inside <main id=\"main-content\">). page-templates.json 'home' template has 0 coverage gaps, so no gap pages analyzed.",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "selector": "main > header.secondary-section",
+      "hint": "block",
+      "visualStyle": "light/grey background (secondary-section), generous padding",
+      "overview": "Page hero: headline, subheading and two CTA buttons on the left; a stacked group of three lifestyle images on the right.",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Large heading 'Fresh looks, bold stories, real life', subheading paragraph, and two call-to-action buttons ('See case', 'All stories') arranged as a left column beside a right column of three cover images."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "selector": "main > section:nth-of-type(1)",
+      "hint": "block",
+      "visualStyle": "white background (default section)",
+      "overview": "Featured article intro laid out side-by-side: a large cover image on the left; breadcrumbs, heading, author name and date/read-time meta on the right.",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Two-column layout. Left: large 3x2 cover image. Right: breadcrumb trail (Home > Case studies), heading 'Fresh looks, bold moves, real stories', author 'By Taylor Brooks', and 'June 12, 2024 - 4 min read' meta line."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "selector": "main > section:nth-of-type(2)",
+      "hint": "block",
+      "visualStyle": "light/grey background (secondary-section)",
+      "overview": "'Style in every snapshot' gallery: centered heading and lead paragraph above a 4-column grid of eight square lifestyle images.",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Centered heading 'Style in every snapshot' with lead paragraph 'Peek the latest looks in action'."
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Responsive grid of eight square (1x1) images, four per row on desktop, images only with no captions."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "selector": "main > section:nth-of-type(3)",
+      "hint": "block",
+      "visualStyle": "white background (default section)",
+      "overview": "Testimonial tabs: a large active panel showing a person's photo, name, role and quote, with a 4-item tab bar of avatar+name+role buttons below to switch between four trendsetters.",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Interactive tabbed testimonial component with four switchable panels (Alex Rivera, Taylor Kim, Jordan Ellis, Morgan Blake). Each panel shows a large photo, name, role and quote; the tab controls are avatar + name + role buttons."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 5,
+      "selector": "main > section:nth-of-type(4)",
+      "hint": "block",
+      "visualStyle": "light/grey background (secondary-section)",
+      "overview": "'Latest articles' section: centered heading and lead paragraph above a 4-column grid of article cards, each with an image, a category tag, a date and a title.",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Centered heading 'Latest articles' with lead paragraph 'Fresh looks, bold moves'."
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Grid of four article cards, each a link containing an image, a category tag (e.g. 'Casual Cool'), a short date (e.g. 'May 12'), and a heading (e.g. 'Tennis style, redefined')."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 6,
+      "selector": "main > section:nth-of-type(5)",
+      "hint": "block",
+      "visualStyle": "white background (default section)",
+      "overview": "FAQ section: heading and subheading intro, followed by a list of four expandable question/answer accordion items.",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Heading 'Got questions? We've got answers.' with subheading 'Fashion FAQs, answered fast'."
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Four expandable FAQ items (details/summary), each a question that toggles to reveal an answer paragraph."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 7,
+      "selector": "main > section:nth-of-type(6)",
+      "hint": "block",
+      "visualStyle": "dark background (inverse-section) with full-bleed background image and dark overlay",
+      "overview": "Closing call-to-action banner: a full-width background image with a dark overlay, overlaid heading, subheading and a single CTA button.",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Full-width banner with a background image and dark overlay. Overlaid content: heading 'Fresh looks, bold stories, real life', subheading paragraph about the latest case study, and a single 'See more' CTA button."
+        }
+      ]
+    }
+  ],
+  "blockInventory": {
+    "localBlocks": [
+      "Note: per fresh-migration instruction, existing project block variants are NOT reused. Local blocks present in repo (accordion-faq, cards, cards-*, columns, columns-*, hero, hero-*, tabs-testimonial, story-hero, carousel-hero, embed-video, video-featured) are listed for reference only."
+    ],
+    "blockCollectionAvailable": [
+      { "name": "Hero", "purpose": "Prominent image, headline and optional CTA at the top of a page." },
+      { "name": "Columns", "purpose": "Content presented side-by-side in multiple columns." },
+      { "name": "Cards", "purpose": "Grid of items each with image, title and descriptive text (also a 'no images' variant)." },
+      { "name": "Tabs", "purpose": "Multiple content sections switched via tab labels." },
+      { "name": "Accordion", "purpose": "Collapsible sections; ideal for FAQ Q&A pairs." },
+      { "name": "Carousel", "purpose": "Rotating/swipable slides of images with optional text." },
+      { "name": "Table", "purpose": "Tabular data in rows and columns." },
+      { "name": "Video", "purpose": "Embed a stand-alone video with a player." },
+      { "name": "Embed", "purpose": "Embed external video or social media content." },
+      { "name": "Search", "purpose": "Keyword search over a site's query index." }
+    ]
+  }
+}

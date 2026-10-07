@@ -1,0 +1,67 @@
+/* 4-up card grid: each block row is a card (image on top + text below) */
+.columns-patient {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+@media (width >= 600px) {
+  .columns-patient {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.columns-patient > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+
+/* image column always sits on top of each card */
+.columns-patient > div > .columns-patient-img-col {
+  order: 0;
+}
+
+.columns-patient > div > div {
+  order: 1;
+}
+
+.columns-patient img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.columns-patient h5 {
+  margin: 0 0 8px;
+  color: var(--dark-color);
+}
+
+.columns-patient p {
+  margin: 0 0 8px;
+  color: var(--text-color);
+}
+
+/* Learn More: blue text link with chevron, not a pill button (EDS auto-button trap) */
+.columns-patient .button-container {
+  margin: 8px 0 0;
+}
+
+.columns-patient a:any-link,
+.columns-patient .button-container a.button:any-link {
+  display: inline-block;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  background: none;
+  color: var(--accent-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.columns-patient .button-container a.button:any-link::after {
+  content: " \203A";
+}

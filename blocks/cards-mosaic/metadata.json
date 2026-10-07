@@ -1,0 +1,24 @@
+{
+  "variantName": "cards-mosaic",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "description": "Image-only photo mosaic within the content column with tight ~6px gutters, no borders/card bodies, mixed tile proportions (row 1: wide + 2 narrow; row 2: 2 tall portraits). Each image opens a lightbox in the source.",
+    "colorScheme": "accent",
+    "density": "compact",
+    "purpose": "image-gallery",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row per photo: [image] | [optional caption, usually empty]; tiles repeat in groups of five (wide + 2 narrow, then 2 tall)",
+    "imageCount": 5,
+    "buttonCount": 0
+  },
+  "options": [],
+  "memberVariantIds": ["cards-mosaic"],
+  "usage": {
+    "pagesUsing": ["/webpage/dyft29wzo0qlk"],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-06T00:00:00.000Z"
+  }
+}

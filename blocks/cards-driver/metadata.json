@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-driver",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-10T13:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/sustainability/environmental-social-and-governance.html",
+    "originPage": "ESG landing page - 'Our Material Drivers' section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "material-drivers",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "multi-row grid (3 per row) of distinct cards, each with image + eyebrow category label + description paragraph + CTA link",
+    "buttonCount": 7,
+    "imageCount": 7
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "category/topic grids where each item has an image, an eyebrow label, a short description and its own CTA",
+      "material-topic or focus-area card grids (6+ items across multiple rows)",
+      "compact image + label + text + link card layouts"
+    ],
+    "notSuitableFor": [
+      "article listing cards with dates (use cards-article)",
+      "stat/data cards without images (use cards-stats)",
+      "3-up spacious portrait feature cards without an eyebrow (use cards-feature)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/sustainability/environmental-social-and-governance"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-10T13:20:00.000Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-quote",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-10T09:54:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/science.html",
+    "originPage": "Our R&D Approach - 'The tenacity to take on the toughest challenges' section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "comfortable",
+    "purpose": "media-quote",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "video column (poster + play button) beside a pull quote with author attribution column",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "video paired with a testimonial / pull quote side by side",
+      "media + attributed quote layouts",
+      "two-column layouts pairing a visual with a highlighted statement"
+    ],
+    "notSuitableFor": [
+      "image-led feature sections with a CTA (use columns-feature)",
+      "link-list / directory layouts (use columns-focus)",
+      "simple equal-width text comparisons"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/science"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-10T09:54:00.000Z"
+  }
+}

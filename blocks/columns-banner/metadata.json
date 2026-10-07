@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-banner",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-09T11:58:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/patients.html",
+    "originPage": "AbbVie patients landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "accent-dark",
+    "density": "compact",
+    "purpose": "cta-banner",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + supporting paragraph column beside a single CTA button column on a colored banner",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "colored call-to-action banners with text on one side and a button on the other",
+      "two-column text + CTA promotional banners",
+      "section-spanning highlight banners with a single action"
+    ],
+    "notSuitableFor": [
+      "image-and-text feature layouts (use columns-feature)",
+      "multi-item feature grids",
+      "plain side-by-side informational columns without banner styling"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/patients"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-09T11:58:00.000Z"
+  }
+}

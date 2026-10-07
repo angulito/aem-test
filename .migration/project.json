@@ -1,4 +1,20 @@
 {
   "type": "da",
-  "contentHostUrl": "https://content.da.live/angulito/aem-test/"
+  "sites": {
+    "aem-test": {
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json",
+      "contentHostUrl": "https://content.da.live/angulito/aem-test/",
+      "previewOrg": "angulito",
+      "previewSite": "aem-test"
+    },
+    "angulohe-wknd-v5": {
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    },
+    "angulohe-wknd-v6": {
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    },
+    "angulohe-trebdwknd-v15": {
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
 }

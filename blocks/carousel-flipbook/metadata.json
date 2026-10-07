@@ -1,0 +1,24 @@
+{
+  "variantName": "carousel-flipbook",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "description": "Scroll-driven sticky full-bleed background photos that cross-fade per step. Each slide overlays a translucent card. The first (title-only) card is centered with a display h2; the others are left-aligned with an uppercase h3 + one sentence. No arrows/dots. Same sticky-photo overlay on mobile; scroll-linked crossfade and slow zoom-in (scale 1 to 1.2) per photo.",
+    "colorScheme": "accent",
+    "density": "spacious",
+    "purpose": "scroll-flipbook",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row per slide: [background image] | [heading + optional paragraph/CTA]; a heading-only text cell becomes a centered title slide",
+    "imageCount": 4,
+    "buttonCount": 0
+  },
+  "options": [],
+  "memberVariantIds": ["carousel-flipbook"],
+  "usage": {
+    "pagesUsing": ["/webpage/dyft29wzo0qlk"],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-06T00:00:00.000Z"
+  }
+}

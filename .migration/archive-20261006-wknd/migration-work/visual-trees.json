@@ -1,0 +1,78 @@
+{
+  "https://www.wknd-trendsetters.site/": {
+    "signature": "sB(2x1B,2x1,sB(s(sB,sB),4x2),s(2x1,4x1),sB(s(sB,sB),4x1),2x1,3x1B(sB,sB))",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "#main-content > header.section.secondary-section",
+      "rc2": "#main-content > section.section:nth-of-type(1)",
+      "rc3": "#main-content > section.section.secondary-section:nth-of-type(2)",
+      "rc3c1": "#main-content > section.section.secondary-section:nth-of-type(2) > div.container > div.utility-text-align-center.utility-margin-bottom-8rem",
+      "rc3c1c1": "#main-content > section.section.secondary-section:nth-of-type(2) > div.container > div.utility-text-align-center.utility-margin-bottom-8rem > div:nth-of-type(1)",
+      "rc3c1c2": "#main-content > section.section.secondary-section:nth-of-type(2) > div.container > div.utility-text-align-center.utility-margin-bottom-8rem > div:nth-of-type(2)",
+      "rc3c2": "#main-content > section.section.secondary-section:nth-of-type(2) > div.container > div.grid-layout.desktop-4-column.tablet-2-column-1.mobile-portrait-1-column.grid-gap-sm",
+      "rc4": "#main-content > section.section:nth-of-type(3)",
+      "rc4c1": "#main-content > section.section:nth-of-type(3) > div.container > div.tabs-wrapper > div.tabs-content",
+      "rc4c2": "#main-content > section.section:nth-of-type(3) > div.container > div.tabs-wrapper > div.grid-layout.desktop-4-column.tablet-2-column-1.mobile-portrait-1-column.tab-menu",
+      "rc5": "#main-content > section.section.secondary-section:nth-of-type(4)",
+      "rc5c1": "#main-content > section.section.secondary-section:nth-of-type(4) > div.container > div.utility-text-align-center",
+      "rc5c1c1": "#main-content > section.section.secondary-section:nth-of-type(4) > div.container > div.utility-text-align-center > div:nth-of-type(1)",
+      "rc5c1c2": "#main-content > section.section.secondary-section:nth-of-type(4) > div.container > div.utility-text-align-center > div:nth-of-type(2)",
+      "rc5c2": "#main-content > section.section.secondary-section:nth-of-type(4) > div.container > div.grid-layout.desktop-4-column.tablet-2-column-1.mobile-portrait-1-column.grid-gap-md",
+      "rc6": "#main-content > section.section:nth-of-type(5)",
+      "rc7": "#main-content > section.section.inverse-section",
+      "rc7c1": "#main-content > section.section.inverse-section > div.container > div.grid-layout.desktop-1-column > div.utility-position-relative.utility-radius-card.utility-overflow-clip > div:nth-of-type(1)",
+      "rc7c2": "#main-content > section.section.inverse-section > div.container > div.grid-layout.desktop-1-column > div.utility-position-relative.utility-radius-card.utility-overflow-clip > div.overlay.utility-z-index-1"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "#main-content > header.section.secondary-section",
+        "layout": "2x1",
+        "hasBg": true,
+        "hint": "block"
+      },
+      {
+        "id": "rc2",
+        "selector": "#main-content > section.section:nth-of-type(1)",
+        "layout": "2x1",
+        "hasBg": false,
+        "hint": "block"
+      },
+      {
+        "id": "rc3",
+        "selector": "#main-content > section.section.secondary-section:nth-of-type(2)",
+        "layout": null,
+        "hasBg": true,
+        "hint": "block"
+      },
+      {
+        "id": "rc4",
+        "selector": "#main-content > section.section:nth-of-type(3)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block"
+      },
+      {
+        "id": "rc5",
+        "selector": "#main-content > section.section.secondary-section:nth-of-type(4)",
+        "layout": null,
+        "hasBg": true,
+        "hint": "block"
+      },
+      {
+        "id": "rc6",
+        "selector": "#main-content > section.section:nth-of-type(5)",
+        "layout": "2x1",
+        "hasBg": false,
+        "hint": "block"
+      },
+      {
+        "id": "rc7",
+        "selector": "#main-content > section.section.inverse-section",
+        "layout": "3x1",
+        "hasBg": true,
+        "hint": "block"
+      }
+    ]
+  }
+}

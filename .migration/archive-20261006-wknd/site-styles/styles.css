@@ -1,0 +1,437 @@
+:root {
+  /* AbbVie brand colors */
+  --background-color: #fff;
+  --light-color: #F1F3FF;
+  --dark-color: #071D49;
+  --text-color: #1a1a1a;
+  --link-color: #071D49;
+  --link-hover-color: #0a2d6e;
+  --accent-color: #06c;
+  --accent-purple: #8A2ECC;
+  --accent-blue: #0066F5;
+  --accent-green: #338700;
+  --border-color: #e0e0e0;
+  --grey-bg: #f5f5f5;
+
+  /* fonts */
+  --body-font-family: 'Roboto', roboto-fallback, sans-serif;
+  --heading-font-family: 'F37 Lineca', f37lineca-fallback, sans-serif;
+
+  /* body sizes */
+  --body-font-size-m: 18px;
+  --body-font-size-s: 16px;
+  --body-font-size-xs: 14px;
+
+  /* heading sizes */
+  --heading-font-size-xxl: 40px;
+  --heading-font-size-xl: 36px;
+  --heading-font-size-l: 28px;
+  --heading-font-size-m: 24px;
+  --heading-font-size-s: 20px;
+  --heading-font-size-xs: 18px;
+
+  /* spacing */
+  --section-padding: 80px;
+  --nav-height: 72px;
+  --content-max-width: 1200px;
+  --gutter: 24px;
+}
+
+@font-face {
+  font-family: 'F37 Lineca';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://www.abbvie.com/etc.clientlibs/abbvie-com2/clientlibs/clientlib-site/resources/custom-fonts/F37Lineca/fonts/F37Lineca-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'F37 Lineca';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://www.abbvie.com/etc.clientlibs/abbvie-com2/clientlibs/clientlib-site/resources/custom-fonts/F37Lineca/fonts/F37Lineca-Book.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "f37lineca-fallback";
+  size-adjust: 95%;
+  src: local('Arial');
+}
+
+@font-face {
+  font-family: roboto-fallback;
+  size-adjust: 99.5%;
+  src: local('Arial');
+}
+
+@media (width >= 900px) {
+  :root {
+    --heading-font-size-xxl: 64px;
+    --heading-font-size-xl: 56px;
+    --heading-font-size-l: 36px;
+    --heading-font-size-m: 28px;
+    --heading-font-size-s: 22px;
+    --heading-font-size-xs: 18px;
+    --body-font-size-m: 18px;
+    --body-font-size-s: 16px;
+    --body-font-size-xs: 14px;
+  }
+}
+
+body {
+  display: none;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m);
+  line-height: 1.6;
+}
+
+body.appear {
+  display: block;
+}
+
+header {
+  height: var(--nav-height);
+}
+
+header .header,
+footer .footer {
+  visibility: hidden;
+}
+
+header .header[data-block-status="loaded"],
+footer .footer[data-block-status="loaded"] {
+  visibility: visible;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  line-height: 1.05;
+  scroll-margin: 40px;
+  color: var(--dark-color);
+}
+
+h1 { font-size: var(--heading-font-size-xxl); }
+h2 { font-size: var(--heading-font-size-xl); }
+h3 { font-size: var(--heading-font-size-l); }
+h4 { font-size: var(--heading-font-size-m); }
+h5 { font-size: var(--heading-font-size-s); }
+h6 { font-size: var(--heading-font-size-xs); }
+
+/* Accent colored emphasis spans in headings */
+h1 span, h2 span, h3 span, h4 span {
+  font-style: normal;
+}
+
+h2 span.accent-purple { color: var(--accent-purple); }
+h2 span.accent-blue { color: var(--accent-blue); }
+h2 span.accent-green { color: var(--accent-green); }
+
+p, dl, ol, ul, pre, blockquote {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+code, pre {
+  font-size: var(--body-font-size-s);
+}
+
+pre {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--light-color);
+  overflow-x: auto;
+  white-space: pre;
+}
+
+main > div {
+  margin: 0 16px;
+}
+
+input, textarea, select, button {
+  font: inherit;
+}
+
+/* links */
+a:any-link {
+  color: var(--link-color);
+  text-decoration: none;
+  overflow-wrap: break-word;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* buttons - AbbVie style */
+main .button-container {
+  display: inline;
+}
+
+a.button:any-link,
+button {
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 100%;
+  margin: 12px 0;
+  border: 2px solid var(--dark-color);
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-family: var(--body-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--body-font-size-xs);
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background-color: transparent;
+  color: var(--dark-color);
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+a.button:hover,
+a.button:focus,
+button:hover,
+button:focus {
+  background-color: var(--dark-color);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled,
+button:disabled:hover {
+  background-color: var(--light-color);
+  cursor: unset;
+}
+
+a.button.secondary,
+button.secondary {
+  background-color: unset;
+  border: 2px solid currentcolor;
+  color: var(--text-color);
+}
+
+main img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+main picture {
+  display: block;
+}
+
+main picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+}
+
+/* sections */
+main > .section {
+  margin: 0;
+  padding: var(--section-padding) 0;
+}
+
+main > .section > div {
+  max-width: var(--content-max-width);
+  margin: auto;
+  padding: 0 var(--gutter);
+}
+
+main > .section:first-of-type {
+  padding-top: 0;
+}
+
+@media (width >= 900px) {
+  main > .section > div {
+    padding: 0 48px;
+  }
+}
+
+/* section metadata - dark */
+main .section.dark {
+  background-color: var(--dark-color);
+  color: #fff;
+  border-radius: 40px 0 0;
+  margin: 0 var(--gutter);
+  padding: 56px;
+}
+
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3,
+main .section.dark h4,
+main .section.dark h5,
+main .section.dark h6 {
+  color: #fff;
+}
+
+main .section.dark a:any-link {
+  color: #fff;
+}
+
+main .section.dark a.button:any-link {
+  border-color: #fff;
+  border-radius: 0;
+  color: #fff;
+  padding: 16px 32px;
+  font-size: var(--body-font-size-xs);
+  font-weight: 700;
+}
+
+main .section.dark a.button:hover {
+  background-color: #fff;
+  color: var(--dark-color);
+}
+
+@media (width >= 900px) {
+  main .section.dark {
+    margin: 0 48px;
+    padding: 80px;
+  }
+}
+
+/* section metadata - light */
+main .section.light,
+main .section.highlight {
+  background-color: var(--light-color);
+  margin: 0;
+  padding: var(--section-padding) 0;
+}
+
+/* section metadata - contact-card: centered company/address/phone block
+   (contact-location template country pages) */
+main .section.contact-card {
+  text-align: center;
+}
+
+main .section.contact-card h1,
+main .section.contact-card h2,
+main .section.contact-card h3,
+main .section.contact-card h4,
+main .section.contact-card h5,
+main .section.contact-card h6 {
+  margin: 0 0 16px;
+}
+
+main .section.contact-card p {
+  margin: 0 0 12px;
+}
+
+/* eyebrow text style (pretitle) */
+main > .section p:first-child {
+  font-size: var(--body-font-size-xs);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--dark-color);
+  margin-bottom: 8px;
+}
+
+/* Section intro: 2-column layout (heading left, paragraph right).
+   Scoped with :not(:has(h2 ~ h2)) so it ONLY applies to true intro sections
+   (exactly one h2). Article body sections with multiple sibling h2s (e.g. story
+   "Rule #1", "Rule #2") are excluded and use normal stacking flow. */
+@media (width >= 900px) {
+  main > .section > div:first-child:has(h2):not(:has(h2 ~ h2)) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 40px;
+    align-items: start;
+  }
+
+  /* No-eyebrow: h2 is first child, paragraph aligns to h2 row */
+  main > .section > div:first-child:has(> h2:first-child):not(:has(h2 ~ h2)) h2 {
+    grid-column: 1;
+    grid-row: 1 / 3;
+  }
+
+  main > .section > div:first-child:has(> h2:first-child):not(:has(h2 ~ h2)) h2 ~ p {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: start;
+  }
+
+  main > .section > div:first-child:has(> h2:first-child):not(:has(h2 ~ h2)) .button-container {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  /* Eyebrow: p first-child + h2, paragraph aligns to h2's row (row 2) */
+  main > .section > div:first-child:has(> p:first-child + h2):not(:has(h2 ~ h2)) > p:first-child {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  main > .section > div:first-child:has(> p:first-child + h2):not(:has(h2 ~ h2)) h2 {
+    grid-column: 1;
+    grid-row: 2 / 4;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  main > .section > div:first-child:has(> p:first-child + h2):not(:has(h2 ~ h2)) h2 ~ p {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: start;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  main > .section > div:first-child:has(> p:first-child + h2):not(:has(h2 ~ h2)) .button-container {
+    grid-column: 2;
+    grid-row: 3;
+  }
+}
+
+/* Section intro links: plain blue text + chevron, not buttons */
+main > .section > div:first-child:has(h2) .button-container a.button:any-link {
+  display: inline;
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  color: #0066F5;
+  font-size: var(--body-font-size-xs);
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: normal;
+}
+
+main > .section > div:first-child:has(h2) .button-container a.button:any-link::after {
+  content: '  >';
+}
+
+main > .section > div:first-child:has(h2) .button-container a.button:hover {
+  background: none;
+  color: var(--link-hover-color);
+  text-decoration: none;
+}

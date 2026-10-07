@@ -1,0 +1,17 @@
+## Tabs
+
+This block is used to present multiple sections of content within a single container, with each section accessible by selecting its corresponding tab.
+Implementation
+This block’s table typically has 2 columns and multiple rows, with the first row containing only the block name and optional variants.
+Each subsequent row represents a single tab:
+Tab Label (mandatory) – In the first cell of the row.
+Tab Content (mandatory) – the detailed information or media displayed when the tab is selected, in the second cell of the row.
+When rendered, CSS and JavaScript create a tabbed interface, allowing users to switch between content sections by clicking on each tab label.
+When to use
+When you want to organize closely related content into discrete, user-selectable sections.
+To reduce page scrolling by grouping information under labeled tabs.
+If a concise, interactive UI enhances content discoverability.
+When to consider another block
+If your content is brief and doesn’t require multiple sections.
+When all details need to be visible at once without interaction.
+If you prefer a simpler layout, such as an accordion or single-column design.

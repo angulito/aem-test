@@ -1,0 +1,43 @@
+{
+  "variantName": "columns-feature",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-08T17:15:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage manufacturing feature section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature-highlight",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "large image column + eyebrow + heading + CTA column",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature highlight sections with large image and text",
+      "content promotion with image + CTA",
+      "corporate story sections with visual emphasis"
+    ],
+    "notSuitableFor": [
+      "multi-column equal-width text layouts",
+      "article preview layouts with metadata",
+      "compact image + text columns"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index",
+      "/science",
+      "/sustainability/environmental-social-and-governance"
+    ],
+    "reuseCount": 3,
+    "lastUsed": "2026-06-10T13:20:00.000Z"
+  }
+}

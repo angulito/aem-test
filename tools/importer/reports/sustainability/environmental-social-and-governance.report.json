@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.abbvie.com/sustainability/environmental-social-and-governance.html",
+  "path": "sustainability/environmental-social-and-governance",
+  "timestamp": "2026-06-10T13:24:58.257Z",
+  "title": "Environmental, Social & Governance | AbbVie",
+  "template": "esg",
+  "blocks": [
+    "hero-patient",
+    "columns-pillars",
+    "columns-feature",
+    "columns-feature",
+    "cards-driver"
+  ]
+}

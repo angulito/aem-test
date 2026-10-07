@@ -1,0 +1,138 @@
+/*
+ * columns-split: half-bleed 50/50 split panel (image half + text half).
+ * Values measured from the source split-layout sections:
+ * - stacked (< 980px): image 50vh on top, text half min 50vh, content vertically centered
+ * - side by side (>= 980px): 100vh panel, both halves exactly 50%, content vertically centered
+ * - text side padding is a fixed share of the text half (percentages resolve against the row):
+ *   7% / 12.5% / 20% of the half while stacked, 20% / 25% / 30% / 33% of the half side by side
+ */
+
+/* half-bleed: the block spans the full viewport width */
+main > .section > .columns-split-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.columns-split .columns-split-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-split .columns-split-img-col {
+  /* mobile: image always stacks above its text, whatever the authored order */
+  order: -1;
+  position: relative;
+  height: 50vh;
+  height: 50svh;
+  overflow: hidden;
+  background-color: var(--dark-color);
+}
+
+.columns-split .columns-split-img-col picture {
+  position: absolute;
+  inset: 0;
+}
+
+.columns-split .columns-split-img-col picture,
+.columns-split .columns-split-img-col img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.columns-split .columns-split-img-col img {
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 0;
+}
+
+.columns-split .columns-split-text-col {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+  min-height: 50svh;
+  padding: 20px 7%;
+}
+
+.columns-split .columns-split-text-col > :first-child {
+  margin-top: 0;
+}
+
+.columns-split .columns-split-text-col > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 540px) {
+  .columns-split .columns-split-text-col {
+    padding: 20px 12.5%;
+  }
+}
+
+/* source switches to desktop type and 40px vertical padding at 768px (brand switches at 900px) */
+@media (width >= 768px) {
+  .columns-split .columns-split-text-col {
+    --heading-font-size-l: 28px;
+    --body-font-size-m: 19px;
+    --block-gap: 40px;
+
+    padding: 40px 12.5%;
+    font-size: var(--body-font-size-m);
+  }
+}
+
+@media (width > 768px) {
+  .columns-split .columns-split-text-col {
+    padding: 40px 20%;
+  }
+}
+
+@media (width >= 980px) {
+  .columns-split .columns-split-row {
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+
+  .columns-split .columns-split-row > div {
+    flex: 0 0 50%;
+    width: 50%;
+    min-width: 0;
+  }
+
+  /* desktop: authored cell order decides which side the image is on */
+  .columns-split .columns-split-img-col {
+    order: 0;
+    height: auto;
+  }
+
+  .columns-split .columns-split-text-col {
+    min-height: 0;
+
+    /* 20% of the 50% half */
+    padding: 40px 10%;
+  }
+}
+
+@media (width >= 1300px) {
+  .columns-split .columns-split-text-col {
+    /* 25% of the half */
+    padding: 40px 12.5%;
+  }
+}
+
+@media (width >= 1800px) {
+  .columns-split .columns-split-text-col {
+    /* 30% of the half */
+    padding: 40px 15%;
+  }
+}
+
+@media (width >= 2300px) {
+  .columns-split .columns-split-text-col {
+    /* 33% of the half */
+    padding: 40px 16.5%;
+  }
+}

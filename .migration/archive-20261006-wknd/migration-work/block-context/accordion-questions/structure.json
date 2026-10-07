@@ -1,0 +1,53 @@
+{
+  "variant": "accordion-questions",
+  "generatedAt": "2026-10-06T14:22:37.424Z",
+  "instanceCount": 1,
+  "repeatingUnitConsensus": "details.faq-item",
+  "hasInvalidNesting": false,
+  "warnings": [],
+  "instances": [
+    {
+      "file": "source.html",
+      "root": {
+        "tag": "div",
+        "classes": [
+          "faq-list"
+        ]
+      },
+      "directChildren": [
+        "details.faq-item",
+        "details.faq-item",
+        "details.faq-item",
+        "details.faq-item"
+      ],
+      "directChildCount": 4,
+      "repeatingUnits": [
+        {
+          "signature": "details.faq-item",
+          "count": 4,
+          "depth": 0,
+          "parentSignature": "div.faq-list",
+          "iterationSafe": true,
+          "innerUnits": [
+            "summary.faq-question",
+            "div.faq-answer"
+          ],
+          "ancestorSignatures": [
+            "div.faq-list"
+          ],
+          "nestedInsideRepeatingUnit": false
+        }
+      ],
+      "invalidNesting": [],
+      "content": {
+        "images": 4,
+        "links": 0,
+        "headings": 0,
+        "paragraphs": 4,
+        "lists": 0,
+        "buttons": 0
+      },
+      "warnings": []
+    }
+  ]
+}

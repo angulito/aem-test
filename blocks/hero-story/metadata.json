@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-story",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-09-03T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "originPage": "home page closing CTA banner",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background image + heading + subheading + 1 CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "full-width call-to-action banners with a background image and overlaid text",
+      "closing promo sections on a dark overlay"
+    ],
+    "notSuitableFor": [
+      "text-only intros",
+      "side-by-side column layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-06T13:22:48.653789Z"
+  }
+}

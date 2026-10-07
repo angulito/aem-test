@@ -1,0 +1,47 @@
+.hero-trip-container .hero-trip-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-trip {
+  position: relative;
+  padding: 40px 24px;
+  min-height: 300px;
+}
+
+.hero-trip h1,
+.hero-trip h2,
+.hero-trip h3,
+.hero-trip h4,
+.hero-trip h5,
+.hero-trip h6,
+.hero-trip p {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--background-color);
+}
+
+.hero-trip.no-image * {
+  color: var(--text-color);
+}
+
+.hero-trip picture {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.hero-trip img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (width >= 900px) {
+  .hero-trip {
+    padding: 40px 32px;
+  }
+}

@@ -1,0 +1,111 @@
+/* Reusable full-width colored callout banner.
+   Default variant = green (patients "Get to know the people").
+   .dark variant   = navy  (homepage "Explore opportunities" jobs callout).
+   One block, two color variants, shared layout. */
+
+/* Full-bleed colored section: rounded top-left corner, like the dark sections */
+main .section:has(.columns-banner) {
+  background-color: #338700;
+  color: #fff;
+  border-radius: 40px 0 0;
+  margin: 0 var(--gutter);
+  padding: 56px;
+}
+
+main .section:has(.columns-banner.dark) {
+  background-color: var(--dark-color);
+}
+
+@media (width >= 900px) {
+  main .section:has(.columns-banner) {
+    margin: 0 48px;
+    padding: 80px;
+  }
+}
+
+.columns-banner {
+  color: #fff;
+}
+
+.columns-banner h2,
+.columns-banner h3,
+.columns-banner h4 {
+  color: #fff;
+  margin: 0 0 12px;
+  font-weight: 400;
+}
+
+@media (width >= 900px) {
+  .columns-banner h2,
+  .columns-banner h3,
+  .columns-banner h4 {
+    font-size: 40px;
+  }
+}
+
+.columns-banner p {
+  color: #fff;
+  margin: 0;
+}
+
+/* Heading + intro on the left, button on the right */
+.columns-banner > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (width >= 900px) {
+  .columns-banner > div {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .columns-banner > div > div:first-child {
+    flex: 1;
+  }
+
+  .columns-banner > div > div:last-child {
+    flex: 0 0 auto;
+  }
+}
+
+/* White-outline button on the right. High specificity (section :has + block)
+   so it overrides the global section-intro rule that would otherwise strip
+   .button-container a.button down to a plain blue text link with a chevron. */
+main .section:has(.columns-banner) .columns-banner .button-container {
+  margin: 0;
+}
+
+main .section:has(.columns-banner) .columns-banner a:any-link,
+main .section:has(.columns-banner) .columns-banner .button-container a.button:any-link {
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 14px 28px;
+  background: transparent;
+  color: #fff;
+  font-size: var(--body-font-size-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+main .section:has(.columns-banner) .columns-banner .button-container a.button:any-link::after {
+  content: none;
+}
+
+main .section:has(.columns-banner) .columns-banner a:hover,
+main .section:has(.columns-banner) .columns-banner .button-container a.button:hover {
+  background: #fff;
+  color: #338700;
+}
+
+main .section:has(.columns-banner.dark) .columns-banner a:hover,
+main .section:has(.columns-banner.dark) .columns-banner .button-container a.button:hover {
+  color: var(--dark-color);
+}

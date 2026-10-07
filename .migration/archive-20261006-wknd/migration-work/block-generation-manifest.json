@@ -1,0 +1,227 @@
+[
+  {
+    "block": "columns-hero",
+    "baseBlock": "columns",
+    "status": "augment",
+    "newOptions": [],
+    "missingFiles": [
+      "readme"
+    ],
+    "targetDir": "/backups/angulito/aem-test/repo/blocks/columns-hero",
+    "targetFiles": {
+      "js": "/backups/angulito/aem-test/repo/blocks/columns-hero/columns-hero.js",
+      "css": "/backups/angulito/aem-test/repo/blocks/columns-hero/columns-hero.css",
+      "metadata": "/backups/angulito/aem-test/repo/blocks/columns-hero/metadata.json",
+      "readme": "/backups/angulito/aem-test/repo/blocks/columns-hero/README.md"
+    },
+    "canonicalModel": "standalone",
+    "projectType": "da",
+    "sourceUrl": "https://www.wknd-trendsetters.site/",
+    "screenshots": [
+      "migration-work/screenshot.png"
+    ],
+    "blockContent": {
+      "description": "Text (H1, subheading, 2 CTAs) beside a group of 3 images",
+      "contentModel": "1 row, 2 columns: [h1 + p + 2 links] | [3 images]",
+      "selector": "#main-content > header.section.secondary-section"
+    },
+    "sectionMetadata": {
+      "style": "grey"
+    },
+    "visualCharacteristics": "Text (H1, subheading, 2 CTAs) beside a group of 3 images",
+    "contentPattern": "1 row, 2 columns: [h1 + p + 2 links] | [3 images]",
+    "options": []
+  },
+  {
+    "block": "columns-meta",
+    "baseBlock": "columns",
+    "status": "augment",
+    "newOptions": [],
+    "missingFiles": [
+      "readme"
+    ],
+    "targetDir": "/backups/angulito/aem-test/repo/blocks/columns-meta",
+    "targetFiles": {
+      "js": "/backups/angulito/aem-test/repo/blocks/columns-meta/columns-meta.js",
+      "css": "/backups/angulito/aem-test/repo/blocks/columns-meta/columns-meta.css",
+      "metadata": "/backups/angulito/aem-test/repo/blocks/columns-meta/metadata.json",
+      "readme": "/backups/angulito/aem-test/repo/blocks/columns-meta/README.md"
+    },
+    "canonicalModel": "standalone",
+    "projectType": "da",
+    "sourceUrl": "https://www.wknd-trendsetters.site/",
+    "screenshots": [
+      "migration-work/screenshot.png"
+    ],
+    "blockContent": {
+      "description": "Large image beside breadcrumbs, H2, byline and date meta",
+      "contentModel": "1 row, 2 columns: [image] | [breadcrumb links paragraph + h2 + byline paragraph + date/read-time paragraph]",
+      "selector": "#main-content > section.section:nth-of-type(1)"
+    },
+    "sectionMetadata": null,
+    "visualCharacteristics": "Large image beside breadcrumbs, H2, byline and date meta",
+    "contentPattern": "1 row, 2 columns: [image] | [breadcrumb links paragraph + h2 + byline paragraph + date/read-time paragraph]",
+    "options": []
+  },
+  {
+    "block": "cards-snapshot",
+    "baseBlock": "cards",
+    "status": "augment",
+    "newOptions": [],
+    "missingFiles": [
+      "readme"
+    ],
+    "targetDir": "/backups/angulito/aem-test/repo/blocks/cards-snapshot",
+    "targetFiles": {
+      "js": "/backups/angulito/aem-test/repo/blocks/cards-snapshot/cards-snapshot.js",
+      "css": "/backups/angulito/aem-test/repo/blocks/cards-snapshot/cards-snapshot.css",
+      "metadata": "/backups/angulito/aem-test/repo/blocks/cards-snapshot/metadata.json",
+      "readme": "/backups/angulito/aem-test/repo/blocks/cards-snapshot/README.md"
+    },
+    "canonicalModel": "standalone",
+    "projectType": "da",
+    "sourceUrl": "https://www.wknd-trendsetters.site/",
+    "screenshots": [
+      "migration-work/screenshot.png"
+    ],
+    "blockContent": {
+      "description": "Grid of 8 square image-only items",
+      "contentModel": "8 rows, 1 column each: [image]",
+      "selector": "#main-content > section.section.secondary-section:nth-of-type(2)"
+    },
+    "sectionMetadata": {
+      "style": "grey"
+    },
+    "visualCharacteristics": "Grid of 8 square image-only items",
+    "contentPattern": "8 rows, 1 column each: [image]",
+    "options": []
+  },
+  {
+    "block": "tabs-people",
+    "baseBlock": "tabs",
+    "status": "augment",
+    "newOptions": [],
+    "missingFiles": [
+      "readme"
+    ],
+    "targetDir": "/backups/angulito/aem-test/repo/blocks/tabs-people",
+    "targetFiles": {
+      "js": "/backups/angulito/aem-test/repo/blocks/tabs-people/tabs-people.js",
+      "css": "/backups/angulito/aem-test/repo/blocks/tabs-people/tabs-people.css",
+      "metadata": "/backups/angulito/aem-test/repo/blocks/tabs-people/metadata.json",
+      "readme": "/backups/angulito/aem-test/repo/blocks/tabs-people/README.md"
+    },
+    "canonicalModel": "standalone",
+    "projectType": "da",
+    "sourceUrl": "https://www.wknd-trendsetters.site/",
+    "screenshots": [
+      "migration-work/screenshot.png"
+    ],
+    "blockContent": {
+      "description": "Testimonial switcher with 4 avatar-labelled tabs and panels (photo + name + role + quote)",
+      "contentModel": "4 rows, 2 columns: [tab label: avatar image + bold name + role] | [panel: photo + bold name + role + quote paragraph]",
+      "selector": "#main-content > section.section:nth-of-type(3)"
+    },
+    "sectionMetadata": null,
+    "visualCharacteristics": "Testimonial switcher with 4 avatar-labelled tabs and panels (photo + name + role + quote)",
+    "contentPattern": "4 rows, 2 columns: [tab label: avatar image + bold name + role] | [panel: photo + bold name + role + quote paragraph]",
+    "options": []
+  },
+  {
+    "block": "cards-latest",
+    "baseBlock": "cards",
+    "status": "augment",
+    "newOptions": [],
+    "missingFiles": [
+      "readme"
+    ],
+    "targetDir": "/backups/angulito/aem-test/repo/blocks/cards-latest",
+    "targetFiles": {
+      "js": "/backups/angulito/aem-test/repo/blocks/cards-latest/cards-latest.js",
+      "css": "/backups/angulito/aem-test/repo/blocks/cards-latest/cards-latest.css",
+      "metadata": "/backups/angulito/aem-test/repo/blocks/cards-latest/metadata.json",
+      "readme": "/backups/angulito/aem-test/repo/blocks/cards-latest/README.md"
+    },
+    "canonicalModel": "standalone",
+    "projectType": "da",
+    "sourceUrl": "https://www.wknd-trendsetters.site/",
+    "screenshots": [
+      "migration-work/screenshot.png"
+    ],
+    "blockContent": {
+      "description": "4 linked article items (image, tag, date, title)",
+      "contentModel": "4 rows, 2 columns: [image] | [tag paragraph + date paragraph + h3 linked title]",
+      "selector": "#main-content > section.section.secondary-section:nth-of-type(4)"
+    },
+    "sectionMetadata": {
+      "style": "grey"
+    },
+    "visualCharacteristics": "4 linked article items (image, tag, date, title)",
+    "contentPattern": "4 rows, 2 columns: [image] | [tag paragraph + date paragraph + h3 linked title]",
+    "options": []
+  },
+  {
+    "block": "accordion-questions",
+    "baseBlock": "accordion",
+    "status": "augment",
+    "newOptions": [],
+    "missingFiles": [
+      "readme"
+    ],
+    "targetDir": "/backups/angulito/aem-test/repo/blocks/accordion-questions",
+    "targetFiles": {
+      "js": "/backups/angulito/aem-test/repo/blocks/accordion-questions/accordion-questions.js",
+      "css": "/backups/angulito/aem-test/repo/blocks/accordion-questions/accordion-questions.css",
+      "metadata": "/backups/angulito/aem-test/repo/blocks/accordion-questions/metadata.json",
+      "readme": "/backups/angulito/aem-test/repo/blocks/accordion-questions/README.md"
+    },
+    "canonicalModel": "standalone",
+    "projectType": "da",
+    "sourceUrl": "https://www.wknd-trendsetters.site/",
+    "screenshots": [
+      "migration-work/screenshot.png"
+    ],
+    "blockContent": {
+      "description": "4 expandable question/answer items",
+      "contentModel": "4 rows, 2 columns: [question] | [answer paragraph]",
+      "selector": "#main-content > section.section:nth-of-type(5)"
+    },
+    "sectionMetadata": null,
+    "visualCharacteristics": "4 expandable question/answer items",
+    "contentPattern": "4 rows, 2 columns: [question] | [answer paragraph]",
+    "options": []
+  },
+  {
+    "block": "hero-story",
+    "baseBlock": "hero",
+    "status": "augment",
+    "newOptions": [],
+    "missingFiles": [
+      "readme"
+    ],
+    "targetDir": "/backups/angulito/aem-test/repo/blocks/hero-story",
+    "targetFiles": {
+      "js": "/backups/angulito/aem-test/repo/blocks/hero-story/hero-story.js",
+      "css": "/backups/angulito/aem-test/repo/blocks/hero-story/hero-story.css",
+      "metadata": "/backups/angulito/aem-test/repo/blocks/hero-story/metadata.json",
+      "readme": "/backups/angulito/aem-test/repo/blocks/hero-story/README.md"
+    },
+    "canonicalModel": "standalone",
+    "projectType": "da",
+    "sourceUrl": "https://www.wknd-trendsetters.site/",
+    "screenshots": [
+      "migration-work/screenshot.png"
+    ],
+    "blockContent": {
+      "description": "Banner card with background photo + overlay, heading, paragraph, one CTA",
+      "contentModel": "Row 1: [background image]; Row 2: [h2 + paragraph + link]",
+      "selector": "#main-content > section.section.inverse-section"
+    },
+    "sectionMetadata": {
+      "style": "dark"
+    },
+    "visualCharacteristics": "Banner card with background photo + overlay, heading, paragraph, one CTA",
+    "contentPattern": "Row 1: [background image]; Row 2: [h2 + paragraph + link]",
+    "options": []
+  }
+]

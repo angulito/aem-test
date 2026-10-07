@@ -1,0 +1,55 @@
+/* Brand tokens extracted from the Adobe Express webpage (Jamaica travel guide) */
+:root {
+  /* colors */
+  --background-color: #ffef36;
+  --text-color: #111a0b;
+  --heading-color: #006e04;
+  --subheading-color: #000;
+  --link-color: #006e04;
+  --link-hover-color: #004d03;
+  --hero-text-color: #ffee35;
+  --rule-color: rgb(0 110 4 / 90%);
+  --dark-color: #484848;
+  --light-color: #fff7a8;
+
+  /* fonts (Adobe Fonts kit lid8wnz) */
+  --heading-font-family: poplar-std, poplar-std-fallback, sans-serif;
+  --body-font-family: pt-sans, pt-sans-fallback, sans-serif;
+
+  /* body sizes (mobile) */
+  --body-font-size-m: 17px;
+  --body-font-size-s: 15px;
+  --body-font-size-xs: 14px;
+  --body-line-height: 1.6;
+
+  /* heading sizes (mobile) */
+  --heading-font-size-xxl: 46px;
+  --heading-font-size-xl: 33px;
+  --heading-font-size-l: 21px;
+  --heading-font-size-m: 20px;
+  --heading-font-size-s: 18px;
+  --heading-font-size-xs: 16px;
+  --quote-font-size: 21px;
+
+  /* spacing */
+  --content-max-width: 720px;
+  --section-padding: 40px;
+  --block-gap: 20px;
+  --gutter: 27px;
+  --nav-height: 0px;
+}
+
+@media (width >= 900px) {
+  :root {
+    --body-font-size-m: 19px;
+    --heading-font-size-xxl: 86px;
+    --heading-font-size-xl: 55px;
+    --heading-font-size-l: 28px;
+    --heading-font-size-m: 24px;
+    --heading-font-size-s: 20px;
+    --heading-font-size-xs: 18px;
+    --quote-font-size: 29px;
+    --section-padding: 80px;
+    --block-gap: 40px;
+  }
+}

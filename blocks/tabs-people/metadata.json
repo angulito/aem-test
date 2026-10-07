@@ -1,0 +1,39 @@
+{
+  "variantName": "tabs-people",
+  "baseBlock": "tabs",
+  "version": "1.0.0",
+  "created": "2026-09-03T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "originPage": "home page testimonial tabs",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "testimonial",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "tab label (avatar + name + role) | panel (photo + name + role + quote)",
+    "buttonCount": 4,
+    "imageCount": 8
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "testimonial / people switchers with avatar tab labels",
+      "profile spotlights toggled via tabs"
+    ],
+    "notSuitableFor": [
+      "simple text-only tabbed content",
+      "FAQ accordions"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-06T13:22:48.653789Z"
+  }
+}

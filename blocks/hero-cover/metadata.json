@@ -1,0 +1,24 @@
+{
+  "variantName": "hero-cover",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "description": "Full-viewport (100vh) cover photo with dark overlay, centered huge uppercase condensed display h1, small uppercase byline. No CTA.",
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "page-title-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "row 1 background image; row 2 heading (h1) + subheading/byline (+ optional CTA)",
+    "imageCount": 1,
+    "buttonCount": 0
+  },
+  "options": [],
+  "memberVariantIds": ["hero-cover"],
+  "usage": {
+    "pagesUsing": ["/webpage/dyft29wzo0qlk"],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-06T00:00:00.000Z"
+  }
+}

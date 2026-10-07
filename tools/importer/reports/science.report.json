@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://www.abbvie.com/science.html",
+  "path": "science",
+  "timestamp": "2026-06-10T10:09:50.535Z",
+  "title": "Our R&D Approach | AbbVie",
+  "template": "science",
+  "blocks": [
+    "hero-patient",
+    "cards-dashboard",
+    "cards-dashboard",
+    "cards-dashboard",
+    "video-featured",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-quote",
+    "accordion-faq"
+  ]
+}

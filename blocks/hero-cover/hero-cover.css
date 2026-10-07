@@ -1,0 +1,113 @@
+/* hero-cover: full-viewport cover photo with a centered title + byline.
+ * Values from source computed styles (.article > .section.title-section). */
+
+/* full-bleed: escape the section content width */
+main > .section > .hero-cover-wrapper {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-cover {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding: 32px 5%;
+  overflow: hidden;
+  isolation: isolate;
+  background-color: var(--dark-color);
+  text-align: center;
+}
+
+/* background photo: covers the viewport, centered (source background-size: cover; 50% 50%) */
+.hero-cover .hero-cover-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.hero-cover .hero-cover-media picture,
+.hero-cover .hero-cover-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-cover .hero-cover-media img {
+  max-width: none;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* title group (source hgroup.title-header-view: inline-block, max-width 89%) */
+.hero-cover .hero-cover-content {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 89%;
+}
+
+/* dark band behind the title (source span.gradient-overlay: inset -200% -25%) */
+.hero-cover .hero-cover-gradient {
+  position: absolute;
+  inset: -200% -25%;
+  display: block;
+  background-image: linear-gradient(
+    0deg,
+    rgb(0 0 0 / 0%) 0%,
+    rgb(0 0 0 / 25%) 25%,
+    rgb(0 0 0 / 50%) 50%,
+    rgb(0 0 0 / 25%) 75%,
+    rgb(0 0 0 / 0%) 100%
+  );
+  pointer-events: none;
+}
+
+.hero-cover .hero-cover-content > :not(.hero-cover-gradient) {
+  position: relative;
+}
+
+.hero-cover h1 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-xxl);
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--hero-text-color);
+  text-shadow: rgb(0 0 0 / 25%) 0 2px 2px;
+}
+
+.hero-cover .hero-cover-content > p {
+  margin: 16px 0 0;
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: var(--hero-text-color);
+  text-shadow: rgb(0 0 0 / 25%) 0 2px 2px;
+}
+
+.hero-cover.no-image .hero-cover-media {
+  display: none;
+}
+
+@media (width >= 900px) {
+  .hero-cover {
+    padding: 64px 5%;
+  }
+
+  .hero-cover .hero-cover-content > p {
+    font-size: 24px;
+  }
+}
+
+@media (width >= 1200px) {
+  .hero-cover .hero-cover-content {
+    padding: 0 15%;
+  }
+}

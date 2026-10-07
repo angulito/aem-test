@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://www.abbvie.com/patients.html",
+  "path": "patients",
+  "timestamp": "2026-06-09T12:42:43.960Z",
+  "title": "Patients | AbbVie",
+  "template": "patients",
+  "blocks": [
+    "hero-patient",
+    "video-featured",
+    "video-featured",
+    "video-featured",
+    "video-featured",
+    "embed-video",
+    "embed-video",
+    "embed-video",
+    "embed-video",
+    "embed-video",
+    "columns-banner",
+    "cards-dashboard",
+    "columns-patient",
+    "columns-patient"
+  ]
+}

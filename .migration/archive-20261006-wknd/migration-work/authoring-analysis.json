@@ -1,0 +1,333 @@
+{
+  "url": "https://www.wknd-trendsetters.site/",
+  "template": "home",
+  "documentPath": "/index",
+  "projectType": "da",
+  "sections": [
+    {
+      "id": 1,
+      "selector": "#main-content > header.section.secondary-section",
+      "hint": "block",
+      "style": "grey",
+      "sectionMetadata": {
+        "style": "grey"
+      },
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Text (H1, subheading, 2 CTAs) beside a group of 3 images",
+          "decision": "block",
+          "blockName": "columns-hero",
+          "reason": "hint=block. Side-by-side split layout (text | image group) cannot be typed as default content. No full-bleed background image, so columns fits better than hero.",
+          "contentModel": "1 row, 2 columns: [h1 + p + 2 links] | [3 images]",
+          "baseBlock": "columns",
+          "blockVariant": "columns-hero",
+          "variantDecision": {
+            "action": "reuse",
+            "similarity": 1.0,
+            "runnerUp": [
+              0.579,
+              "columns-featured"
+            ],
+            "visualContext": {
+              "colorScheme": "grey",
+              "density": "spacious",
+              "purpose": "hero",
+              "imagePattern": "large",
+              "structure": "heading + subheading + 2 CTAs | image group"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "selector": "#main-content > section.section:nth-of-type(1)",
+      "hint": "block",
+      "style": "light",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Large image beside breadcrumbs, H2, byline and date meta",
+          "decision": "block",
+          "blockName": "columns-meta",
+          "reason": "hint=block. Image | text side-by-side layout requires columns structure.",
+          "contentModel": "1 row, 2 columns: [image] | [breadcrumb links paragraph + h2 + byline paragraph + date/read-time paragraph]",
+          "baseBlock": "columns",
+          "blockVariant": "columns-meta",
+          "variantDecision": {
+            "action": "reuse",
+            "similarity": 1.0,
+            "runnerUp": [
+              0.429,
+              "columns-feature"
+            ],
+            "visualContext": {
+              "colorScheme": "light",
+              "density": "wide",
+              "purpose": "feature",
+              "imagePattern": "large",
+              "structure": "image | breadcrumbs + heading + author + date meta"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "selector": "#main-content > section.section.secondary-section:nth-of-type(2)",
+      "hint": "block",
+      "style": "grey",
+      "sectionMetadata": {
+        "style": "grey"
+      },
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Centered heading and tagline",
+          "decision": "default-content",
+          "reason": "Author types an H2 and a paragraph; centering is CSS."
+        },
+        {
+          "id": 2,
+          "description": "Grid of 8 square image-only items",
+          "decision": "block",
+          "blockName": "cards-snapshot",
+          "reason": "Repeating grid of uniform items; obvious cards match (image-only cards, one row per image).",
+          "contentModel": "8 rows, 1 column each: [image]",
+          "baseBlock": "cards",
+          "blockVariant": "cards-snapshot",
+          "variantDecision": {
+            "action": "reuse",
+            "similarity": 1.0,
+            "runnerUp": [
+              0.55,
+              "cards-latest"
+            ],
+            "visualContext": {
+              "colorScheme": "grey",
+              "density": "compact",
+              "purpose": "gallery",
+              "imagePattern": "large",
+              "structure": "grid of image-only cards (8 items, 4 per row)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "selector": "#main-content > section.section:nth-of-type(3)",
+      "hint": "block",
+      "style": "light",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Testimonial switcher with 4 avatar-labelled tabs and panels (photo + name + role + quote)",
+          "decision": "block",
+          "blockName": "tabs-people",
+          "reason": "Interactive switchable panels; obvious tabs match.",
+          "contentModel": "4 rows, 2 columns: [tab label: avatar image + bold name + role] | [panel: photo + bold name + role + quote paragraph]",
+          "baseBlock": "tabs",
+          "blockVariant": "tabs-people",
+          "variantDecision": {
+            "action": "reuse",
+            "similarity": 1.0,
+            "runnerUp": [
+              0.875,
+              "tabs-testimonial"
+            ],
+            "visualContext": {
+              "colorScheme": "light",
+              "density": "spacious",
+              "purpose": "testimonial",
+              "imagePattern": "large",
+              "structure": "tab label (avatar + name + role) | panel (photo + name + role + quote)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "selector": "#main-content > section.section.secondary-section:nth-of-type(4)",
+      "hint": "block",
+      "style": "grey",
+      "sectionMetadata": {
+        "style": "grey"
+      },
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Centered heading and tagline",
+          "decision": "default-content",
+          "reason": "Author types an H2 and a paragraph."
+        },
+        {
+          "id": 2,
+          "description": "4 linked article items (image, tag, date, title)",
+          "decision": "block",
+          "blockName": "cards-latest",
+          "reason": "Repeating structured items; obvious cards match.",
+          "contentModel": "4 rows, 2 columns: [image] | [tag paragraph + date paragraph + h3 linked title]",
+          "baseBlock": "cards",
+          "blockVariant": "cards-latest",
+          "variantDecision": {
+            "action": "reuse",
+            "similarity": 1.0,
+            "runnerUp": [
+              0.55,
+              "cards-snapshot"
+            ],
+            "visualContext": {
+              "colorScheme": "grey",
+              "density": "compact",
+              "purpose": "article",
+              "imagePattern": "large",
+              "structure": "grid of article cards (image + tag + date + title), 4 items"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "selector": "#main-content > section.section:nth-of-type(5)",
+      "hint": "block",
+      "style": "light",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "id": 1,
+          "description": "H2 and subheading (left side of 2-column layout)",
+          "decision": "default-content",
+          "reason": "Author types heading and paragraph. The side-by-side placement next to the accordion is a section-level CSS concern (block CSS / section layout), not a reason to wrap in columns."
+        },
+        {
+          "id": 2,
+          "description": "4 expandable question/answer items",
+          "decision": "block",
+          "blockName": "accordion-questions",
+          "reason": "Interactive expand/collapse; obvious accordion match.",
+          "contentModel": "4 rows, 2 columns: [question] | [answer paragraph]",
+          "baseBlock": "accordion",
+          "blockVariant": "accordion-questions",
+          "variantDecision": {
+            "action": "reuse",
+            "similarity": 1.0,
+            "runnerUp": [
+              0.65,
+              "accordion-faq"
+            ],
+            "visualContext": {
+              "colorScheme": "light",
+              "density": "compact",
+              "purpose": "faq",
+              "imagePattern": "noimg",
+              "structure": "question | answer, 4 expandable items"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "selector": "#main-content > section.section.inverse-section",
+      "hint": "block",
+      "style": "dark",
+      "sectionMetadata": {
+        "style": "dark"
+      },
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Banner card with background photo + overlay, heading, paragraph, one CTA",
+          "decision": "block",
+          "blockName": "hero-story",
+          "reason": "hint=block. Text overlaid on background image requires hero structure.",
+          "contentModel": "Row 1: [background image]; Row 2: [h2 + paragraph + link]",
+          "baseBlock": "hero",
+          "blockVariant": "hero-story",
+          "variantDecision": {
+            "action": "reuse",
+            "similarity": 1.0,
+            "runnerUp": [
+              0.67,
+              "hero-banner"
+            ],
+            "visualContext": {
+              "colorScheme": "dark",
+              "density": "spacious",
+              "purpose": "hero",
+              "imagePattern": "large",
+              "structure": "background image + heading + subheading + 1 CTA"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "blockStructuresFetched": {
+    "columns": "Rows of N columns; each cell holds arbitrary content (text, images)",
+    "cards": "One row per card; [image] | [heading + paragraphs], or single-cell rows",
+    "tabs": "One row per tab; [label] | [panel content]",
+    "accordion": "One row per item; [label] | [body]",
+    "hero": "Single cell: image + heading + paragraphs (image may be a separate first row)"
+  },
+  "sectionStylingValidation": [
+    {
+      "section": 1,
+      "block": "columns",
+      "background": "Solid light grey, content padded within container",
+      "q1_imageBackground": false,
+      "q2_fullBleed": false,
+      "q3_blockHasOwnBackground": false,
+      "decision": "KEEP section-metadata style=grey",
+      "reason": "Solid section color with visible padding provides container styling"
+    },
+    {
+      "section": 2,
+      "block": "columns",
+      "background": "White (default)",
+      "decision": "No section-metadata",
+      "reason": "Default background; nothing to style"
+    },
+    {
+      "section": 4,
+      "block": "tabs",
+      "background": "White (default)",
+      "decision": "No section-metadata",
+      "reason": "Default background; nothing to style"
+    },
+    {
+      "section": 7,
+      "block": "hero",
+      "background": "Solid black section around an inset rounded card that has its own background photo + overlay",
+      "q1_imageBackground": "The card has an image background (block design), but the surrounding black area is a section color",
+      "q2_fullBleed": false,
+      "q3_blockHasOwnBackground": true,
+      "decision": "KEEP section-metadata style=dark",
+      "reason": "Visible black padding around the inset banner is section container styling; the photo/overlay belongs to the hero block. Kept per 'when in doubt keep' guidance."
+    }
+  ],
+  "metadata": {
+    "title": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters."
+  },
+  "variantMapping": {
+    "s1.1:columns": "columns-hero",
+    "s2.1:columns": "columns-meta",
+    "s3.2:cards": "cards-snapshot",
+    "s4.1:tabs": "tabs-people",
+    "s5.2:cards": "cards-latest",
+    "s6.2:accordion": "accordion-questions",
+    "s7.1:hero": "hero-story"
+  },
+  "variantCatalog": {
+    "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json",
+    "vanillaBlocks": 10,
+    "customBlocks": 33
+  }
+}

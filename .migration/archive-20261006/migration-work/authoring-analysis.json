@@ -1,0 +1,232 @@
+{
+  "url": "https://www.wknd-trendsetters.site/",
+  "template": "home",
+  "targetPage": "angulohe-trebdwknd-v15",
+  "projectType": "da",
+  "analyzedAt": "2026-09-03",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "selector": "main > header.secondary-section",
+      "visualStyle": "grey/secondary-section background, solid color, padded container",
+      "sectionMetadata": {
+        "keep": true,
+        "style": "secondary",
+        "reason": "Solid grey background with visible section padding; columns block inherits container styling (Step 3e KEEP)."
+      },
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Left column: heading, subheading, two CTA buttons. Right column: group of three stacked cover images.",
+          "decision": "block",
+          "blockName": "columns-hero",
+          "reason": "Side-by-side split layout (text+CTAs beside an image group) requires column structure; obvious match with Columns.",
+          "matchType": "obvious",
+          "hintApplied": "block",
+          "genericBlockName": "columns",
+          "blockVariant": "columns-hero"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "selector": "main > section:nth-of-type(1)",
+      "visualStyle": "white default background",
+      "sectionMetadata": {
+        "keep": false,
+        "reason": "Default white background; no section-metadata needed (single block, no distinct styling)."
+      },
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Two columns: large cover image on the left; breadcrumbs, heading, author name and date/read-time meta on the right.",
+          "decision": "block",
+          "blockName": "columns-meta",
+          "reason": "Image beside a stack of text/meta is a side-by-side layout; obvious match with Columns.",
+          "matchType": "obvious",
+          "hintApplied": "block",
+          "genericBlockName": "columns",
+          "blockVariant": "columns-meta"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "selector": "main > section:nth-of-type(2)",
+      "visualStyle": "grey/secondary-section background",
+      "sectionMetadata": {
+        "keep": true,
+        "style": "secondary",
+        "reason": "Multi-sequence section on grey background; styling applies to all content."
+      },
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Centered heading 'Style in every snapshot' and lead paragraph.",
+          "decision": "default-content",
+          "reason": "Author types a heading and a paragraph normally.",
+          "hintApplied": "block"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Responsive grid of eight square images (four per row on desktop), images only, no captions.",
+          "decision": "block",
+          "blockName": "cards-snapshot",
+          "reason": "Repeating grid of uniform image items requires block structure; Cards models distinct repeatable items (image-only cards).",
+          "matchType": "obvious",
+          "hintApplied": "block",
+          "genericBlockName": "cards",
+          "blockVariant": "cards-snapshot"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "selector": "main > section:nth-of-type(3)",
+      "visualStyle": "white default background",
+      "sectionMetadata": {
+        "keep": false,
+        "reason": "Default white background; tabs sit on plain background, no section-metadata needed (Step 3e SKIP - no distinct styling)."
+      },
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Interactive tabbed testimonial component with four switchable panels; each panel shows a large photo, name, role and quote; tab controls are avatar+name+role buttons.",
+          "decision": "block",
+          "blockName": "tabs-people",
+          "reason": "Interactive switchable content panels require decoration; obvious match with Tabs.",
+          "matchType": "obvious",
+          "hintApplied": "block",
+          "genericBlockName": "tabs",
+          "blockVariant": "tabs-people"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 5,
+      "selector": "main > section:nth-of-type(4)",
+      "visualStyle": "grey/secondary-section background",
+      "sectionMetadata": {
+        "keep": true,
+        "style": "secondary",
+        "reason": "Multi-sequence section on grey background; styling applies to all content."
+      },
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Centered heading 'Latest articles' and lead paragraph.",
+          "decision": "default-content",
+          "reason": "Author types a heading and a paragraph normally.",
+          "hintApplied": "block"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Grid of four article cards, each with image, category tag, date and title, linked.",
+          "decision": "block",
+          "blockName": "cards-latest",
+          "reason": "Repeating structured article items (image + tag + date + title) is a classic card grid; obvious match with Cards.",
+          "matchType": "obvious",
+          "hintApplied": "block",
+          "genericBlockName": "cards",
+          "blockVariant": "cards-latest"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 6,
+      "selector": "main > section:nth-of-type(5)",
+      "visualStyle": "white default background",
+      "sectionMetadata": {
+        "keep": false,
+        "reason": "Default white background; multi-sequence but no distinct background color."
+      },
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Heading 'Got questions? We've got answers.' with subheading 'Fashion FAQs, answered fast'.",
+          "decision": "default-content",
+          "reason": "Author types a heading and a subheading normally.",
+          "hintApplied": "block"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Four expandable FAQ items, each a question that toggles to reveal an answer.",
+          "decision": "block",
+          "blockName": "accordion-questions",
+          "reason": "Expandable Q&A pairs require toggle decoration; obvious match with Accordion.",
+          "matchType": "obvious",
+          "hintApplied": "block",
+          "genericBlockName": "accordion",
+          "blockVariant": "accordion-questions"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 7,
+      "selector": "main > section:nth-of-type(6)",
+      "visualStyle": "dark inverse-section with full-bleed background image and dark overlay",
+      "sectionMetadata": {
+        "keep": false,
+        "reason": "Background is a full-bleed image with overlay - block-specific hero design, not section container styling (Step 3e SKIP)."
+      },
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Full-width banner: background image with dark overlay, overlaid heading, subheading and a single CTA button.",
+          "decision": "block",
+          "blockName": "hero-story",
+          "reason": "Full-width banner with background image and overlaid headline/CTA; obvious match with Hero.",
+          "matchType": "obvious",
+          "hintApplied": "block",
+          "genericBlockName": "hero",
+          "blockVariant": "hero-story"
+        }
+      ]
+    }
+  ],
+  "blocksToUse": [
+    "columns-hero",
+    "columns-meta",
+    "cards-snapshot",
+    "tabs-people",
+    "cards-latest",
+    "accordion-questions",
+    "hero-story"
+  ],
+  "blockStructuresFetched": {
+    "columns": "Rows of N columns; each column holds image or text/links.",
+    "cards": "Each card = 1 row; col1 image, col2 heading+paragraph (image-only cards use just the image cell).",
+    "tabs": "Each tab = 1 row; col1 label, col2 panel content.",
+    "accordion": "Each item = 1 row; col1 question/title, col2 answer content.",
+    "hero": "1 row/1 column containing background image + heading + subheading + CTA."
+  },
+  "variantMapping": {
+    "columns": [
+      "columns-hero (section 1)",
+      "columns-meta (section 2)"
+    ],
+    "cards": [
+      "cards-snapshot (section 3)",
+      "cards-latest (section 5)"
+    ],
+    "tabs": [
+      "tabs-people (section 4)"
+    ],
+    "accordion": [
+      "accordion-questions (section 6)"
+    ],
+    "hero": [
+      "hero-story (section 7)"
+    ]
+  },
+  "variantsCreated": [
+    "columns-hero",
+    "columns-meta",
+    "cards-snapshot",
+    "tabs-people",
+    "cards-latest",
+    "accordion-questions",
+    "hero-story"
+  ],
+  "variantsReused": []
+}

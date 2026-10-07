@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-09-03T09:15:10.042Z",
+  "threshold": 0.9,
+  "summary": {
+    "total": 1,
+    "flagged": 0,
+    "passed": 1
+  },
+  "pages": [
+    {
+      "path": "angulohe-trebdwknd-v15",
+      "url": "https://www.wknd-trendsetters.site/",
+      "score": 0.9327,
+      "status": "pass"
+    }
+  ]
+}

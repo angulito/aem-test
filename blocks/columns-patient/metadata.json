@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-patient",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-09T11:58:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/patients.html",
+    "originPage": "AbbVie patients landing page",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature-grid",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading/intro column beside a grid of repeating image + header + paragraph + optional CTA feature items (4 features)",
+    "buttonCount": 2,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "heading/intro column placed beside a grid of image+text feature items",
+      "patient/program highlight grids with multiple image+text features",
+      "two-region layouts mixing an intro column and a multi-item feature grid"
+    ],
+    "notSuitableFor": [
+      "single large image + text feature highlight (use columns-feature)",
+      "text + CTA colored banners (use columns-banner)",
+      "card-based listings (use cards variants)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/patients"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-09T11:58:00.000Z"
+  }
+}

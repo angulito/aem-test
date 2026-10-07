@@ -1,0 +1,49 @@
+{
+  "variant": "hero-story",
+  "generatedAt": "2026-10-06T14:22:57.413Z",
+  "instanceCount": 1,
+  "repeatingUnitConsensus": "tag:div",
+  "hasInvalidNesting": false,
+  "warnings": [],
+  "instances": [
+    {
+      "file": "source.html",
+      "root": {
+        "tag": "div",
+        "classes": [
+          "grid-layout",
+          "desktop-1-column"
+        ]
+      },
+      "directChildren": [
+        "div.utility-overflow-clip.utility-position-relative.utility-radius-card"
+      ],
+      "directChildCount": 1,
+      "repeatingUnits": [
+        {
+          "signature": "tag:div",
+          "count": 2,
+          "depth": 1,
+          "parentSignature": "div.utility-overflow-clip.utility-position-relative.utility-radius-card",
+          "iterationSafe": true,
+          "innerUnits": [],
+          "ancestorSignatures": [
+            "div.desktop-1-column.grid-layout",
+            "div.utility-overflow-clip.utility-position-relative.utility-radius-card"
+          ],
+          "nestedInsideRepeatingUnit": false
+        }
+      ],
+      "invalidNesting": [],
+      "content": {
+        "images": 1,
+        "links": 1,
+        "headings": 1,
+        "paragraphs": 1,
+        "lists": 0,
+        "buttons": 0
+      },
+      "warnings": []
+    }
+  ]
+}

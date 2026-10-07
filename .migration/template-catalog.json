@@ -1,0 +1,873 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "representativePages": [
+        "https://www.abbvie.com/"
+      ],
+      "urls": [
+        "https://www.abbvie.com/"
+      ],
+      "description": "Corporate homepage: hero carousel, overlapping press/featured columns, stat dashboards, feature cards, and closing CTA banner"
+    },
+    {
+      "name": "marketing-landing",
+      "representativePages": [
+        "https://www.abbvie.com/MLB.html",
+        "https://www.abbvie.com/science/rd-sites.html",
+        "https://www.abbvie.com/science/pipeline.html#trenibote",
+        "https://www.abbvie.com/science/areas-of-focus/aesthetics.html",
+        "https://www.abbvie.com/science/pipeline.html#imgn151"
+      ],
+      "urls": [
+        "https://www.abbvie.com/MLB.html",
+        "https://www.abbvie.com/aliada-therapeutics.html",
+        "https://www.abbvie.com/allergan.html",
+        "https://www.abbvie.com/cerevel.html",
+        "https://www.abbvie.com/contact-center.html",
+        "https://www.abbvie.com/immunogen.html",
+        "https://www.abbvie.com/join-us.html",
+        "https://www.abbvie.com/join-us/bay-area-opportunities.html",
+        "https://www.abbvie.com/join-us/internships.html",
+        "https://www.abbvie.com/join-us/life-at-abbvie.html",
+        "https://www.abbvie.com/join-us/life-at-abbvie/benefits.html",
+        "https://www.abbvie.com/join-us/life-at-abbvie/employee-resource-groups.html",
+        "https://www.abbvie.com/join-us/life-at-abbvie/employee-resource-groups/abbvie-pride.html",
+        "https://www.abbvie.com/join-us/life-at-abbvie/employee-resource-groups/black-business-network.html",
+        "https://www.abbvie.com/join-us/life-at-abbvie/employee-resource-groups/veterans.html",
+        "https://www.abbvie.com/join-us/life-at-abbvie/well-being-in-the-workplace.html",
+        "https://www.abbvie.com/join-us/opportunities.html",
+        "https://www.abbvie.com/join-us/opportunities/allergan-aesthetics.html",
+        "https://www.abbvie.com/join-us/opportunities/commercial.html",
+        "https://www.abbvie.com/join-us/opportunities/corporate.html",
+        "https://www.abbvie.com/join-us/opportunities/operations.html",
+        "https://www.abbvie.com/join-us/opportunities/research-and-development.html",
+        "https://www.abbvie.com/join-us/postdoctoral-program.html",
+        "https://www.abbvie.com/join-us/student-and-new-graduates/new-graduates-and-entry-level-positions.html",
+        "https://www.abbvie.com/join-us/student-programs.html",
+        "https://www.abbvie.com/join-us/why-abbvie.html",
+        "https://www.abbvie.com/manufacturing-investments.html",
+        "https://www.abbvie.com/mitokinin.html",
+        "https://www.abbvie.com/partnerships-chicago-cubs.html",
+        "https://www.abbvie.com/patients.html",
+        "https://www.abbvie.com/patients/patient-support.html",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance.html",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#--100a",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#--50a",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#actigall",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#actonel",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#acular",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#acular-eye-drops-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#acular-ls",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#acuvail",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#aczonegel-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#aerochamber-plus-flow-vu",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#albalon-aeye-drops-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#albaloneye-drops",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#alloderm",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#alloderm-select",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#alloderm-select-restore",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#alocril",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#alora",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#alphagan-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#alphagan-eye-drops--",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#alphagan-p",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#alphagan-p-15-eye-drops--",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#androderm",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#androgel",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#aquadeks-chewable-tablets",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#aquipta",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#armour-thyroid",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#artia",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#asacol-hd",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#atelvia",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#avage",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#avycaz",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#belkyra",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#bentyl",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#betagan",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#bleph-10",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#blephamide",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#botox",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#botox-cosmetic",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#bystolic",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#canasa",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#carafate",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#celexa",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#cellufresh",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#cellufresh-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#chirocaine-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#chirocane",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#combigan",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#combigan-eye-drops-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#condylox-gel-05",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#constella",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#coolsculpting-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#coolsculpting-and-coolsculpting-elite",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#coolsculpting-elite",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#cooltone",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#creon",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#crinone",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#cui-brand",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#dalvance",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#delzicol",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#depakote",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#depakote-er",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#depakote-sprinkle-capsules",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#duodopa",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#duodopa-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#duopa",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#durysta",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#elahere-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#emblaveo",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#emrelis",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#enablex",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#enidin-eye-drops--",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#epkinly",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#estrace-cream",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#estrostep-fe",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#exocin",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#femhrt",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#fetzima",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#fiorinal",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#fiorinal-with-codeine",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#fml",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#fml-eye-drops",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#fml-forte",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#ganfort",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#ganfort-eye-drops",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#ganfort-pf-eye-drops-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#gelnique",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#generess-fe",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#gengraf-capsules",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#gengraf-oral-solution",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#humira",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#imbruvica",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#infed",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#juvderm-ultra",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#juvderm-ultra-plus-xc",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#juvderm-ultra-xc",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#juvderm-volbella-xc",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#juvderm-vollure-xc",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#juvderm-voluma-xc",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#juvderm-volux-xc",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#k-tab-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#kadian",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#kaletra",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#keller-funnel-2",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#kybella-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lastacaft-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#latisse",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lexapro",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#liletta",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#linzess",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lo-loestrin-fe",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lucrin-depot-and-lucrin-depot-paediatric-pds-injection-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lumigan",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lumigan-eye-drops--",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lumigan-pf-eye-drops--",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lupaneta-pack",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lupron-depot-gyn",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lupron-depot-ped",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#lupron-depot-uro",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#maviret-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#mavyret",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#minastrin-24-fe",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#monurol-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#namenda-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#namenda-xr",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#namzaric",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#natrelle-133-tissue-expander",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#natrelle-breast-implant-sizers",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#natrelle-breast-implants",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#nephro-viterx",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#niaspan",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#nimbex",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#norvir",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#ocuflox",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#ocufloxeye-drops",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#optive-range--",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#oriahnn",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#orilissa",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#oxytrol",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#ozurdex",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#polytrim",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#pred-forte",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#pred-g",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#prednefrinforte-eye-drops--",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#procrin",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#pylera",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#qulipta",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#rapaflo",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#rectiv",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#refresh",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#refresh-range--",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#relestat",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#restasis-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#restasis-multidose",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#revolve-advanced-adipose-system",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#revolve-envi-600-advanced-adipose-system",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#rinvoq",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#saphris",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#savella",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#sevorane",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#sevorane-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#skinmedica",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#skinvive-by-juvderm",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#skyrizi",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#strattice-bps-reconstructive-tissue-matrix",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#strattice-reconstructive-tissue-matrix",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#strattice-reconstructive-tissue-matrix-extra-thick",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#strattice-reconstructive-tissue-matrix-laparoscopic",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#strattice-reconstructive-tissue-matrix-perforated",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#survanta",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#synthroid",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#tarka",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#taytulla",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#teflaro",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#thyrolar-tablets",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#tricor",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#trilipix",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#truetear",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#ubrelvy",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#ultane",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#urso-250-and-urso-forte",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#vaniqa",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#venclexta",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#venclyxto-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#viberzi",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#viekira-pak",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#viibryd",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#viscofresh-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#vraylar",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#vuity",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#vyalev",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#vyalev-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#xen",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#xen-gel-implant-",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#zemplar",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/eligibility-criteria.html#zymaxid",
+        "https://www.abbvie.com/patients/product-quality-and-safety.html",
+        "https://www.abbvie.com/patients/products.html",
+        "https://www.abbvie.com/science.html",
+        "https://www.abbvie.com/science/areas-of-focus.html",
+        "https://www.abbvie.com/science/areas-of-focus/aesthetics.html",
+        "https://www.abbvie.com/science/areas-of-focus/eye-care.html",
+        "https://www.abbvie.com/science/areas-of-focus/immunology.html",
+        "https://www.abbvie.com/science/areas-of-focus/neuroscience.html",
+        "https://www.abbvie.com/science/areas-of-focus/oncology.html",
+        "https://www.abbvie.com/science/areas-of-focus/other-specialties.html",
+        "https://www.abbvie.com/science/areas-of-innovation.html",
+        "https://www.abbvie.com/science/areas-of-innovation/ai-and-data-convergence.html",
+        "https://www.abbvie.com/science/areas-of-innovation/data-convergence.html",
+        "https://www.abbvie.com/science/areas-of-innovation/genomics.html",
+        "https://www.abbvie.com/science/areas-of-innovation/patient-focused-drug-development.html",
+        "https://www.abbvie.com/science/areas-of-innovation/precision-medicine.html",
+        "https://www.abbvie.com/science/areas-of-innovation/therapeutic-modalities-and-platforms.html",
+        "https://www.abbvie.com/science/clinical-trials.html",
+        "https://www.abbvie.com/science/clinical-trials/investigator-initiated-studies.html",
+        "https://www.abbvie.com/science/independent-educational-grants.html",
+        "https://www.abbvie.com/science/our-people.html",
+        "https://www.abbvie.com/science/our-people/behind-the-science.html",
+        "https://www.abbvie.com/science/our-people/community-of-science.html",
+        "https://www.abbvie.com/science/our-people/discovery-files.html",
+        "https://www.abbvie.com/science/our-people/lab-of-the-future.html",
+        "https://www.abbvie.com/science/our-people/science-in-60-seconds.html",
+        "https://www.abbvie.com/science/partner-with-us.html",
+        "https://www.abbvie.com/science/partner-with-us/abbvie-ventures.html",
+        "https://www.abbvie.com/science/partner-with-us/abbvie-ventures/abbvie-ventures-portfolio.html",
+        "https://www.abbvie.com/science/partner-with-us/partnering-days.html",
+        "https://www.abbvie.com/science/pipeline.html",
+        "https://www.abbvie.com/science/pipeline.html#abbv-1042",
+        "https://www.abbvie.com/science/pipeline.html#abbv-2002",
+        "https://www.abbvie.com/science/pipeline.html#abbv-243",
+        "https://www.abbvie.com/science/pipeline.html#abbv-295",
+        "https://www.abbvie.com/science/pipeline.html#abbv-324",
+        "https://www.abbvie.com/science/pipeline.html#abbv-525",
+        "https://www.abbvie.com/science/pipeline.html#abbv-547",
+        "https://www.abbvie.com/science/pipeline.html#abbv-706",
+        "https://www.abbvie.com/science/pipeline.html#abbv-711",
+        "https://www.abbvie.com/science/pipeline.html#abbv-8736",
+        "https://www.abbvie.com/science/pipeline.html#abbv-901",
+        "https://www.abbvie.com/science/pipeline.html#abbv-932",
+        "https://www.abbvie.com/science/pipeline.html#abbv-9832-lutikizumab--ravagalimab",
+        "https://www.abbvie.com/science/pipeline.html#abt-494",
+        "https://www.abbvie.com/science/pipeline.html#agn-193408",
+        "https://www.abbvie.com/science/pipeline.html#elahere",
+        "https://www.abbvie.com/science/pipeline.html#emraclidine",
+        "https://www.abbvie.com/science/pipeline.html#epcoritamab",
+        "https://www.abbvie.com/science/pipeline.html#icalcaprant-abbv-1354",
+        "https://www.abbvie.com/science/pipeline.html#imgn151",
+        "https://www.abbvie.com/science/pipeline.html#lutikizumab",
+        "https://www.abbvie.com/science/pipeline.html#qulipta",
+        "https://www.abbvie.com/science/pipeline.html#surabgene-lomparvovec-abbv-rgx-314",
+        "https://www.abbvie.com/science/pipeline.html#surzetoclax-abbv-453",
+        "https://www.abbvie.com/science/pipeline.html#tavapadon",
+        "https://www.abbvie.com/science/pipeline.html#trenibote",
+        "https://www.abbvie.com/science/rd-sites.html",
+        "https://www.abbvie.com/science/the-case-for-big-bets.html",
+        "https://www.abbvie.com/sustainability.html",
+        "https://www.abbvie.com/sustainability/abbvie-foundation.html",
+        "https://www.abbvie.com/sustainability/abbvie-foundation/addressing-systemic-barriers.html",
+        "https://www.abbvie.com/sustainability/abbvie-foundation/innovative-impact.html",
+        "https://www.abbvie.com/sustainability/disaster-relief.html",
+        "https://www.abbvie.com/sustainability/environmental-social-and-governance.html",
+        "https://www.abbvie.com/sustainability/environmental-social-and-governance/environmental-sustainability.html",
+        "https://www.abbvie.com/sustainability/environmental-social-and-governance/human-capital-management.html",
+        "https://www.abbvie.com/sustainability/philanthropy.html",
+        "https://www.abbvie.com/sustainability/philanthropy/employee-engagement.html",
+        "https://www.abbvie.com/sustainability/philanthropy/philanthropic-programs.html",
+        "https://www.abbvie.com/who-we-are.html",
+        "https://www.abbvie.com/who-we-are/brand-partnerships/cubs.html",
+        "https://www.abbvie.com/who-we-are/brand-partnerships/major-league-baseball.html",
+        "https://www.abbvie.com/who-we-are/operating-with-integrity.html",
+        "https://www.abbvie.com/who-we-are/operating-with-integrity/protecting-human-rights-and-workplace-safety.html",
+        "https://www.abbvie.com/who-we-are/operating-with-integrity/responsible-supply-chain.html",
+        "https://www.abbvie.com/who-we-are/operating-with-integrity/transparency-in-payment.html",
+        "https://www.abbvie.com/who-we-are/our-principles.html",
+        "https://www.abbvie.com/who-we-are/our-principles/equity-equality-inclusion-diversity.html",
+        "https://www.abbvie.com/who-we-are/our-principles/equity-equality-inclusion-diversity/impact-through-inclusion.html",
+        "https://www.abbvie.com/who-we-are/our-principles/positions-views/our-commitment-to-ethical-and-responsible-use-of-animals-in-research.html",
+        "https://www.abbvie.com/who-we-are/our-stories/the-persistence-lab-podcasts.html"
+      ],
+      "description": "Section landing page: full-bleed hero with overlapping card, alternating feature columns, card grids, stat dashboards, and CTA banners (patients/science/sustainability pattern)"
+    },
+    {
+      "name": "simple-text-page",
+      "representativePages": [
+        "https://www.abbvie.com/accessibility-statement/declaracion-de-accessibilidad.html",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/available-programs.html",
+        "https://www.abbvie.com/contact-center/locations.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/accessibility-statement.html",
+        "https://www.abbvie.com/accessibility-statement/declaracion-de-accessibilidad.html",
+        "https://www.abbvie.com/contact-center/locations.html",
+        "https://www.abbvie.com/contact-center/locations/saudi-arabia.html",
+        "https://www.abbvie.com/contact-center/locations/south-africa-and-sub-saharan-africa.html",
+        "https://www.abbvie.com/patents.html",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/available-programs.html",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/available-programs/humira-program-update.html",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/online-application-frequently-asked-questions.html",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/online-application-overview.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/eleni-lagkadinou.html",
+        "https://www.abbvie.com/terms-of-use.html",
+        "https://www.abbvie.com/who-we-are/access-to-investigational-drugs-policy.html",
+        "https://www.abbvie.com/who-we-are/operating-with-integrity/abbvies-code-of-conduct.html",
+        "https://www.abbvie.com/who-we-are/operating-with-integrity/transparency-in-payment/allergan-ous-disclosures.html",
+        "https://www.abbvie.com/who-we-are/operating-with-integrity/transparency-in-payment/frequently-asked-questions-physician-and-other-payments.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/demetris-crum.html",
+        "https://www.abbvie.com/who-we-are/policies-disclosures.html"
+      ],
+      "description": "Plain content page: heading and body text with minimal blocks (statements, location indexes)"
+    },
+    {
+      "name": "contact-location",
+      "representativePages": [
+        "https://www.abbvie.com/allergan-labeling.html",
+        "https://www.abbvie.com/who-we-are/operating-with-integrity/responsible-supply-chain/supplier-resources.html",
+        "https://www.abbvie.com/join-us/opportunities/student-programs.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/allergan-labeling.html",
+        "https://www.abbvie.com/contact-center/locations/algeria.html",
+        "https://www.abbvie.com/contact-center/locations/croatia.html",
+        "https://www.abbvie.com/contact-center/locations/slovenia.html",
+        "https://www.abbvie.com/contact-center/locations/tunisia.html",
+        "https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html",
+        "https://www.abbvie.com/join-us/opportunities/student-programs.html",
+        "https://www.abbvie.com/join-us/reasonable-accommodations.html",
+        "https://www.abbvie.com/join-us/student-and-new-graduates.html",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/income-criteria.html",
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/patient-assistance-frequently-asked-questions.html",
+        "https://www.abbvie.com/science/independent-educational-grants/grants-and-contribution-disclosures.html",
+        "https://www.abbvie.com/science/independent-educational-grants/how-to-apply.html",
+        "https://www.abbvie.com/science/independent-educational-grants/request-types.html",
+        "https://www.abbvie.com/science/independent-educational-grants/requestor-training-guide.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/andrew-campbell.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/christopher-boone.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/daejin-abidoye.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/darin-messina.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/jonathon-sedgwick.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/linda-scarazzini.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/philip-hajduk.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/primal-kaur.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/raymond-votzmeyer.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/shuhong-zhang.html",
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/wolfram-nothaft.html",
+        "https://www.abbvie.com/sustainability/environmental-social-and-governance/resources.html",
+        "https://www.abbvie.com/who-we-are/brand-partnerships.html",
+        "https://www.abbvie.com/who-we-are/operating-with-integrity/responsible-supply-chain/supplier-resources.html",
+        "https://www.abbvie.com/who-we-are/our-leaders.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/alberto-colzi.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/azita-saleki-gerhardt.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/jag-dosanjh.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/jason-smith.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/jeffrey-stewart.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/jerome-bouyer.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/latif-akintade.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/linda-ray.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/liz-shea.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/nicholas-donoghoe.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/nicole-mowad-nassar.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/nisha-patel-burns.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/perry-siatis.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/rae-livingston.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/robert-michael.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/roopal-thakkar.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/sanjay-narayan.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/scott-reents.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/thomas-hudson.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/timothy-richmond.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/wulff-erik-von-borcke.html",
+        "https://www.abbvie.com/who-we-are/our-principles/positions-views.html",
+        "https://www.abbvie.com/who-we-are/our-stories/i-am.html"
+      ],
+      "description": "Country/location contact page: heading, address/contact detail blocks, and legal text"
+    },
+    {
+      "name": "acquisition-redirect",
+      "representativePages": [
+        "https://www.abbvie.com/capstan-therapeutics.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/capstan-therapeutics.html",
+        "https://www.abbvie.com/celsius-therapeutics.html",
+        "https://www.abbvie.com/nimbletherapeutics.html"
+      ],
+      "description": "Minimal acquired-company splash page with logo and short redirect/intro copy"
+    },
+    {
+      "name": "contact-location-minimal",
+      "representativePages": [
+        "https://www.abbvie.com/contact-center/locations/bosnia-and-herzegovina.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/contact-center/locations/bosnia-and-herzegovina.html",
+        "https://www.abbvie.com/contact-center/locations/lebanon.html",
+        "https://www.abbvie.com/contact-center/locations/united-arab-emirates.html"
+      ],
+      "description": "Minimal location contact page with a single address/contact block"
+    },
+    {
+      "name": "contact-location-compact",
+      "representativePages": [
+        "https://www.abbvie.com/contact-center/locations/estonia.html",
+        "https://www.abbvie.com/contact-center/locations/romania.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/contact-center/locations/estonia.html",
+        "https://www.abbvie.com/contact-center/locations/latvia.html",
+        "https://www.abbvie.com/contact-center/locations/lithuania.html",
+        "https://www.abbvie.com/contact-center/locations/romania.html"
+      ],
+      "description": "Compact location contact page with address and contact detail blocks"
+    },
+    {
+      "name": "utility-index",
+      "representativePages": [
+        "https://www.abbvie.com/contact-center/locations/serbia.html",
+        "https://www.abbvie.com/site-map.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/contact-center/locations/serbia.html",
+        "https://www.abbvie.com/site-map.html"
+      ],
+      "description": "Utility/index page such as site map with grouped link lists"
+    },
+    {
+      "name": "contact-location-us",
+      "representativePages": [
+        "https://www.abbvie.com/contact-center/locations/united-states.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/contact-center/locations/united-states.html"
+      ],
+      "description": "United States contact page with address and contact detail blocks"
+    },
+    {
+      "name": "employee-resource-group",
+      "representativePages": [
+        "https://www.abbvie.com/join-us/life-at-abbvie/employee-resource-groups/ability-at-abbvie.html",
+        "https://www.abbvie.com/who-we-are/key-facts.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/join-us/life-at-abbvie/employee-resource-groups/ability-at-abbvie.html",
+        "https://www.abbvie.com/join-us/life-at-abbvie/employee-resource-groups/ahora-hispanic-latino.html",
+        "https://www.abbvie.com/join-us/life-at-abbvie/employee-resource-groups/asian-leadership-network.html",
+        "https://www.abbvie.com/join-us/life-at-abbvie/employee-resource-groups/women-leaders-in-action.html",
+        "https://www.abbvie.com/who-we-are/key-facts.html"
+      ],
+      "description": "Employee resource group page: hero, mission statement, and feature columns"
+    },
+    {
+      "name": "feature-columns-page",
+      "representativePages": [
+        "https://www.abbvie.com/join-us/life-at-abbvie/learning-and-development.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/join-us/life-at-abbvie/learning-and-development.html"
+      ],
+      "description": "Single-topic page built from alternating image+text feature columns"
+    },
+    {
+      "name": "resource-list-page",
+      "representativePages": [
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/savings-card.html",
+        "https://www.abbvie.com/science/publications.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/patients/patient-support/patient-assistance/savings-card.html",
+        "https://www.abbvie.com/science/publications.html"
+      ],
+      "description": "Resource/listing page with heading and link or document lists"
+    },
+    {
+      "name": "research-collaborative",
+      "representativePages": [
+        "https://www.abbvie.com/science/abbvie-research-collaborative-endometrosis.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/science/abbvie-research-collaborative-endometrosis.html",
+        "https://www.abbvie.com/science/abbvie-research-collaborative-migraine.html"
+      ],
+      "description": "Research collaborative landing: hero, program description, and supporting feature columns"
+    },
+    {
+      "name": "people-profile-feature",
+      "representativePages": [
+        "https://www.abbvie.com/science/our-people/lab-to-life.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/science/our-people/lab-to-life.html"
+      ],
+      "description": "People/program feature page with portrait media and narrative columns"
+    },
+    {
+      "name": "leader-profile",
+      "representativePages": [
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/michael-foley.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/science/our-people/our-rd-leaders/michael-foley.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/dave-purdue.html",
+        "https://www.abbvie.com/who-we-are/our-leaders/tracie-haas.html"
+      ],
+      "description": "Leadership bio page: portrait, name/title header, and biography body"
+    },
+    {
+      "name": "guidelines-text",
+      "representativePages": [
+        "https://www.abbvie.com/social-media-community-guidelines.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/social-media-community-guidelines.html"
+      ],
+      "description": "Guidelines/standards page with heading and structured long-form text"
+    },
+    {
+      "name": "interactive-form",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/brand-partnerships/cubs/add-your-message.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/brand-partnerships/cubs/add-your-message.html"
+      ],
+      "description": "Single-purpose interactive page with a form/message submission widget"
+    },
+    {
+      "name": "story-article-standard",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/5-ways-abbvie-work-to-deliver-medicines-in-half-the-time.html",
+        "https://www.abbvie.com/who-we-are/our-stories/a-history-discovery-why-we-focus-on-eye-cares-toughest-diseases.html",
+        "https://www.abbvie.com/who-we-are/our-stories/five-technologies-transforming-how-we-make-medicines.html",
+        "https://www.abbvie.com/who-we-are/our-stories/advancing-a-public-health-approach-to-patient-safety.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/5-ways-abbvie-work-to-deliver-medicines-in-half-the-time.html",
+        "https://www.abbvie.com/who-we-are/our-stories/a-history-discovery-why-we-focus-on-eye-cares-toughest-diseases.html",
+        "https://www.abbvie.com/who-we-are/our-stories/a-journey-of-sight-progress.html",
+        "https://www.abbvie.com/who-we-are/our-stories/advancing-a-public-health-approach-to-patient-safety.html",
+        "https://www.abbvie.com/who-we-are/our-stories/breaking-the-rules-of-science-to-treat-cancer.html",
+        "https://www.abbvie.com/who-we-are/our-stories/chembeads-improving-artificial-intelligence-through-human-ingenuity.html",
+        "https://www.abbvie.com/who-we-are/our-stories/childhood-cancer-patients-and-their-families-find-a-home-away-from-home.html",
+        "https://www.abbvie.com/who-we-are/our-stories/day-in-life-meet-director-clearing-path-for-patient-access.html",
+        "https://www.abbvie.com/who-we-are/our-stories/discovery-files-vision-for-blood-cancer-patients.html",
+        "https://www.abbvie.com/who-we-are/our-stories/everyones-talking-about-data-science.html",
+        "https://www.abbvie.com/who-we-are/our-stories/five-technologies-transforming-how-we-make-medicines.html",
+        "https://www.abbvie.com/who-we-are/our-stories/future-of-adcs.html",
+        "https://www.abbvie.com/who-we-are/our-stories/green-chemistry-cleaner-faster-chemical-reactions.html",
+        "https://www.abbvie.com/who-we-are/our-stories/immunologys-next-frontier.html",
+        "https://www.abbvie.com/who-we-are/our-stories/inside-dream-initiative.html",
+        "https://www.abbvie.com/who-we-are/our-stories/magnified-featuring-edrice-simmons.html",
+        "https://www.abbvie.com/who-we-are/our-stories/magnified-featuring-johanna-corbin.html",
+        "https://www.abbvie.com/who-we-are/our-stories/magnified-featuring-sean-mcewen.html",
+        "https://www.abbvie.com/who-we-are/our-stories/putting-our-people-first-abbvies-family-benefits.html",
+        "https://www.abbvie.com/who-we-are/our-stories/real-people-real-inspiration-joes-story.html",
+        "https://www.abbvie.com/who-we-are/our-stories/recognizing-the-mental-health-impact-of-chronic-skin-disease.html",
+        "https://www.abbvie.com/who-we-are/our-stories/resilient-reality-the-emotional-toll-of-ovarian-cancer.html",
+        "https://www.abbvie.com/who-we-are/our-stories/starting-with-a-spark-an-inside-look-at-environmental-sustainability.html",
+        "https://www.abbvie.com/who-we-are/our-stories/then-and-now-renaissance-in-blood-cancer-treatment.html",
+        "https://www.abbvie.com/who-we-are/our-stories/three-factors-that-drove-transformational-integration-abbvie-allergan.html",
+        "https://www.abbvie.com/who-we-are/our-stories/two-lives-converging-in-the-fight-against-parkinsons.html",
+        "https://www.abbvie.com/who-we-are/our-stories/voices-abbvie-reflecting-on-decade-impact.html",
+        "https://www.abbvie.com/who-we-are/our-stories/what-does-it-take-to-discover-a-new-medicine.html",
+        "https://www.abbvie.com/who-we-are/our-stories/working-parents-2023-finding-comfort-in-community.html"
+      ],
+      "description": "Standard story article: hero image, body copy, and related-story cards"
+    },
+    {
+      "name": "story-article-media",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/a-legacy-of-leadership-in-mental-health.html",
+        "https://www.abbvie.com/who-we-are/our-stories/can-unlocking-one-million-genomes.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/a-legacy-of-leadership-in-mental-health.html",
+        "https://www.abbvie.com/who-we-are/our-stories/abbvie-volunteers-return-to-serving.html",
+        "https://www.abbvie.com/who-we-are/our-stories/can-unlocking-one-million-genomes.html",
+        "https://www.abbvie.com/who-we-are/our-stories/growing-sustainably-through-innovation-how-abbvie-takes-action.html",
+        "https://www.abbvie.com/who-we-are/our-stories/little-patients-big-impact.html",
+        "https://www.abbvie.com/who-we-are/our-stories/making-it-migraine-friendly-why-were-reimagining-workplace.html",
+        "https://www.abbvie.com/who-we-are/our-stories/meet-the-arch-a-time-saving-tool-for-researchers-focused-on-finding-cures.html",
+        "https://www.abbvie.com/who-we-are/our-stories/more-than-a-stiff-neck-the-impact-of-living-with-cervical-dyston.html",
+        "https://www.abbvie.com/who-we-are/our-stories/not-good-enough-behind-the-drive-to-give-cancer-patients-more-time.html"
+      ],
+      "description": "Story article variant with prominent media feature and quote blocks"
+    },
+    {
+      "name": "story-article",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/a-molecular-behavior-chart-speeding-up-research-with-predictive-analytics.html",
+        "https://www.abbvie.com/who-we-are/our-stories/the-value-of-education-from-a-dim-reality-to-a-bright-future.html",
+        "https://www.abbvie.com/who-we-are/our-stories/much-more-than-itchy-skin-breaking-down-complexities-atopic-dermatitis.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/a-molecular-behavior-chart-speeding-up-research-with-predictive-analytics.html",
+        "https://www.abbvie.com/who-we-are/our-stories/abbvies-2024-working-parents-finding-purpose-in-adversity.html",
+        "https://www.abbvie.com/who-we-are/our-stories/advice-from-scientist-turned-physician-turned-robot-builder-be-curious.html",
+        "https://www.abbvie.com/who-we-are/our-stories/ambassadors-in-action.html",
+        "https://www.abbvie.com/who-we-are/our-stories/an-innovative-approach-to-improve-maternal-health.html",
+        "https://www.abbvie.com/who-we-are/our-stories/btk-protein-good-bad-and-ugly.html",
+        "https://www.abbvie.com/who-we-are/our-stories/chasing-the-value-of-a-walk-down-the-aisle.html",
+        "https://www.abbvie.com/who-we-are/our-stories/connecting-patients-with-care-3-lessons-learned-during-covid-19.html",
+        "https://www.abbvie.com/who-we-are/our-stories/day-in-life-government-affairs-director-educates-and-empowers.html",
+        "https://www.abbvie.com/who-we-are/our-stories/day-in-the-life-creating-impact-with-nonprofit-partners.html",
+        "https://www.abbvie.com/who-we-are/our-stories/expert-insights-the-promise-of-genetic-medicine-and-abbvies-role-in-research.html",
+        "https://www.abbvie.com/who-we-are/our-stories/finding-hope-in-a-pandemic--a-conversation-with-two-hepatitis-c-.html",
+        "https://www.abbvie.com/who-we-are/our-stories/hepatitis-c-mysterious-virus-that-met-its-match.html",
+        "https://www.abbvie.com/who-we-are/our-stories/how-abbvie-is-bringing-antiviral-expertise-to-covid-19-battle.html",
+        "https://www.abbvie.com/who-we-are/our-stories/how-employee-resource-groups-create-meaningful-impact-at-abbvie.html",
+        "https://www.abbvie.com/who-we-are/our-stories/how-medicinal-chemists-are-creating-new-weapons-against-autoimmune-diseases.html",
+        "https://www.abbvie.com/who-we-are/our-stories/how-patient-voices-are-changing-medicine.html",
+        "https://www.abbvie.com/who-we-are/our-stories/injecting-hope-one-vaccine-at-a-time.html",
+        "https://www.abbvie.com/who-we-are/our-stories/lessons-from-a-lifelong-journey-with-psoriasis.html",
+        "https://www.abbvie.com/who-we-are/our-stories/life-after-stroke-living-with-and-researching-spasticity.html",
+        "https://www.abbvie.com/who-we-are/our-stories/living-with-an-illness.html",
+        "https://www.abbvie.com/who-we-are/our-stories/living-with-unknowns-alzheimers-disease.html",
+        "https://www.abbvie.com/who-we-are/our-stories/magnified-featuring-darin-messina.html",
+        "https://www.abbvie.com/who-we-are/our-stories/magnified-featuring-jonathon-sedgwick.html",
+        "https://www.abbvie.com/who-we-are/our-stories/magnified-featuring-linda-scarazzini.html",
+        "https://www.abbvie.com/who-we-are/our-stories/magnified-featuring-matt-widman.html",
+        "https://www.abbvie.com/who-we-are/our-stories/magnified-featuring-nicholas-donoghoe.html",
+        "https://www.abbvie.com/who-we-are/our-stories/magnified-featuring-shuhong-zhang.html",
+        "https://www.abbvie.com/who-we-are/our-stories/make-complicated-simple-inside-world-human-factors-engineers.html",
+        "https://www.abbvie.com/who-we-are/our-stories/more-than-skin-deep-3-lessons-for-expanding-equity-in-dermatology.html",
+        "https://www.abbvie.com/who-we-are/our-stories/much-more-than-itchy-skin-breaking-down-complexities-atopic-dermatitis.html",
+        "https://www.abbvie.com/who-we-are/our-stories/navigating-the-hidden-side-of-cancer.html",
+        "https://www.abbvie.com/who-we-are/our-stories/navigating-ulcerative-colitis-as-a-child.html",
+        "https://www.abbvie.com/who-we-are/our-stories/precision-medicine-its-not-just-for-oncology-anymore.html",
+        "https://www.abbvie.com/who-we-are/our-stories/real-world-data-rounds-out-value-picture-drugs.html",
+        "https://www.abbvie.com/who-we-are/our-stories/rebuilding-puerto-rico-one-community-health-center-at-a-time.html",
+        "https://www.abbvie.com/who-we-are/our-stories/sharpening-focus-on-eye-diseases-caused-by-diabetes.html",
+        "https://www.abbvie.com/who-we-are/our-stories/shedding-light-upon-a-misunderstood-skin-condition-hidradenitis.html",
+        "https://www.abbvie.com/who-we-are/our-stories/shining-light-on-glaucoma-and-eye-health.html",
+        "https://www.abbvie.com/who-we-are/our-stories/striving-for-patient-centricity-down-to-the-packaging.html",
+        "https://www.abbvie.com/who-we-are/our-stories/stronger-together-convergence-minds-and-data.html",
+        "https://www.abbvie.com/who-we-are/our-stories/synthetic-control-arm-end-placebos.html",
+        "https://www.abbvie.com/who-we-are/our-stories/the-blueprint-of-you-unlocking-potential-whole-genome-sequencing.html",
+        "https://www.abbvie.com/who-we-are/our-stories/the-hardest-hit-how-nonprofits-rise-to-challenge-covid-19.html",
+        "https://www.abbvie.com/who-we-are/our-stories/the-math-of-migraine.html",
+        "https://www.abbvie.com/who-we-are/our-stories/the-power-love-in-ibd.html",
+        "https://www.abbvie.com/who-we-are/our-stories/the-story-behind-our-50-billion-rd-investment.html",
+        "https://www.abbvie.com/who-we-are/our-stories/the-value-of-education-from-a-dim-reality-to-a-bright-future.html",
+        "https://www.abbvie.com/who-we-are/our-stories/they-wont-back-down.html",
+        "https://www.abbvie.com/who-we-are/our-stories/time-is-hours.html",
+        "https://www.abbvie.com/who-we-are/our-stories/trapped-in-your-own-skin.html",
+        "https://www.abbvie.com/who-we-are/our-stories/unlocking-the-next-level-of-protein-degradation.html",
+        "https://www.abbvie.com/who-we-are/our-stories/why-isnt-medicine-one-size-fits-all.html",
+        "https://www.abbvie.com/who-we-are/our-stories/why-you-cant-wait-with-rheumatoid-arthritis.html"
+      ],
+      "description": "Editorial story article: hero image, long-form body copy with inline media, and related-content cards"
+    },
+    {
+      "name": "story-article-photo",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/abbvie-rebuilds-north-chicagos-middle-school-inspiring-students-to-reach-higher.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/abbvie-rebuilds-north-chicagos-middle-school-inspiring-students-to-reach-higher.html"
+      ],
+      "description": "Photo-led story article: large image hero with caption-driven body"
+    },
+    {
+      "name": "story-article-collaborative",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/abbvie-research-collaborative.html",
+        "https://www.abbvie.com/who-we-are/our-stories/can-we-find-cures-faster.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/abbvie-research-collaborative.html",
+        "https://www.abbvie.com/who-we-are/our-stories/can-we-find-cures-faster.html",
+        "https://www.abbvie.com/who-we-are/our-stories/celebrating-abbvies-2025-working-parents-caregivers.html",
+        "https://www.abbvie.com/who-we-are/our-stories/digital-science-lab.html",
+        "https://www.abbvie.com/who-we-are/our-stories/elevating-health-care-for-all.html",
+        "https://www.abbvie.com/who-we-are/our-stories/specialized-research-in-chaotic-systems-sparcs.html",
+        "https://www.abbvie.com/who-we-are/our-stories/three-ways-ai-is-changing-drug-discovery-at-abbvie.html",
+        "https://www.abbvie.com/who-we-are/our-stories/transforming-cancer-care-from-the-inside-out.html"
+      ],
+      "description": "Collaborative/program story article with feature columns and CTA"
+    },
+    {
+      "name": "story-category-index",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/aesthetics-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/company-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/sustainability-stories.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/aesthetics-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/company-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/eedi-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/eye-care-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/immunology-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/neuroscience-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/oncology-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/partnerships-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/patient-support-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/philanthropy-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/profile-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/science-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/serving-communities-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/sustainability-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/virology-stories.html",
+        "https://www.abbvie.com/who-we-are/our-stories/working-at-abbvie-stories.html"
+      ],
+      "description": "Story category index: grid of story cards grouped by topic"
+    },
+    {
+      "name": "story-article-short",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/change-from-within.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/change-from-within.html"
+      ],
+      "description": "Short-form story article with hero and concise body"
+    },
+    {
+      "name": "story-article-profile",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/day-in-life-meet-engineer-promoting-diversity-within-manufacturing.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/day-in-life-meet-engineer-promoting-diversity-within-manufacturing.html"
+      ],
+      "description": "Day-in-the-life profile story: portrait hero and interview-style body"
+    },
+    {
+      "name": "story-article-science",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/decoding-immune-systems-secrets-inside-the-discovery-of-a-new-medicine.html",
+        "https://www.abbvie.com/who-we-are/our-stories/five-reasons-why-small-cell-lung-cancer-is-tough-to-treat.html",
+        "https://www.abbvie.com/who-we-are/our-stories/ready-set-launch-abbvie-opens-new-facility-in-the-bay-area.html",
+        "https://www.abbvie.com/who-we-are/our-stories/why-delivering-science-based-targets-are-key-to-sustainable-grow.html",
+        "https://www.abbvie.com/who-we-are/our-stories/real-world-evidence-uncovers-gaps-in-IBD-care.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/decoding-immune-systems-secrets-inside-the-discovery-of-a-new-medicine.html",
+        "https://www.abbvie.com/who-we-are/our-stories/ensuring-patients-around-world-get-medicines-during-covid-19.html",
+        "https://www.abbvie.com/who-we-are/our-stories/five-reasons-why-small-cell-lung-cancer-is-tough-to-treat.html",
+        "https://www.abbvie.com/who-we-are/our-stories/going-inside-prison-walls-to-help-eliminate-hepatitis-c.html",
+        "https://www.abbvie.com/who-we-are/our-stories/how-the-parkinsons-disease-community-is-shaping-the-future.html",
+        "https://www.abbvie.com/who-we-are/our-stories/how-uterine-fibroids-feel-to-patient-who-is-also-doctor.html",
+        "https://www.abbvie.com/who-we-are/our-stories/ready-set-launch-abbvie-opens-new-facility-in-the-bay-area.html",
+        "https://www.abbvie.com/who-we-are/our-stories/real-world-evidence-uncovers-gaps-in-IBD-care.html",
+        "https://www.abbvie.com/who-we-are/our-stories/why-delivering-science-based-targets-are-key-to-sustainable-grow.html"
+      ],
+      "description": "Science story article with discovery narrative and media blocks"
+    },
+    {
+      "name": "story-article-foundation",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/empowering-innovation-through-the-abbvie-foundation-health-equit.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/empowering-innovation-through-the-abbvie-foundation-health-equit.html"
+      ],
+      "description": "Foundation/health-equity story article with photo hero and body"
+    },
+    {
+      "name": "story-article-listicle",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/five-technologies-supporting-progress-in-challenging-diseases.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/five-technologies-supporting-progress-in-challenging-diseases.html"
+      ],
+      "description": "Listicle-style story article enumerating technologies or points"
+    },
+    {
+      "name": "story-article-operations",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/how-abbvies-integrated-operations-help-prevent-drug-shortages.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/how-abbvies-integrated-operations-help-prevent-drug-shortages.html"
+      ],
+      "description": "Operations story article with process/stat callouts and body copy"
+    },
+    {
+      "name": "story-index",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories.html"
+      ],
+      "description": "Stories landing/index page listing article cards with filters"
+    },
+    {
+      "name": "story-article-community",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/new-microsite-clinic-brings-healthcare-to-chicago-southwest-side.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/new-microsite-clinic-brings-healthcare-to-chicago-southwest-side.html"
+      ],
+      "description": "Community story article with photo hero and narrative body"
+    },
+    {
+      "name": "story-article-veteran",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/our-stories/one-veterans-journey-and-abbvies-commitment-to-mental-health-research.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-stories/one-veterans-journey-and-abbvies-commitment-to-mental-health-research.html"
+      ],
+      "description": "Personal-journey story article with photo hero and testimonial body"
+    },
+    {
+      "name": "policy-disclosure",
+      "representativePages": [
+        "https://www.abbvie.com/who-we-are/policies-disclosures/protecting-data.html"
+      ],
+      "urls": [
+        "https://www.abbvie.com/who-we-are/policies-disclosures/protecting-data.html"
+      ],
+      "description": "Policy/disclosure page: heading and dense long-form legal body text"
+    }
+  ]
+}

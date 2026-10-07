@@ -1,0 +1,51 @@
+{
+  "url": "https://www.wknd-trendsetters.site/",
+  "timestamp": "2026-10-06T13:18:45.237Z",
+  "paths": {
+    "documentPath": "/index",
+    "htmlFilePath": "/index.plain.html",
+    "mdFilePath": "/index.md",
+    "dirPath": "",
+    "filename": "index"
+  },
+  "screenshot": "migration-work/screenshot.png",
+  "html": {
+    "filePath": "migration-work/cleaned.html",
+    "size": 31969
+  },
+  "metadata": {
+    "title": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+    "viewport": "width=device-width, initial-scale=1",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters."
+  },
+  "images": {
+    "count": 17,
+    "mapping": {
+      "https://www.wknd-trendsetters.site/images/hero-hiphop-dance.avif": "./images/afa70ba0fdf26df5c76c42f92a6f61f0.png",
+      "https://www.wknd-trendsetters.site/images/hero-family-vacation.avif": "./images/a112120fb62f38534232e6c6458eb3ef.png",
+      "https://www.wknd-trendsetters.site/images/avatar-alex.avif": "./images/f8e6a42725644618c120cd7b0d0a4ee2.png",
+      "https://www.wknd-trendsetters.site/images/mobile-game-character.avif": "./images/7418baa8ced4254aec01ba327f9b852c.png",
+      "https://www.wknd-trendsetters.site/images/hero-music-concert.avif": "./images/086320adf99a0d42087785db897b15a6.png",
+      "https://www.wknd-trendsetters.site/images/concert-crowd.avif": "./images/a15ec5c05530edc7219a6963dd4ceee0.png",
+      "https://www.wknd-trendsetters.site/images/fashion-inspiration.avif": "./images/214b3e01d732ee4a3d2ff629dae57c80.png",
+      "https://www.wknd-trendsetters.site/images/campus-life.avif": "./images/15f6d78a344e39ff4011ebd1b0a186c9.png",
+      "https://www.wknd-trendsetters.site/images/adventure-spots.avif": "./images/c48bc14242bdb964915adcf8fb1fd7a9.png",
+      "https://www.wknd-trendsetters.site/images/campus-tour.avif": "./images/b73609ee5c1f1d5ce6cc143fbfdf20a7.png",
+      "https://www.wknd-trendsetters.site/images/avatar-jordan.avif": "./images/70771f8274095fe030f772f0ad0b0e22.png",
+      "https://www.wknd-trendsetters.site/images/gaming-tournaments.avif": "./images/b14b866c22419fa87aaa3975dae96110.png",
+      "https://www.wknd-trendsetters.site/images/avatar-taylor.avif": "./images/2f1e102cc6fbc81a1571339923d80579.png",
+      "https://www.wknd-trendsetters.site/images/avatar-morgan.avif": "./images/bb09772bf4ebd3f23d146a6811475b97.png",
+      "https://www.wknd-trendsetters.site/images/beach-destination.avif": "./images/19cdd73b030dd20ddb10215c84496bbe.png",
+      "https://www.wknd-trendsetters.site/images/networking-event.avif": "./images/cfd3a9aacf317da32ad522ae00775a6a.png",
+      "https://www.wknd-trendsetters.site/images/fundraising-event.avif": "./images/93671be9ea1966ccfbff1b096322af73.png"
+    },
+    "stats": {
+      "total": 17,
+      "converted": 17,
+      "skipped": 0,
+      "failed": 0,
+      "tooLarge": 0,
+      "limitReached": 0
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "url": "https://www.wknd-trendsetters.site/",
+  "template": "home",
+  "documentPath": "/index",
+  "excluded": [
+    { "element": "div.navbar", "reason": "Header/navigation - auto-populated by header block" },
+    { "element": "footer.footer.inverse-footer", "reason": "Footer - auto-populated by footer block" },
+    { "element": "a.skip-link", "reason": "Accessibility utility link, not content" }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "visualTreeId": "rc1",
+      "selector": "#main-content > header.section.secondary-section",
+      "hint": "block",
+      "layout": "2x1",
+      "style": "grey",
+      "background": "solid light grey (#f4f4f4) with generous padding",
+      "overview": "Page intro: large uppercase H1, subheading, two CTA buttons on the left; image group (3 rounded images in a 2x2 grid) on the right",
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Two side-by-side areas: left area with large H1 'Fresh looks, bold stories, real life', a paragraph, and two buttons (primary 'See case', secondary outline 'All stories'); right area with three rounded photos arranged in a 2-column grid",
+          "elements": ["h1", "p.subheading", "a.button x2", "img x3"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "visualTreeId": "rc2",
+      "selector": "#main-content > section.section:nth-of-type(1)",
+      "hint": "block",
+      "layout": "2x1",
+      "style": "light",
+      "background": "white",
+      "overview": "Featured article intro: large rounded image left, breadcrumbs + H2 + author/date meta right",
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Two side-by-side areas: left a large 3:2 rounded image; right a breadcrumb trail (Home > Case studies), H2 'Fresh looks, bold moves, real stories', byline 'By Taylor Brooks', and meta line 'June 12, 2024 • 4 min read'",
+          "elements": ["img", "breadcrumb links x2", "h2", "byline text", "date + read time"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "visualTreeId": "rc3",
+      "selector": "#main-content > section.section.secondary-section:nth-of-type(2)",
+      "hint": "block",
+      "layout": null,
+      "style": "grey",
+      "background": "solid light grey (#f4f4f4)",
+      "overview": "Image gallery: centered heading + tagline, then grid of 8 square photos (4 per row)",
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Centered H2 'Style in every snapshot' with a short paragraph 'Peek the latest looks in action'",
+          "elements": ["h2", "p"]
+        },
+        {
+          "id": 2,
+          "description": "Grid of 8 square rounded image-only items, 4 per row, 2 rows",
+          "elements": ["img x8"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "visualTreeId": "rc4",
+      "selector": "#main-content > section.section:nth-of-type(3)",
+      "hint": "block",
+      "layout": null,
+      "style": "light",
+      "background": "white",
+      "overview": "Testimonial switcher: active panel shows large photo + name + role + quote; four selectable labels below, each with avatar, name and role",
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Interactive switcher with 4 panels. Each panel: large photo left, name (bold), role, and a quote paragraph right. Below, a row of 4 selector buttons each with a round avatar, bold name and role; first is active (outlined)",
+          "elements": ["tab buttons x4 (avatar img + name + role)", "tab panels x4 (img + name + role + quote)"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "visualTreeId": "rc5",
+      "selector": "#main-content > section.section.secondary-section:nth-of-type(4)",
+      "hint": "block",
+      "layout": null,
+      "style": "grey",
+      "background": "solid light grey (#f4f4f4)",
+      "overview": "Latest articles: centered heading + tagline, then 4 linked article items in a row",
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Centered H2 'Latest articles' with paragraph 'Fresh looks, bold moves'",
+          "elements": ["h2", "p"]
+        },
+        {
+          "id": 2,
+          "description": "Row of 4 linked items, each with image on top, then a yellow pill category tag + date, then an uppercase H3 title; white bordered rounded containers",
+          "elements": ["a.article-card x4 (img + tag + date + h3)"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "visualTreeId": "rc6",
+      "selector": "#main-content > section.section:nth-of-type(5)",
+      "hint": "block",
+      "layout": "2x1",
+      "style": "light",
+      "background": "white",
+      "overview": "FAQ: heading + subheading on the left, list of 4 expandable questions on the right",
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Left column: H2 'Got questions? We've got answers.' and subheading 'Fashion FAQs, answered fast'",
+          "elements": ["h2", "p.subheading"]
+        },
+        {
+          "id": 2,
+          "description": "Right column: 4 expandable question/answer items in bordered rounded boxes with plus icons",
+          "elements": ["details/summary x4 (question + answer)"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "visualTreeId": "rc7",
+      "selector": "#main-content > section.section.inverse-section",
+      "hint": "block",
+      "layout": "3x1",
+      "style": "dark",
+      "background": "solid black section with padding; inset rounded card with full background photo and dark overlay",
+      "overview": "Closing CTA banner: background photo with overlay, large white H2, paragraph, and a white 'See more' button",
+      "sequences": [
+        {
+          "id": 1,
+          "description": "Rounded full-width card with background photo + overlay; overlaid large uppercase heading 'Fresh looks, bold stories, real life', paragraph, and one inverse button 'See more'",
+          "elements": ["img (background)", "h2.h1-heading", "p.subheading", "a.button.inverse-button"]
+        }
+      ]
+    }
+  ],
+  "coverageGaps": [],
+  "blockInventory": {
+    "local": {
+      "base": ["cards", "columns", "hero", "fragment", "header", "footer"],
+      "customVariantsFromThisSite": [
+        "columns-hero", "columns-meta", "cards-snapshot", "tabs-people", "cards-latest", "accordion-questions", "hero-story",
+        "hero-landing", "columns-article", "cards-gallery", "tabs-testimonial", "cards-article", "accordion-faq", "hero-banner"
+      ],
+      "otherCustomVariants": [
+        "cards-dashboard", "cards-driver", "cards-feature", "cards-investor", "cards-stats", "carousel-hero",
+        "columns-banner", "columns-feature", "columns-featured", "columns-focus", "columns-homepage", "columns-patient",
+        "columns-pillars", "columns-quote", "embed-video", "hero-contact", "hero-patient", "hero-trip", "story-hero", "video-featured"
+      ]
+    },
+    "blockCollection": {
+      "hero": "Large heading/text/CTA, optionally over a background image, for page intros or banners",
+      "columns": "Side-by-side content layout (text, images)",
+      "cards": "Grid of repeating items with image and/or text",
+      "tabs": "Switchable labeled content panels",
+      "accordion": "Expandable question/answer or label/content pairs",
+      "carousel": "Rotating slides",
+      "quote": "Highlighted quotation",
+      "embed": "Embedded external media",
+      "fragment": "Reusable content section"
+    }
+  }
+}

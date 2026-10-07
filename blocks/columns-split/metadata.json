@@ -1,0 +1,24 @@
+{
+  "variantName": "columns-split",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "description": "50/50 split, image cell fills its half edge-to-edge at full viewport height (object-fit cover, no radius), text half on the page background with uppercase bold h3 + body paragraphs. Image side follows cell order (image-left and image-right both used).",
+    "colorScheme": "accent",
+    "density": "spacious",
+    "purpose": "split-image-text",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row, two cells: [image] | [heading + paragraphs] or [heading + paragraphs] | [image]; cell order sets the image side",
+    "imageCount": 1,
+    "buttonCount": 0
+  },
+  "options": [],
+  "memberVariantIds": ["columns-split"],
+  "usage": {
+    "pagesUsing": ["/webpage/dyft29wzo0qlk"],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-06T00:00:00.000Z"
+  }
+}

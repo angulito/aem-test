@@ -1,0 +1,141 @@
+/* story-hero: full-bleed editorial article header for "Our Stories" pages.
+   Full-bleed hero image on top (no overlay text); below it on white sit the
+   back-link, meta line (date / category / read-time), title and dek. */
+
+.story-hero-container .story-hero-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.story-hero {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Full-bleed hero image, no text overlaid */
+.story-hero .story-hero-image {
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+}
+
+.story-hero .story-hero-image picture {
+  display: block;
+  width: 100%;
+}
+
+.story-hero .story-hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Article header content sits below the image, centered narrow column on white */
+.story-hero .story-hero-back,
+.story-hero .story-hero-meta,
+.story-hero .story-hero-title,
+.story-hero .story-hero-dek {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Back-link "< ALL STORIES" */
+.story-hero .story-hero-back {
+  margin-top: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.story-hero .story-hero-back a {
+  color: var(--link-color, #071d49);
+  text-decoration: none;
+}
+
+.story-hero .story-hero-back a::before {
+  content: '\2039';
+  margin-right: 8px;
+}
+
+.story-hero .story-hero-back a:hover {
+  text-decoration: underline;
+}
+
+/* Meta line: date / category / read-time */
+.story-hero .story-hero-meta {
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.story-hero .story-hero-meta p {
+  display: inline;
+  margin: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.story-hero .story-hero-meta a {
+  color: var(--link-color, #071d49);
+  text-decoration: none;
+  margin: 0 16px;
+}
+
+.story-hero .story-hero-meta a:hover {
+  text-decoration: underline;
+}
+
+/* Title */
+.story-hero .story-hero-title {
+  margin-top: 16px;
+}
+
+.story-hero .story-hero-title h1,
+.story-hero .story-hero-title h2 {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  color: var(--dark-color, #071d49);
+  margin: 0;
+}
+
+/* Dek / subtitle */
+.story-hero .story-hero-dek {
+  margin-top: 16px;
+}
+
+.story-hero .story-hero-dek p {
+  color: var(--text-color);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* No-image fallback: header content only on white */
+.story-hero.no-image .story-hero-back {
+  margin-top: 0;
+}
+
+@media (width >= 900px) {
+  .story-hero .story-hero-image img {
+    max-height: 600px;
+  }
+
+  .story-hero .story-hero-back,
+  .story-hero .story-hero-meta,
+  .story-hero .story-hero-title,
+  .story-hero .story-hero-dek {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

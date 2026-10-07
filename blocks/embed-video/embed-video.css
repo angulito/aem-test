@@ -1,0 +1,203 @@
+.embed-video {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 24px;
+}
+
+/* JS-decorated placeholder state */
+.embed-video .embed-video-placeholder {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 360px;
+  background: var(--dark-color);
+}
+
+.embed-video .embed-video-placeholder picture {
+  position: absolute;
+  inset: 0;
+}
+
+.embed-video .embed-video-placeholder picture > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+  opacity: 0.7;
+}
+
+.embed-video .embed-video-placeholder-play {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;
+  text-align: center;
+}
+
+.embed-video .embed-video-placeholder-play .embed-video-title {
+  font-size: 28px;
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  color: #fff;
+  max-width: 600px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .embed-video .embed-video-placeholder-play .embed-video-title {
+    font-size: 32px;
+  }
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.embed-video .embed-video-placeholder-play button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 12px 28px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+}
+
+.embed-video .embed-video-placeholder-play button::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 10px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.embed-video .embed-video-placeholder-play button .play-label {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.embed-video .embed-video-placeholder-play button:hover {
+  background: rgb(255 255 255 / 20%);
+}
+
+/* Fallback non-JS rendering */
+.embed-video > div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 360px;
+  background: var(--dark-color);
+}
+
+.embed-video > div > div:first-child {
+  position: absolute;
+  inset: 0;
+}
+
+.embed-video > div > div:first-child picture {
+  display: block;
+  height: 100%;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.embed-video > div > div:first-child picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+  opacity: 0.7;
+}
+
+.embed-video > div > div:last-child {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background: none;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.embed-video > div > div:last-child p {
+  font-size: 28px;
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  margin: 0;
+  color: #fff;
+  max-width: 600px;
+  line-height: 1.2;
+}
+
+@media (width >= 900px) {
+  .embed-video > div > div:last-child p {
+    font-size: 32px;
+  }
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.embed-video > div > div:last-child a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 12px 28px;
+  color: #fff;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.embed-video > div > div:last-child a.button:any-link::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 10px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.embed-video > div > div:last-child a.button:hover {
+  background: rgb(255 255 255 / 20%);
+}
+
+/* Multiple embed-video blocks grouped together render as a responsive 3-up row.
+   Scoped via :has() so this ONLY applies when the container holds more than one
+   adjacent embed-video block (patients "More Patient Stories"). A standalone
+   embed-video (e.g. homepage "One Minute Thesis") stays full-width. */
+@media (width >= 900px) {
+  .embed-video-container:has(.embed-video-wrapper + .embed-video-wrapper) .embed-video-wrapper {
+    display: inline-block;
+    width: calc((100% - 48px) / 3);
+    vertical-align: top;
+    margin-right: 24px;
+    box-sizing: border-box;
+  }
+
+  .embed-video-container:has(.embed-video-wrapper + .embed-video-wrapper) .embed-video-wrapper:nth-of-type(3n),
+  .embed-video-container:has(.embed-video-wrapper + .embed-video-wrapper) .embed-video-wrapper:last-of-type {
+    margin-right: 0;
+  }
+}

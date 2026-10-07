@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-stats",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-08T17:15:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage ESG/sustainability section",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "esg-stats",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "stat card + info card + link list card on background image",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "ESG/sustainability stat sections",
+      "data-driven sections with mixed card types",
+      "sections with background imagery and overlaid stats"
+    ],
+    "notSuitableFor": [
+      "standard article card grids",
+      "image-heavy galleries",
+      "simple text card layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-08T17:15:00.000Z"
+  }
+}

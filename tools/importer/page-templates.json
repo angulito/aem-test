@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "webpage",
+      "urls": [
+        "https://new.express.adobe.com/webpage/DYft29Wzo0QLK"
+      ],
+      "representativeUrl": "https://new.express.adobe.com/webpage/DYft29Wzo0QLK",
+      "description": "Adobe Express Webpage (story-style travel guide): full-bleed title hero, split image/text sections, scroll-driven photo flipbook, photo mosaic and pull quote on a yellow theme",
+      "urlPattern": "/webpage/*",
+      "blocks": [
+        {
+          "name": "hero-cover",
+          "instances": [
+            ".article > .section.title-section"
+          ]
+        },
+        {
+          "name": "columns-split",
+          "instances": [
+            ".article > .section.split-layout.image-on-left",
+            ".article > .section.split-layout.image-on-right"
+          ]
+        },
+        {
+          "name": "carousel-flipbook",
+          "instances": [
+            ".article > .section.card-flipbook-section"
+          ]
+        },
+        {
+          "name": "cards-mosaic",
+          "instances": [
+            ".article > .section.photo-grid-section"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "1",
+          "name": "Title hero",
+          "selector": [
+            ".article > .section.title-section"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-cover"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "2",
+          "name": "Overview",
+          "selector": [
+            ".article > .section.single-column-section.large-content-spacing-top.large-content-spacing-bottom"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".section-content-view h2",
+            ".section-content-view p"
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Best Beaches",
+          "selector": [
+            ".article > .section.split-layout.image-on-left"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-split"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "4",
+          "name": "Food & Drink",
+          "selector": [
+            ".article > .section.split-layout.image-on-right"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-split"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "5",
+          "name": "Highlights flipbook",
+          "selector": [
+            ".article > .section.card-flipbook-section"
+          ],
+          "style": null,
+          "blocks": [
+            "carousel-flipbook"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "6",
+          "name": "Tips and Tricks",
+          "selector": [
+            ".article > .section.single-column-section.top-shadow"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".section-content-view h2",
+            ".section-content-view p",
+            ".section-content-view figure img",
+            ".section-content-view figcaption"
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Photo grid",
+          "selector": [
+            ".article > .section.photo-grid-section"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-mosaic"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "8",
+          "name": "Closing quote",
+          "selector": [
+            ".article > .section.single-column-section.large-content-spacing-bottom:not(.large-content-spacing-top)"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".section-content-view blockquote"
+          ]
+        }
+      ]
+    }
+  ]
+}

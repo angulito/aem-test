@@ -1,0 +1,69 @@
+/* Section intro for the pillars: large heading left, intro paragraph right.
+   This page is a single section, so the global first-child intro rule does not
+   apply; scope to the pillars section's default-content intro that has an h2
+   (the Material Drivers intro uses an h3 and is unaffected). */
+@media (width >= 900px) {
+  .section.columns-pillars-container .default-content-wrapper:has(h2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 40px;
+    align-items: start;
+  }
+
+  .section.columns-pillars-container .default-content-wrapper:has(h2) > p:first-child {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .section.columns-pillars-container .default-content-wrapper:has(h2) h2 {
+    grid-column: 1;
+    grid-row: 2 / 4;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .section.columns-pillars-container .default-content-wrapper:has(h2) h2 ~ p {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: start;
+  }
+}
+
+/* Pillar descriptions are sentence case (bold label + normal-case text);
+   override the inherited uppercase from the global eyebrow rule. */
+.columns-pillars p {
+  text-transform: none;
+}
+
+.columns-pillars > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-pillars img {
+  width: 100%;
+}
+
+.columns-pillars > div > div {
+  order: 1;
+}
+
+.columns-pillars > div > .columns-pillars-img-col {
+  order: 0;
+}
+
+.columns-pillars > div > .columns-pillars-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-pillars > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns-pillars > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

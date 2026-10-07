@@ -1,20 +1,33 @@
+/* footer: single dark legal bar with right-aligned links (source "bumper" bar) */
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  background-color: #444;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .footer-links {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  min-height: 46px;
+
+  /* right inset includes the footprint of the source's empty cookie-preferences link;
+     1px top bias reproduces the source's baseline-aligned link position */
+  padding: 16px 40px 14px 15px;
+  line-height: 1;
 }
 
-footer .footer p {
-  margin: 0;
-}
-
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+footer .footer-links a.footer-link:any-link {
+  display: inline-block;
+  padding: 0 10px;
+  color: #fff;
+  font-family: adobe-clean, var(--body-font-family);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  text-decoration: none;
+  white-space: nowrap;
 }

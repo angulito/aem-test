@@ -1,0 +1,42 @@
+{
+  "variantName": "carousel-hero",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-06-08T17:15:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage hero section",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "hero-carousel",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background image + heading + CTA link per slide (3 slides)",
+    "buttonCount": 1,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero sections with rotating content",
+      "full-bleed image carousels with text overlays",
+      "corporate landing page hero banners"
+    ],
+    "notSuitableFor": [
+      "simple single-image heroes",
+      "content carousels without background images",
+      "thumbnail/gallery carousels"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index",
+      "/us/en"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-09-01T10:56:32.844Z"
+  }
+}

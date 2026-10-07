@@ -1,0 +1,33 @@
+.columns-focus > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-focus img {
+  width: 100%;
+}
+
+.columns-focus > div > div {
+  order: 1;
+}
+
+.columns-focus > div > .columns-focus-img-col {
+  order: 0;
+}
+
+.columns-focus > div > .columns-focus-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-focus > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns-focus > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

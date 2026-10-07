@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-focus",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-10T09:54:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/science.html",
+    "originPage": "Our R&D Approach - 'Core focus areas' section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "focus-areas-links",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "eyebrow + heading + paragraph text column beside two link-list columns",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "navigation/link-list sections with an intro heading",
+      "directory-style layouts grouping related links beside descriptive text",
+      "multi-column equal-width text/link layouts without images"
+    ],
+    "notSuitableFor": [
+      "image-led feature sections (use columns-feature)",
+      "video + quote layouts (use columns-quote)",
+      "CTA banners with a single button"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/science"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-10T09:54:00.000Z"
+  }
+}

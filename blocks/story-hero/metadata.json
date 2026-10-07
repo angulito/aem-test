@@ -1,0 +1,41 @@
+{
+  "variantName": "story-hero",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-06-11T09:27:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/who-we-are/our-stories/a-molecular-behavior-chart-speeding-up-research-with-predictive-analytics.html",
+    "originPage": "Our Stories editorial article (story-article template)",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "story-article-header",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "full-bleed hero image (no overlay) + below-image article header: back-link + meta line (date / category / read-time) + title + dek",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "Our Stories editorial article headers (story-article template and -standard / -science / -media variants)",
+      "full-bleed image article banners where the title sits below the image on white",
+      "article intros that need a back-link and a date/category/read-time meta line"
+    ],
+    "notSuitableFor": [
+      "heroes with text overlaid on the image (use hero / hero-patient)",
+      "white-card-overlap heroes on dark navy sections (use hero-patient / hero-contact)",
+      "rotating multi-slide heroes (use carousel-hero)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/who-we-are/our-stories/a-molecular-behavior-chart-speeding-up-research-with-predictive-analytics"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-11T09:27:00.000Z"
+  }
+}

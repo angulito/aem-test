@@ -1,0 +1,57 @@
+/* Blue hero banner that extends below; white card overlaps up into it
+   (same white-card-overlap pattern as the homepage/ESG hero). */
+.section.hero-contact-container {
+  background: var(--accent-blue);
+  padding: 0 0 88px;
+  border-radius: 80px 0 0;
+}
+
+.hero-contact-container .hero-contact-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-contact {
+  position: relative;
+  width: 100%;
+  min-height: 288px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* White card overlapping up into the blue banner */
+.hero-contact .hero-contact-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  background: #fff;
+  border-radius: 40px 0 0;
+  margin: 200px 70px 0;
+  padding: 48px;
+  box-sizing: border-box;
+}
+
+@media (width < 900px) {
+  .hero-contact .hero-contact-content {
+    margin: 160px 24px 0;
+    padding: 32px 24px;
+    border-radius: 24px 0 0;
+  }
+}
+
+/* Breadcrumb: small uppercase line above the country heading */
+.hero-contact .hero-contact-content .hero-contact-breadcrumb {
+  margin: 0 0 12px;
+  font-size: var(--body-font-size-xs);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-color);
+}
+
+.hero-contact .hero-contact-content h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  color: var(--dark-color);
+  margin: 0;
+}

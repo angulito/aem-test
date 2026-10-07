@@ -1,0 +1,42 @@
+{
+  "variantName": "embed-video",
+  "baseBlock": "embed",
+  "version": "1.0.0",
+  "created": "2026-06-08T17:15:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage science video embed",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "video-embed",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "poster image + YouTube URL + play button",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "YouTube video embeds with poster images",
+      "educational/explainer video sections",
+      "external video content integration"
+    ],
+    "notSuitableFor": [
+      "self-hosted video files",
+      "background/ambient videos",
+      "social media embeds (tweets, posts)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index",
+      "/patients"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-06-09T11:58:00.000Z"
+  }
+}

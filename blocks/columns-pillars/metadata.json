@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-pillars",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-10T13:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/sustainability/environmental-social-and-governance.html",
+    "originPage": "ESG landing page - 'three foundational pillars' section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "comfortable",
+    "purpose": "pillars-grid",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "three equal-width columns, each an image above a short bold-labelled caption paragraph (no CTAs)",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "equal-width image + short caption column rows (3-up pillars)",
+      "value/pillar showcases pairing a photo with a one-line label and description",
+      "simple multi-column image+text layouts without CTAs or intro column"
+    ],
+    "notSuitableFor": [
+      "image + eyebrow + heading + CTA feature layouts (use columns-feature)",
+      "intro column beside a multi-item feature grid (use columns-patient)",
+      "distinct repeatable cards with their own CTAs (use cards)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/sustainability/environmental-social-and-governance"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-10T13:20:00.000Z"
+  }
+}

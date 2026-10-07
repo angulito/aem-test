@@ -1,0 +1,115 @@
+{
+  "variant": "tabs-people",
+  "generatedAt": "2026-10-06T14:21:17.618Z",
+  "instanceCount": 1,
+  "repeatingUnitConsensus": "tag:div",
+  "hasInvalidNesting": false,
+  "warnings": [],
+  "instances": [
+    {
+      "file": "source.html",
+      "root": {
+        "tag": "div",
+        "classes": [
+          "tabs-wrapper"
+        ]
+      },
+      "directChildren": [
+        "div.tabs-content",
+        "div.desktop-4-column.grid-layout.mobile-portrait-1-column"
+      ],
+      "directChildCount": 2,
+      "repeatingUnits": [
+        {
+          "signature": "tag:div",
+          "count": 2,
+          "depth": 0,
+          "parentSignature": "div.tabs-wrapper",
+          "iterationSafe": true,
+          "innerUnits": [
+            "div.is-active.tab-pane",
+            "div.tab-pane"
+          ],
+          "ancestorSignatures": [
+            "div.tabs-wrapper"
+          ],
+          "nestedInsideRepeatingUnit": false
+        },
+        {
+          "signature": "div.tab-pane",
+          "count": 3,
+          "depth": 1,
+          "parentSignature": "div.tabs-content",
+          "iterationSafe": true,
+          "innerUnits": [
+            "div.grid-gap-md.grid-layout.tablet-1-column"
+          ],
+          "ancestorSignatures": [
+            "div.tabs-wrapper",
+            "div.tabs-content"
+          ],
+          "nestedInsideRepeatingUnit": true
+        },
+        {
+          "signature": "button.tab-menu-link",
+          "count": 3,
+          "depth": 1,
+          "parentSignature": "div.desktop-4-column.grid-layout.mobile-portrait-1-column",
+          "iterationSafe": true,
+          "innerUnits": [
+            "div.flex-gap-xs.flex-horizontal.y-center"
+          ],
+          "ancestorSignatures": [
+            "div.tabs-wrapper",
+            "div.desktop-4-column.grid-layout.mobile-portrait-1-column"
+          ],
+          "nestedInsideRepeatingUnit": true
+        },
+        {
+          "signature": "div",
+          "count": 2,
+          "depth": 3,
+          "parentSignature": "div.grid-gap-md.grid-layout.tablet-1-column",
+          "iterationSafe": true,
+          "innerUnits": [
+            "img.cover-image"
+          ],
+          "ancestorSignatures": [
+            "div.tabs-wrapper",
+            "div.tabs-content",
+            "div.is-active.tab-pane",
+            "div.grid-gap-md.grid-layout.tablet-1-column"
+          ],
+          "nestedInsideRepeatingUnit": true
+        },
+        {
+          "signature": "div",
+          "count": 2,
+          "depth": 3,
+          "parentSignature": "div.grid-gap-md.grid-layout.tablet-1-column",
+          "iterationSafe": true,
+          "innerUnits": [
+            "img.cover-image"
+          ],
+          "ancestorSignatures": [
+            "div.tabs-wrapper",
+            "div.tabs-content",
+            "div.tab-pane",
+            "div.grid-gap-md.grid-layout.tablet-1-column"
+          ],
+          "nestedInsideRepeatingUnit": true
+        }
+      ],
+      "invalidNesting": [],
+      "content": {
+        "images": 8,
+        "links": 0,
+        "headings": 0,
+        "paragraphs": 4,
+        "lists": 0,
+        "buttons": 4
+      },
+      "warnings": []
+    }
+  ]
+}

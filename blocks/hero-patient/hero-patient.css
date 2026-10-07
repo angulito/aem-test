@@ -1,0 +1,90 @@
+/* Dark navy hero container that extends below the photo (like homepage) */
+.section.hero-patient-container {
+  background: var(--dark-color);
+  padding: 0 0 160px;
+  border-radius: 0 0 0 40px;
+}
+
+.hero-patient-container .hero-patient-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-patient {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero photo: full-bleed background image with baked-in eyebrow */
+.hero-patient .hero-patient-image {
+  position: relative;
+  min-height: 500px;
+  border-radius: 64px 0 0;
+  overflow: hidden;
+  font-size: 0;
+  color: transparent;
+  text-indent: -9999px;
+}
+
+@media (width >= 900px) {
+  .hero-patient .hero-patient-image {
+    min-height: 650px;
+  }
+}
+
+.hero-patient .hero-patient-image picture {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-patient .hero-patient-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 0;
+  color: transparent;
+}
+
+/* White card overlapping up into the dark hero (like columns-homepage) */
+.hero-patient .hero-patient-content {
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  border-radius: 40px 0 0;
+  margin: -140px 70px 0;
+  padding: 48px;
+  box-sizing: border-box;
+}
+
+@media (width < 900px) {
+  .hero-patient .hero-patient-content {
+    margin: -80px 24px 0;
+    padding: 32px 24px;
+    border-radius: 24px 0 0;
+  }
+}
+
+.hero-patient .hero-patient-content h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  color: var(--dark-color);
+  margin: 0 0 16px;
+}
+
+.hero-patient .hero-patient-content p {
+  color: var(--text-color);
+  margin: 0;
+  max-width: 800px;
+}
+
+/* No-image fallback: plain navy text on light background */
+.hero-patient.no-image {
+  padding: 40px 24px;
+}
+
+.hero-patient.no-image * {
+  color: var(--text-color);
+}

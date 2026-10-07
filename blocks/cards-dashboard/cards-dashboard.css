@@ -1,0 +1,159 @@
+.cards-dashboard > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (width >= 900px) {
+  .cards-dashboard > ul {
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+.cards-dashboard > ul > li {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-dashboard > ul > li:hover {
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+
+/* Science card (first): horizontal with image left */
+.cards-dashboard > ul > li:first-child {
+  flex-direction: row;
+}
+
+.cards-dashboard > ul > li:first-child .cards-dashboard-card-image {
+  flex: 0 0 40%;
+  min-height: 280px;
+}
+
+.cards-dashboard > ul > li:first-child .cards-dashboard-card-image picture {
+  display: block;
+  height: 100%;
+}
+
+.cards-dashboard > ul > li:first-child .cards-dashboard-card-image picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.cards-dashboard > ul > li:first-child .cards-dashboard-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Impact card (second): lavender background */
+.cards-dashboard > ul > li:nth-child(2) {
+  background-color: #F1F3FF;
+  border-color: #F1F3FF;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.cards-dashboard .cards-dashboard-card-image {
+  overflow: hidden;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.cards-dashboard .cards-dashboard-card-image picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.cards-dashboard .cards-dashboard-card-image:empty {
+  display: none;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.cards-dashboard .cards-dashboard-card-body {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-dashboard .cards-dashboard-card-body p:first-child {
+  font-size: var(--body-font-size-xs);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--dark-color);
+  margin: 0 0 8px;
+}
+
+/* Stat numbers: BLUE #0066F5 */
+.cards-dashboard .cards-dashboard-card-body h3 {
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 1;
+  margin: 0 0 8px;
+  color: #0066F5;
+}
+
+.cards-dashboard .cards-dashboard-card-body h3 span {
+  font-style: normal;
+}
+
+.cards-dashboard .cards-dashboard-card-body h4 {
+  font-size: var(--heading-font-size-xs);
+  font-weight: 400;
+  margin: 0 0 8px;
+  line-height: 1.3;
+}
+
+.cards-dashboard .cards-dashboard-card-body h4 a {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
+.cards-dashboard .cards-dashboard-card-body h4 a:hover {
+  text-decoration: underline;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.cards-dashboard .cards-dashboard-card-body p {
+  font-size: var(--body-font-size-s);
+  color: #555;
+  margin: 0 0 12px;
+  line-height: 1.5;
+}
+
+.cards-dashboard .cards-dashboard-card-body p:last-child {
+  margin-top: auto;
+}
+
+/* Company card (third/last): dark navy background, blue number, white text */
+.cards-dashboard > ul > li:last-child {
+  background-color: var(--dark-color);
+  color: #fff;
+  border-color: var(--dark-color);
+}
+
+.cards-dashboard > ul > li:last-child .cards-dashboard-card-body p:first-child {
+  color: rgb(255 255 255 / 70%);
+}
+
+.cards-dashboard > ul > li:last-child .cards-dashboard-card-body h3 {
+  color: #0066F5;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.cards-dashboard > ul > li:last-child .cards-dashboard-card-body p {
+  color: rgb(255 255 255 / 80%);
+}

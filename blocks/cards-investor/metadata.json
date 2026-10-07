@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-investor",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-08T17:15:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage investor resources section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "investor-resources",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "earnings card + link list card in 2-column layout",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "investor relations sections",
+      "financial information cards",
+      "link list cards with quick access resources"
+    ],
+    "notSuitableFor": [
+      "image-heavy card grids",
+      "article/blog cards",
+      "product showcase cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-08T17:15:00.000Z"
+  }
+}

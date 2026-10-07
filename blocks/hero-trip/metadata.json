@@ -1,0 +1,41 @@
+{
+  "variantName": "hero-trip",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-09-01T10:02:12.000Z",
+  "sourceContext": {
+    "originUrl": "https://wknd.site/us/en.html",
+    "originPage": "WKND Adventures and Travel homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "featured-trip-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "large full-bleed image + heading + description paragraph + single CTA in an overlaid panel",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "single featured trip/product promos with a large background image",
+      "mid-page hero call-outs with heading, paragraph and one CTA",
+      "full-width promotional sections over bright landscape photography"
+    ],
+    "notSuitableFor": [
+      "rotating multi-slide hero sections (use carousel)",
+      "text-only intros without a background image",
+      "repeating grids of items (use cards)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/us/en"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-01T10:56:32.844Z"
+  }
+}

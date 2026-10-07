@@ -1,0 +1,133 @@
+/*
+ * carousel-flipbook: sticky full-viewport photo backdrop + translucent cards scrolling over it.
+ * Values extracted from the source (.section.card-flipbook-section); same overlay pattern on
+ * every viewport. Scroll-linked opacity/zoom are written by the block JS as custom properties.
+ */
+
+/* full-bleed: escape the section content width */
+main > .section > .carousel-flipbook-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.carousel-flipbook {
+  /* source card rgba(255, 239, 54, 0.9) = --background-color (#ffef36) at 90%; literal so the
+     computed value serializes as rgba() (relative-color syntax serializes as color(srgb ...)) */
+  --carousel-flipbook-card-bg: rgb(255 239 54 / 90%);
+  --carousel-flipbook-card-shadow: 0 0 4px rgb(0 0 0 / 25%);
+  --carousel-flipbook-card-padding: 31px 13px;
+  --carousel-flipbook-card-margin: 18px 14px;
+  --carousel-flipbook-title-margin: 18px auto;
+  --carousel-flipbook-card-width: 70%;
+  --carousel-flipbook-card-max-width: none;
+  --carousel-flipbook-title-width: 75%;
+  --carousel-flipbook-title-max-width: 900px;
+
+  /* source data-spacing=".75": 0.75 viewport of scroll between consecutive cards */
+  --carousel-flipbook-step-gap: 75vh;
+  --carousel-flipbook-step-gap: 75svh;
+
+  position: relative;
+}
+
+/* ---------- sticky backdrop ---------- */
+
+.carousel-flipbook .carousel-flipbook-backdrop {
+  position: sticky;
+  top: 0;
+  z-index: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+}
+
+.carousel-flipbook .carousel-flipbook-backdrop-frame {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: var(--carousel-flipbook-frame-opacity, 0);
+}
+
+.carousel-flipbook .carousel-flipbook-backdrop-frame:first-child {
+  opacity: var(--carousel-flipbook-frame-opacity, 1);
+}
+
+.carousel-flipbook .carousel-flipbook-backdrop-frame picture,
+.carousel-flipbook .carousel-flipbook-backdrop-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-flipbook .carousel-flipbook-backdrop-frame img {
+  max-width: none;
+  object-fit: cover;
+  object-position: 50% 50%;
+  transform: scale(var(--carousel-flipbook-frame-scale, 1));
+  will-change: transform;
+}
+
+/* ---------- cards scrolling over the backdrop ---------- */
+
+/* slides start one viewport below the block top: the photo pins first, then card 1 rises in */
+.carousel-flipbook .carousel-flipbook-slides {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-flipbook .carousel-flipbook-slide {
+  margin: 0 0 var(--carousel-flipbook-step-gap);
+}
+
+/* the backdrop stays pinned until the last card has scrolled out of the top */
+.carousel-flipbook .carousel-flipbook-slide:last-child {
+  margin-bottom: 100vh;
+  margin-bottom: 100svh;
+}
+
+.carousel-flipbook .carousel-flipbook-slide-content {
+  box-sizing: border-box;
+  width: var(--carousel-flipbook-card-width);
+  max-width: var(--carousel-flipbook-card-max-width);
+  margin: var(--carousel-flipbook-card-margin);
+  padding: var(--carousel-flipbook-card-padding);
+  background-color: var(--carousel-flipbook-card-bg);
+  box-shadow: var(--carousel-flipbook-card-shadow);
+}
+
+.carousel-flipbook .carousel-flipbook-slide-content > :first-child {
+  margin-top: 0;
+}
+
+.carousel-flipbook .carousel-flipbook-slide-content > :last-child {
+  margin-bottom: 0;
+}
+
+.carousel-flipbook .carousel-flipbook-slide-title .carousel-flipbook-slide-content {
+  width: var(--carousel-flipbook-title-width);
+  max-width: var(--carousel-flipbook-title-max-width);
+  margin: var(--carousel-flipbook-title-margin);
+  text-align: center;
+}
+
+@media (width >= 900px) {
+  .carousel-flipbook {
+    --carousel-flipbook-card-padding: 56px 32px;
+    --carousel-flipbook-card-margin: 32px;
+    --carousel-flipbook-title-margin: 32px auto;
+    --carousel-flipbook-card-width: 40%;
+    --carousel-flipbook-card-max-width: 580px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-flipbook .carousel-flipbook-backdrop-frame img {
+    transform: none;
+    will-change: auto;
+  }
+}

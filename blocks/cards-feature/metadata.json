@@ -1,0 +1,42 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-08T17:15:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "corporate homepage culture/careers section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature-cards",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "tall portrait image + paragraph + CTA button per card (3 cards)",
+    "buttonCount": 3,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature highlight sections with portrait images",
+      "team/culture showcase cards",
+      "category navigation cards with images and descriptions"
+    ],
+    "notSuitableFor": [
+      "article listing cards with dates",
+      "stat/data cards without images",
+      "compact card grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index",
+      "/science"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-06-10T09:55:00.000Z"
+  }
+}
